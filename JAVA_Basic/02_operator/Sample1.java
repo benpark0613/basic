@@ -11,7 +11,7 @@ public class Sample1 {
 		
 		// 일의 자리수 구하기
 		int value1 = number%10;		// 234%10 = 4
-		System.out.println(value1); // + - 는 떨어뜨려서, * / 는 떨어뜨려서 적는게 관례다.
+		System.out.println(value1); // + - 는 떨어뜨려서, * / 는 붙여 적는게 관례다.
 		
 		// 십의 자리수 구하기
 		number = (number - value1)/10;	// (234-4)/10 = 23
