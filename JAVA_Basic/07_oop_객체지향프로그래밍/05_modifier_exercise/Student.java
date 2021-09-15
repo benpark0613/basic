@@ -9,6 +9,13 @@ public class Student {
 	
 	public Student() {}
 	
+	public Student(int no, int grade, String name, ScoreDetail score) {
+		this.no = no;
+		this.grade = grade;
+		this.name = name;
+		this.score = score;
+	}
+	
 	public int getNo() {
 		return no;
 	}

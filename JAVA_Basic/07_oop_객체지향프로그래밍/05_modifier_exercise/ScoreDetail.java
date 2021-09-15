@@ -7,6 +7,7 @@ public class ScoreDetail {
 	private int math;
 	
 	public ScoreDetail() {}
+	
 	public ScoreDetail(int kor, int eng, int math) {
 		this.kor = kor;
 		this.eng = eng;
