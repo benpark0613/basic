@@ -97,13 +97,13 @@ public class StudentApp3 {
 				// 위에서 입력한 학번과 일치하는 학번을 가진 Student객체의 주소값을 저장할 참조변수 생성
 				Student foundStudent = null;
 				for (Student student : students) {
+					if (student == null) {
+						break;
+					}
 					if (student.getNo() == no) {
 						foundStudent = student;
 						break;
-					} else {
-						System.out.println("### 입력한 학번과 일치하는 학생정보를 찾을 수 없습니다.");
-						break;
-					}
+					} 
 				}
 				// 위에서 입력한 학번과 일치하는 학번을 가진 Student객체가 존재하는 경우
 				if (foundStudent != null) {
