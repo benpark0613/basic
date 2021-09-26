@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_JCkTgB0AEeyJa8k4nbiKVw">
+  <modelElement href="휴대폰.uml#_JBn4UB0AEeyJa8k4nbiKVw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_LmBHsR0AEeyJa8k4nbiKVw" targetItem="_LmCV0B0AEeyJa8k4nbiKVw" sourceItem="_LmBHsB0AEeyJa8k4nbiKVw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_LmGAMB0AEeyJa8k4nbiKVw" sourceAnchor="445.0,26.0" targetAnchor="0.0,76.0" superClass="_LmCV0B0AEeyJa8k4nbiKVw" subClass="_LmH1YB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JeD8sB0AEeyJa8k4nbiKVw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_LmK4sB0AEeyJa8k4nbiKVw" sourceAnchor="174.0,0.0" targetAnchor="163.0,138.0" superClass="_LmH1YB0AEeyJa8k4nbiKVw" subClass="_LmNU8B0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JeEjwB0AEeyJa8k4nbiKVw"/>
+    <bendpoints xmi:id="_XgadIB0AEeyJa8k4nbiKVw" sourceY="-30" targetX="-276" targetY="179"/>
+    <bendpoints xmi:id="_XgadIR0AEeyJa8k4nbiKVw" sourceX="277" sourceY="-44" targetX="1" targetY="165"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_LmxVoB0AEeyJa8k4nbiKVw" sourceAnchor="176.0,0.0" targetAnchor="163.0,138.0" superClass="_LmH1YB0AEeyJa8k4nbiKVw" subClass="_LmzK0B0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_Jd9PAB0AEeyJa8k4nbiKVw"/>
+    <bendpoints xmi:id="_XgadIh0AEeyJa8k4nbiKVw" sourceY="-52" targetX="236" targetY="180"/>
+    <bendpoints xmi:id="_XgadIx0AEeyJa8k4nbiKVw" sourceX="-235" sourceY="-67" targetX="1" targetY="165"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_LmxVoh0AEeyJa8k4nbiKVw" targetItem="_LmzK0B0AEeyJa8k4nbiKVw" sourceItem="_LmxVoR0AEeyJa8k4nbiKVw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Lm1nEB0AEeyJa8k4nbiKVw" sourceAnchor="136.0,0.0" targetAnchor="148.0,156.0" superClass="_LmCV0B0AEeyJa8k4nbiKVw" subClass="_Lm21MB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JeGY8B0AEeyJa8k4nbiKVw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Lm4qYB0AEeyJa8k4nbiKVw" sourceAnchor="157.0,0.0" targetAnchor="124.0,128.0" dashed="true" superClass="_Lm5RcB0AEeyJa8k4nbiKVw" subClass="_LmCV0B0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JeA5YB0AEeyJa8k4nbiKVw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_LnDpgB0AEeyJa8k4nbiKVw" sourceAnchor="216.0,0.0" targetAnchor="210.0,109.0" dashed="true" superClass="_LnEQkB0AEeyJa8k4nbiKVw" subClass="_LmH1YB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JeCukB0AEeyJa8k4nbiKVw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_LmBHsB0AEeyJa8k4nbiKVw" sourceConnectionVisual="_LmBHsR0AEeyJa8k4nbiKVw" text="추상클래스&#xD;&#xA;&#x9;추상클래스는 구현부가 없는 메소드를 가질 수 있는 클래스다.&#xD;&#xA; 추상클래스는 구현부가 있는 메소드를 가질 수 있다.&#xD;&#xA; 멤버변수, 생성자, 멤버메소드, 정적변수, 정적메소드 전부 가질 수 있다.&#xD;&#xA;&#x9;구현부가 없는 메소드를 가질 수 있기 때문에 new 키워드로 객체생성할 수 없다." item="_LmCV0B0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JfdD0R0AEeyJa8k4nbiKVw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_LmxVoR0AEeyJa8k4nbiKVw" sourceConnectionVisual="_LmxVoh0AEeyJa8k4nbiKVw" text="Iphone&#xD;&#xA;&#x9;-구현클래스다.&#xD;&#xA;&#x9;-추상클래스인 AbstractPhone 클래스를 상속받았다.&#xD;&#xA;&#x9;-Iphone이 Phone인터페이스 대신 AbstractPhone 추상클래스를 상속받았기 때문에&#xD;&#xA;  추상클래스에서 구현되지 않은 on()메소드만 구현하면 된다." item="_LmzK0B0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JfccwR0AEeyJa8k4nbiKVw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LnAmMB0AEeyJa8k4nbiKVw" name="PhoneApp">
+    <modelElement href="휴대폰.uml#_JXc-YR0AEeyJa8k4nbiKVw"/>
+    <visualProperties xmi:id="_LnAmMR0AEeyJa8k4nbiKVw" position="1567.0,452.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LnAmMh0AEeyJa8k4nbiKVw" label="+"/>
+    <operations xmi:id="_LnAmMx0AEeyJa8k4nbiKVw" name="main" staticOperation="true">
+      <modelElement href="휴대폰.uml#_JXdlcB0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_LnAmNB0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LnAmNR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LnAmNh0AEeyJa8k4nbiKVw" name="args">
+        <modelElement href="휴대폰.uml#_JXdlcR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LnAmNx0AEeyJa8k4nbiKVw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_LnAmOB0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Lm5RcB0AEeyJa8k4nbiKVw" name="Phone" subclassedBy="_Lm4qYB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JY_2gB0AEeyJa8k4nbiKVw"/>
+    <visualProperties xmi:id="_Lm5RcR0AEeyJa8k4nbiKVw" position="900.0,182.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Lm5Rch0AEeyJa8k4nbiKVw" label="+"/>
+    <operations xmi:id="_Lm5Rcx0AEeyJa8k4nbiKVw" name="on">
+      <modelElement href="휴대폰.uml#_JY_2gR0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_Lm5RdB0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_Lm5RdR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Lm5Rdh0AEeyJa8k4nbiKVw" name="off">
+      <modelElement href="휴대폰.uml#_JZAdkB0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_Lm5Rdx0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_Lm5ReB0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Lm5ReR0AEeyJa8k4nbiKVw" name="call">
+      <modelElement href="휴대폰.uml#_JZAdkR0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_Lm5Reh0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_Lm5Rex0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Lm5RfB0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JZAdkh0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_Lm5RfR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lm5Rfh0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lm5Rfx0AEeyJa8k4nbiKVw" name="sms">
+      <modelElement href="휴대폰.uml#_JZAdkx0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_Lm5RgB0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_Lm5RgR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Lm5Rgh0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JZAdlB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_Lm5Rgx0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lm5RhB0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Lm5RhR0AEeyJa8k4nbiKVw" name="message">
+        <modelElement href="휴대폰.uml#_JZAdlR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_Lm5Rhh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lm5Rhx0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LmCV0B0AEeyJa8k4nbiKVw" comments="_LmBHsB0AEeyJa8k4nbiKVw" targetConnectionVisual="_LmBHsR0AEeyJa8k4nbiKVw" name="AbstractPhone" abstractClass="true" generalizations="_Lm4qYB0AEeyJa8k4nbiKVw" subclassedBy="_LmGAMB0AEeyJa8k4nbiKVw _Lm1nEB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JYRdwB0AEeyJa8k4nbiKVw"/>
+    <visualProperties xmi:id="_LmCV0R0AEeyJa8k4nbiKVw" position="867.0,396.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LmCV0h0AEeyJa8k4nbiKVw" label="+"/>
+    <attributes xmi:id="_LmCV0x0AEeyJa8k4nbiKVw" name="tel">
+      <modelElement href="휴대폰.uml#_JezjkB0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_LmCV1B0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmCV1R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <type xmi:id="_LmCV1h0AEeyJa8k4nbiKVw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LmCV1x0AEeyJa8k4nbiKVw" name="AbstractPhone">
+      <modelElement href="휴대폰.uml#_JYTS8B0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_LmCV2B0AEeyJa8k4nbiKVw" keyword="create"/>
+      <stereotypes xmi:id="_LmCV2R0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYUhEB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmCV2h0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmCV2x0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LmCV3B0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JYUhER0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_LmCV3R0AEeyJa8k4nbiKVw" name="AbstractPhone">
+          <modelElement href="휴대폰.uml#_JYRdwB0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LmCV3h0AEeyJa8k4nbiKVw" name="AbstractPhone">
+      <modelElement href="휴대폰.uml#_JYVvMB0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_LmCV3x0AEeyJa8k4nbiKVw" keyword="create"/>
+      <visibility xmi:id="_LmCV4B0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmCV4R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LmCV4h0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JYW9UB0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_LmCV4x0AEeyJa8k4nbiKVw" name="AbstractPhone">
+          <modelElement href="휴대폰.uml#_JYRdwB0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LmCV5B0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JYWWQB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmCV5R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmCV5h0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LmCV5x0AEeyJa8k4nbiKVw" name="call">
+      <modelElement href="휴대폰.uml#_JYXkYB0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmCV6B0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYYygB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmCV6R0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JYaAoB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmCV6h0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmCV6x0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LmCV7B0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JYYLcB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmCV7R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmCV7h0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LmCV7x0AEeyJa8k4nbiKVw" name="sms">
+      <modelElement href="휴대폰.uml#_JYbOwB0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmCV8B0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYcc4B0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmCV8R0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JYdD8B0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmCV8h0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmCV8x0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LmCV9B0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JYbOwR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmCV9R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmCV9h0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmCV9x0AEeyJa8k4nbiKVw" name="message">
+        <modelElement href="휴대폰.uml#_JYbOwh0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmCV-B0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmCV-R0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LmCV-h0AEeyJa8k4nbiKVw" name="off">
+      <modelElement href="휴대폰.uml#_JYdrAR0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmCV-x0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYfgMB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmCV_B0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JYgHQB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmCV_R0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmCV_h0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LmH1YB0AEeyJa8k4nbiKVw" name="AbstractSmartPhone" abstractClass="true" generalizations="_LmGAMB0AEeyJa8k4nbiKVw _LnDpgB0AEeyJa8k4nbiKVw" subclassedBy="_LmK4sB0AEeyJa8k4nbiKVw _LmxVoB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JYh8cB0AEeyJa8k4nbiKVw"/>
+    <visualProperties xmi:id="_LmH1YR0AEeyJa8k4nbiKVw" position="261.0,446.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LmH1Yh0AEeyJa8k4nbiKVw" label="+"/>
+    <attributes xmi:id="_LmH1Yx0AEeyJa8k4nbiKVw" name="ip">
+      <modelElement href="휴대폰.uml#_Je0KoB0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_LmH1ZB0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmH1ZR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <type xmi:id="_LmH1Zh0AEeyJa8k4nbiKVw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LmH1Zx0AEeyJa8k4nbiKVw" name="AbstractSmartPhone">
+      <modelElement href="휴대폰.uml#_JYk_wB0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_LmH1aB0AEeyJa8k4nbiKVw" keyword="create"/>
+      <stereotypes xmi:id="_LmH1aR0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYlm0R0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmH1ah0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmH1ax0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LmH1bB0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JYlm0h0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_LmH1bR0AEeyJa8k4nbiKVw" name="AbstractSmartPhone">
+          <modelElement href="휴대폰.uml#_JYh8cB0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LmH1bh0AEeyJa8k4nbiKVw" name="AbstractSmartPhone">
+      <modelElement href="휴대폰.uml#_JYmN4B0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_LmH1bx0AEeyJa8k4nbiKVw" keyword="create"/>
+      <visibility xmi:id="_LmH1cB0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmH1cR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LmH1ch0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JYncAh0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_LmH1cx0AEeyJa8k4nbiKVw" name="AbstractSmartPhone">
+          <modelElement href="휴대폰.uml#_JYh8cB0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LmH1dB0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JYm08B0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmH1dR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmH1dh0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmH1dx0AEeyJa8k4nbiKVw" name="ip">
+        <modelElement href="휴대폰.uml#_JYm08R0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmH1eB0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmH1eR0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LmH1eh0AEeyJa8k4nbiKVw" name="sendEmail">
+      <modelElement href="휴대폰.uml#_JYoDEB0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmH1ex0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYp4QB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmH1fB0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JYrGYB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmH1fR0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmH1fh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LmH1fx0AEeyJa8k4nbiKVw" name="from">
+        <modelElement href="휴대폰.uml#_JYoqIB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmH1gB0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmH1gR0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmH1gh0AEeyJa8k4nbiKVw" name="to">
+        <modelElement href="휴대폰.uml#_JYoqIR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmH1gx0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmH1hB0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmH1hR0AEeyJa8k4nbiKVw" name="title">
+        <modelElement href="휴대폰.uml#_JYpRMB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmH1hh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmH1hx0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmH1iB0AEeyJa8k4nbiKVw" name="content">
+        <modelElement href="휴대폰.uml#_JYpRMR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmH1iR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmH1ih0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LmH1ix0AEeyJa8k4nbiKVw" name="internet">
+      <modelElement href="휴대폰.uml#_JYrtcB0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmH1jB0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYtioB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmH1jR0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JYuJsB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmH1jh0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmH1jx0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LmH1kB0AEeyJa8k4nbiKVw" name="url">
+        <modelElement href="휴대폰.uml#_JYsUgB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmH1kR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmH1kh0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LmNU8B0AEeyJa8k4nbiKVw" name="Galaxy" generalizations="_LmK4sB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JYv-4B0AEeyJa8k4nbiKVw"/>
+    <visualProperties xmi:id="_LmNU8R0AEeyJa8k4nbiKVw" position="-26.0,794.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LmNU8h0AEeyJa8k4nbiKVw" label="+"/>
+    <attributes xmi:id="_LmNU8x0AEeyJa8k4nbiKVw" name="gmail">
+      <modelElement href="휴대폰.uml#_Je1YwB0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_LmNU9R0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmNU9h0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <type xmi:id="_LmNU9x0AEeyJa8k4nbiKVw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LmNU-B0AEeyJa8k4nbiKVw" name="Galaxy">
+      <modelElement href="휴대폰.uml#_JYxNAB0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_LmNU-R0AEeyJa8k4nbiKVw" keyword="create"/>
+      <stereotypes xmi:id="_LmNU-h0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYx0EB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmNU-x0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmNU_B0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LmNU_R0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JYx0ER0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_LmNU_h0AEeyJa8k4nbiKVw" name="Galaxy">
+          <modelElement href="휴대폰.uml#_JYv-4B0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LmNU_x0AEeyJa8k4nbiKVw" name="Galaxy">
+      <modelElement href="휴대폰.uml#_JYybIB0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_LmNVAB0AEeyJa8k4nbiKVw" keyword="create"/>
+      <visibility xmi:id="_LmNVAR0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmNVAh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LmNVAx0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JYybJh0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_LmNVBB0AEeyJa8k4nbiKVw" name="Galaxy">
+          <modelElement href="휴대폰.uml#_JYv-4B0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LmNVBR0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JYybIR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmNVBh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmNVBx0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmNVCB0AEeyJa8k4nbiKVw" name="ip">
+        <modelElement href="휴대폰.uml#_JYybIh0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmNVCR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmNVCh0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmNVCx0AEeyJa8k4nbiKVw" name="gmail">
+        <modelElement href="휴대폰.uml#_JYybIx0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmNVDB0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmNVDR0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LmNVGR0AEeyJa8k4nbiKVw" name="on">
+      <modelElement href="휴대폰.uml#_JYzpQh0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmNVGh0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JYzpQx0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmNVGx0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JY0QUB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmNVHB0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmNVHR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LmNVHh0AEeyJa8k4nbiKVw" name="playgame">
+      <modelElement href="휴대폰.uml#_JY0QUh0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmNVHx0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JY03YB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmNVIB0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JY1ecB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmNVIR0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmNVIh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_LmzK0B0AEeyJa8k4nbiKVw" comments="_LmxVoR0AEeyJa8k4nbiKVw" targetConnectionVisual="_LmxVoh0AEeyJa8k4nbiKVw" name="Iphone" generalizations="_LmxVoB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JXjsER0AEeyJa8k4nbiKVw"/>
+    <visualProperties xmi:id="_LmzK0R0AEeyJa8k4nbiKVw" position="484.0,816.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LmzK0h0AEeyJa8k4nbiKVw" label="+"/>
+    <attributes xmi:id="_LmzK0x0AEeyJa8k4nbiKVw" name="userId">
+      <modelElement href="휴대폰.uml#_JewgQR0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_LmzK1B0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmzK1R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <type xmi:id="_LmzK1h0AEeyJa8k4nbiKVw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_LmzK1x0AEeyJa8k4nbiKVw" name="Iphone">
+      <modelElement href="휴대폰.uml#_JXk6MB0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_LmzK2B0AEeyJa8k4nbiKVw" keyword="create"/>
+      <stereotypes xmi:id="_LmzK2R0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JXmvYB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmzK2h0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmzK2x0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LmzK3B0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JXmvYR0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_LmzK3R0AEeyJa8k4nbiKVw" name="Iphone">
+          <modelElement href="휴대폰.uml#_JXjsER0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_LmzK3h0AEeyJa8k4nbiKVw" name="Iphone">
+      <modelElement href="휴대폰.uml#_JXpLoB0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_LmzK3x0AEeyJa8k4nbiKVw" keyword="create"/>
+      <visibility xmi:id="_LmzK4B0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmzK4R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_LmzK4h0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JXqZwB0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_LmzK4x0AEeyJa8k4nbiKVw" name="Iphone">
+          <modelElement href="휴대폰.uml#_JXjsER0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_LmzK5B0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JXpysB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmzK5R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmzK5h0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmzK5x0AEeyJa8k4nbiKVw" name="ip">
+        <modelElement href="휴대폰.uml#_JXpysR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmzK6B0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmzK6R0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LmzK6h0AEeyJa8k4nbiKVw" name="userId">
+        <modelElement href="휴대폰.uml#_JXpysh0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LmzK6x0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LmzK7B0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LmzK7R0AEeyJa8k4nbiKVw" name="on">
+      <modelElement href="휴대폰.uml#_JXqZwR0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmzK7h0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JXrA0B0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmzK7x0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JXrn4B0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmzK8B0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmzK8R0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_LmzK8h0AEeyJa8k4nbiKVw" name="playgame">
+      <modelElement href="휴대폰.uml#_JXrn4h0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_LmzK8x0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JXsO8B0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_LmzK9B0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JXsO8R0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_LmzK9R0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LmzK9h0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_LnEQkB0AEeyJa8k4nbiKVw" name="SmartPhone" subclassedBy="_LnDpgB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JZEH8B0AEeyJa8k4nbiKVw"/>
+    <visualProperties xmi:id="_LnEQkR0AEeyJa8k4nbiKVw" position="267.0,197.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_LnEQkh0AEeyJa8k4nbiKVw" label="+"/>
+    <operations xmi:id="_LnEQkx0AEeyJa8k4nbiKVw" name="sendEmail">
+      <modelElement href="휴대폰.uml#_JZFWEB0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_LnEQlB0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LnEQlR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LnEQlh0AEeyJa8k4nbiKVw" name="from">
+        <modelElement href="휴대폰.uml#_JZF9IB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LnEQlx0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LnE3oB0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LnE3oR0AEeyJa8k4nbiKVw" name="to">
+        <modelElement href="휴대폰.uml#_JZF9IR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LnE3oh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LnE3ox0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LnE3pB0AEeyJa8k4nbiKVw" name="title">
+        <modelElement href="휴대폰.uml#_JZF9Ih0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LnE3pR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LnE3ph0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_LnE3px0AEeyJa8k4nbiKVw" name="content">
+        <modelElement href="휴대폰.uml#_JZF9Ix0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LnE3qB0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LnE3qR0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LnE3qh0AEeyJa8k4nbiKVw" name="internet">
+      <modelElement href="휴대폰.uml#_JZHyUB0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_LnE3qx0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LnE3rB0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_LnE3rR0AEeyJa8k4nbiKVw" name="url">
+        <modelElement href="휴대폰.uml#_JZIZYB0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_LnE3rh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_LnE3rx0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_LnE3sB0AEeyJa8k4nbiKVw" name="playgame">
+      <modelElement href="휴대폰.uml#_JZJAcB0AEeyJa8k4nbiKVw"/>
+      <visibility xmi:id="_LnE3sR0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_LnE3sh0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Lm21MB0AEeyJa8k4nbiKVw" name="NormalPhone" generalizations="_Lm1nEB0AEeyJa8k4nbiKVw">
+    <modelElement href="휴대폰.uml#_JY8MIB0AEeyJa8k4nbiKVw"/>
+    <visualProperties xmi:id="_Lm21MR0AEeyJa8k4nbiKVw" position="879.0,853.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Lm21Mh0AEeyJa8k4nbiKVw" label="+"/>
+    <operations xmi:id="_Lm21Mx0AEeyJa8k4nbiKVw" name="NormalPhone">
+      <modelElement href="휴대폰.uml#_JY8zMB0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_Lm21NB0AEeyJa8k4nbiKVw" keyword="create"/>
+      <stereotypes xmi:id="_Lm21NR0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JY9aQh0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lm21Nh0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_Lm21Nx0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lm21OB0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JY9aQx0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_Lm21OR0AEeyJa8k4nbiKVw" name="NormalPhone">
+          <modelElement href="휴대폰.uml#_JY8MIB0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Lm21Oh0AEeyJa8k4nbiKVw" name="NormalPhone">
+      <modelElement href="휴대폰.uml#_JY-BUB0AEeyJa8k4nbiKVw"/>
+      <keywords xmi:id="_Lm21Ox0AEeyJa8k4nbiKVw" keyword="create"/>
+      <visibility xmi:id="_Lm21PB0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_Lm21PR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Lm21Ph0AEeyJa8k4nbiKVw">
+        <modelElement href="휴대폰.uml#_JY-oYB0AEeyJa8k4nbiKVw"/>
+        <type xmi:id="_Lm21Px0AEeyJa8k4nbiKVw" name="NormalPhone">
+          <modelElement href="휴대폰.uml#_JY8MIB0AEeyJa8k4nbiKVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Lm21QB0AEeyJa8k4nbiKVw" name="tel">
+        <modelElement href="휴대폰.uml#_JY-BUR0AEeyJa8k4nbiKVw"/>
+        <cardinality xmi:id="_Lm21QR0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+        <type xmi:id="_Lm21Qh0AEeyJa8k4nbiKVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Lm21Qx0AEeyJa8k4nbiKVw" name="on">
+      <modelElement href="휴대폰.uml#_JY-oYR0AEeyJa8k4nbiKVw"/>
+      <stereotypes xmi:id="_Lm21RB0AEeyJa8k4nbiKVw" name="LegacyStyledElement">
+        <modelElement href="휴대폰.uml#_JY-oYh0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Lm21RR0AEeyJa8k4nbiKVw" name="Annotations">
+        <modelElement href="휴대폰.uml#_JY_PcB0AEeyJa8k4nbiKVw"/>
+      </stereotypes>
+      <visibility xmi:id="_Lm21Rh0AEeyJa8k4nbiKVw" label="+"/>
+      <cardinality xmi:id="_Lm21Rx0AEeyJa8k4nbiKVw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,3005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_JBn4UB0AEeyJa8k4nbiKVw" name="휴대폰">
+    <eAnnotations xmi:id="_JFnAcB0AEeyJa8k4nbiKVw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_JFnAcR0AEeyJa8k4nbiKVw" source="codegen">
+        <details xmi:id="_JFnAch0AEeyJa8k4nbiKVw" key="codegenDirectory" value="/oop2/src"/>
+        <details xmi:id="__B7TwB2pEeyp-_1Xwg2aFQ" key="AssociatedSourceCode" value="/oop2/src/example_09_14_extends/Employee.java;3798775782/1;/oop2/src/example_09_14_extends/Person.java;1386617956/1;/oop2/src/example_09_14_extends/PersonApp.java;3984488612/1;/oop2/src/example_09_14_extends/Student.java;539835237/1;/oop2/src/example_09_15_override/ColorPrinter.java;310957776/1;/oop2/src/example_09_15_override/Galaxy.java;2105366596/1;/oop2/src/example_09_15_override/Iphone.java;2585803627/1;/oop2/src/example_09_15_override/Phone.java;2317130373/1;/oop2/src/example_09_15_override/PhoneApp.java;1844611083/1;/oop2/src/example_09_15_override/PhotoPrinter.java;615866290/1;/oop2/src/example_09_15_override/PrintApp.java;2821341234/1;/oop2/src/example_09_15_override/Printer.java;3989130657/1;/oop2/src/example_09_15_super/Book.java;1404745216/1;/oop2/src/example_09_15_super/Product.java;1166573839/1;/oop2/src/example_09_15_super/ProductApp.java;907951305/1;/oop2/src/example_09_16_casting/Car.java;3268704515/1;/oop2/src/example_09_16_casting/CarApp.java;625864961/1;/oop2/src/example_09_16_casting/CarApp2.java;2123026056/1;/oop2/src/example_09_16_casting/CarApp3.java;3456011624/1;/oop2/src/example_09_16_casting/CarApp4.java;3426103979/1;/oop2/src/example_09_16_casting/CarApp5.java;3381783143/1;/oop2/src/example_09_16_casting/CarApp6.java;3149573435/1;/oop2/src/example_09_16_casting/Palisade.java;83652208/1;/oop2/src/example_09_16_casting/RacingCar.java;1787958021/1;/oop2/src/example_09_16_casting/SUV.java;1976177883/1;/oop2/src/example_09_16_polymorphism/EmailMessenger.java;4267911632/1;/oop2/src/example_09_16_polymorphism/EventService.java;4292424936/1;/oop2/src/example_09_16_polymorphism/EventServiceApp.java;3630010436/1;/oop2/src/example_09_16_polymorphism/KakaoTalkMessenger.java;915017396/1;/oop2/src/example_09_16_polymorphism/Messenger.java;1963667074/1;/oop2/src/example_09_16_polymorphism/MessengerApp.java;3029968078/1;/oop2/src/example_09_16_polymorphism/NewsService.java;2873195333/1;/oop2/src/example_09_16_polymorphism/NewsServiceApp.java;526097920/1;/oop2/src/example_09_17_polymorphism/Employee.java;4250734329/1;/oop2/src/example_09_17_polymorphism/PersonApp.java;1477119965/1;/oop2/src/example_09_17_polymorphism/PersonService.java;2125722499/1;/oop2/src/example_09_17_polymorphism/Professor.java;1087055172/1;/oop2/src/example_09_17_polymorphism/Student.java;1438238761/1;/oop2/src/example_09_23_Interface/Car.java;1459825541/1;/oop2/src/example_09_23_Interface/CarApp.java;3623168184/1;/oop2/src/example_09_24_abstract/PhoneApp.java;3123226726/1;/oop2/src/example_09_23_Interface/Company.java;2141949006/1;/oop2/src/example_09_23_Interface/CompanyApp.java;258902356/1;/oop2/src/example_09_23_Interface/CompanyApp2.java;1483575940/1;/oop2/src/example_09_24_abstract/Iphone.java;72012135/1;/oop2/src/example_09_23_Interface/ReporterApp.java;3047961582/1;/oop2/src/example_09_23_Interface/Reporter.java;2452623591/1;/oop2/src/example_09_23_Interface/Genesis.java;1940191439/1;/oop2/src/example_09_23_Interface/Sonata.java;72665712/1;/oop2/src/example_09_24_abstract/AbstractPhone.java;636686028/1;/oop2/src/example_09_24_abstract/AbstractSmartPhone.java;3448222922/1;/oop2/src/example_09_24_abstract/Galaxy.java;1725085683/1;/oop2/src/example_09_23_Interface/ExcelReporter.java;1779608903/1;/oop2/src/example_09_24_abstract/NormalPhone.java;-1/1;/oop2/src/example_09_24_abstract/Phone.java;3166835706/1;/oop2/src/example_09_23_Interface/ChartReporter.java;1932245502/1;/oop2/src/example_09_24_abstract/SmartPhone.java;27774054/1;/oop2/src/example_09_17_polymorphism/Person.java;4121282852/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_JRW9cB0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_JRXkgB0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_JRYLkB0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_JRYLkR0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_JRYLkh0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_JRYLkx0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_JRYLlB0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_JRYLlR0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_JRYyoB0AEeyJa8k4nbiKVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JR5I8B0AEeyJa8k4nbiKVw" name="example_09_14_extends">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JUqwIB0AEeyJa8k4nbiKVw" name="Employee">
+        <generalization xmi:id="_JdgjEB0AEeyJa8k4nbiKVw" general="_JUtMYB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_JebJEB0AEeyJa8k4nbiKVw" name="company">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JebwIB0AEeyJa8k4nbiKVw" name="position">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JebwIR0AEeyJa8k4nbiKVw" name="salary">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JUtMYB0AEeyJa8k4nbiKVw" name="Person">
+        <ownedComment xmi:id="_JfZZcB0AEeyJa8k4nbiKVw">
+          <body>사람과 관련된 속성 및 기능이 정의된 클래스다.&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_JecXMB0AEeyJa8k4nbiKVw" name="name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JecXMR0AEeyJa8k4nbiKVw" name="tel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JecXMh0AEeyJa8k4nbiKVw" name="email">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_JUuagB0AEeyJa8k4nbiKVw" name="Person">
+          <eAnnotations xmi:id="_JUvBkB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JUvBkR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JUwPsR0AEeyJa8k4nbiKVw" type="_JUtMYB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JUyr8B0AEeyJa8k4nbiKVw" name="PersonApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfCNEB0AEeyJa8k4nbiKVw" name="main" specification="_JUz6EB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfCNER0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfCNEh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Person객체를 생성하면 최상위 객체인 Object객체와 Person객체가 생성된다.&#xD;
+		Person person = new Person();&#xD;
+		// Student객체를 생성하면 최상위 객체인 Object객체, 상위객체인 Person객체와 Student객체가 생성된다.&#xD;
+		Student student = new Student();&#xD;
+		// Employee객체를 생성하면 최상위 객체인 Object객체, 상위객체인 Person객체와 Employee객체가 생성된다.&#xD;
+		Employee employee = new Employee();&#xD;
+	&#xD;
+		// person으로 참조되는 Person객체는 name, tel, email과 getter/setter 메소드를 가지고 있다.&#xD;
+		person.setName(&quot;홍길동&quot;);&#xD;
+		person.setTel(&quot;010-1111-1111&quot;);&#xD;
+		person.setEmail(&quot;hong@gmail.com&quot;);&#xD;
+		&#xD;
+		// student로 참조되는 Student객체는 dept, grade와 getter/setter 메소드를 가지고 있다.&#xD;
+		// student로 참조되는 Student객체는 상위 클래스인 Person객체의 공개된 변수 혹은 기능을 사용할 수 있다.&#xD;
+		student.setName(&quot;김유신&quot;);			// Person객체의 공개된(상속받은) 기능&#xD;
+		student.setTel(&quot;010-2222-2222&quot;);	// Person객체의 공개된(상속받은) 기능&#xD;
+		student.setEmail(&quot;kim@gmail.com&quot;);	// Person객체의 공개된(상속받은) 기능&#xD;
+		student.setDept(&quot;전기전자공학과&quot;);		// Student객체의 기능&#xD;
+		student.setGrade(3);				// Student객체의 기능&#xD;
+		&#xD;
+		// employee로 참조되는 Employee객체는 company, position, salary와 getter/setter 메소드를 가지고 있다.&#xD;
+		// employee로 참조되는 Employee객체는 상위 클래스인 Person객체의 공개된 변수 혹은 기능을 사용할 수 있다.&#xD;
+		employee.setName(&quot;강감찬&quot;);			// Person객체의 공개된(상속받은) 기능&#xD;
+		employee.setTel(&quot;010-3333-3333&quot;);	// Person객체의 공개된(상속받은) 기능&#xD;
+		employee.setEmail(&quot;kang@gmail.com&quot;);// Person객체의 공개된(상속받은) 기능&#xD;
+		employee.setCompany(&quot;삼성전자&quot;);		// Employee객체의 기능&#xD;
+		employee.setPosition(&quot;부장&quot;);			// Employee객체의 기능&#xD;
+		employee.setSalary(10_000_000);		// Employee객체의 기능&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JUz6EB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfCNEB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JUz6ER0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JU0hIB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JU1vQB0AEeyJa8k4nbiKVw" name="Student">
+        <generalization xmi:id="_JdhxMB0AEeyJa8k4nbiKVw" general="_JUtMYB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_Jec-QB0AEeyJa8k4nbiKVw" name="dept">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Jec-QR0AEeyJa8k4nbiKVw" name="grade">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JR_PkB0AEeyJa8k4nbiKVw" name="example_09_15_override">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JU4LgB0AEeyJa8k4nbiKVw" name="ColorPrinter">
+        <ownedComment xmi:id="_JfZZcR0AEeyJa8k4nbiKVw">
+          <body>문서를 컬러로 인쇄하는 기능이 구현된 클래스다.&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_Jdi_UB0AEeyJa8k4nbiKVw" general="_JVRNEB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_JedlUB0AEeyJa8k4nbiKVw" name="colors" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfC0IB0AEeyJa8k4nbiKVw" name="setColors" specification="_JU5ZoB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfDbMB0AEeyJa8k4nbiKVw" name="colors">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.colors = colors;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfDbMR0AEeyJa8k4nbiKVw" name="printColor" specification="_JU6AsB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfDbMh0AEeyJa8k4nbiKVw" name="document">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;[&quot;+colors+&quot;색][컬러인쇄] &quot; + document);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JU5ZoB0AEeyJa8k4nbiKVw" name="setColors" method="_JfC0IB0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_JfaAgB0AEeyJa8k4nbiKVw">
+            <body>지정된 색상 수를 설정한다.&#xD;
+	 * @param colors</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JU5ZoR0AEeyJa8k4nbiKVw" name="colors">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JU6AsB0AEeyJa8k4nbiKVw" name="printColor" method="_JfDbMR0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_JfaAgR0AEeyJa8k4nbiKVw">
+            <body>지정된 문서를 컬러로 인쇄한다.&#xD;
+	 * @param document 출력할 문서</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JU6nwB0AEeyJa8k4nbiKVw" name="document">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JU8c8B0AEeyJa8k4nbiKVw" name="Galaxy">
+        <generalization xmi:id="_JdjmYB0AEeyJa8k4nbiKVw" general="_JVG1AB0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfECQB0AEeyJa8k4nbiKVw" name="on" specification="_JU_gQB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;폴더를 펼쳐서 화면을 켭니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfEpUB0AEeyJa8k4nbiKVw" name="off" specification="_JVCjkB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;폴더를 접어서 화면을 끕니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JU_gQB0AEeyJa8k4nbiKVw" name="on" method="_JfECQB0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JVCjkB0AEeyJa8k4nbiKVw" name="off" method="_JfEpUB0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVEYwB0AEeyJa8k4nbiKVw" name="Iphone">
+        <generalization xmi:id="_JdkNcB0AEeyJa8k4nbiKVw" general="_JVG1AB0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfEpUR0AEeyJa8k4nbiKVw" name="on" specification="_JVFm4B0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;페이스 아이디를 이용해서 얼굴인식으로 화면을 켭니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVFm4B0AEeyJa8k4nbiKVw" name="on" method="_JfEpUR0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVG1AB0AEeyJa8k4nbiKVw" name="Phone">
+        <ownedAttribute xmi:id="_JeezcB0AEeyJa8k4nbiKVw" name="tel" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfFQYB0AEeyJa8k4nbiKVw" name="setTel" specification="_JVIqMB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfFQYR0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.tel = tel;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfFQYh0AEeyJa8k4nbiKVw" name="call" specification="_JVJRQB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfFQYx0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;[&quot; + tel + &quot;]이 &quot; + to + &quot;에게 전화를 겁니다.&quot;);		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfFQZB0AEeyJa8k4nbiKVw" name="off" specification="_JVJ4UB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;전원버튼을 눌러서 화면을 끕니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfFQZR0AEeyJa8k4nbiKVw" name="on" specification="_JVJ4UR0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;전원버튼을 눌러서 화면을 켭니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVIqMB0AEeyJa8k4nbiKVw" name="setTel" method="_JfFQYB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVIqMR0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVJRQB0AEeyJa8k4nbiKVw" name="call" method="_JfFQYh0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVJRQR0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVJ4UB0AEeyJa8k4nbiKVw" name="off" method="_JfFQZB0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JVJ4UR0AEeyJa8k4nbiKVw" name="on" method="_JfFQZR0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVKfYB0AEeyJa8k4nbiKVw" name="PhoneApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfF3cB0AEeyJa8k4nbiKVw" name="main" specification="_JVLGcB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfF3cR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfF3ch0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// 전원버튼을 이용해서 화면을 켜고 싶다면, Phone 객체를 사용하자.&#xD;
+		System.out.println(&quot;### Phone객체 사용하기&quot;);&#xD;
+		Phone phone = new Phone();&#xD;
+		phone.setTel(&quot;010-1111-1111&quot;);&#xD;
+		phone.on();&#xD;
+		phone.call(&quot;010-2222-2222&quot;);&#xD;
+		phone.off();&#xD;
+		&#xD;
+		// 페이스 아이디를 이용해서 화면을 켜고 싶다면, Iphone 객체를 사용하자.&#xD;
+		System.out.println(&quot;### Iphone객체 사용하기&quot;);&#xD;
+		Iphone iphone = new Iphone();&#xD;
+		iphone.setTel(&quot;010-1111-1111&quot;);&#xD;
+		iphone.on();&#xD;
+		iphone.call(&quot;010-2222-2222&quot;);&#xD;
+		iphone.off();&#xD;
+		&#xD;
+		// 폴더를 접거나 펼쳐서 화면을 켜고 끄고 싶다면, Galaxy 객체를 사용하자.&#xD;
+		System.out.println(&quot;### Galaxy객체 사용하기&quot;);&#xD;
+		Galaxy galaxy = new Galaxy();&#xD;
+		galaxy.setTel(&quot;010-3333-3333&quot;);&#xD;
+		galaxy.on();&#xD;
+		galaxy.call(&quot;010-4444-4444&quot;);&#xD;
+		galaxy.off();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVLGcB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfF3cB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVLGcR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JVLtgB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVLtgR0AEeyJa8k4nbiKVw" name="PhotoPrinter">
+        <ownedComment xmi:id="_JfaAgh0AEeyJa8k4nbiKVw">
+          <body>사진 인쇄 기능을 지원하는 클래스다.&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_JdkNcR0AEeyJa8k4nbiKVw" general="_JU4LgB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_JegBkB0AEeyJa8k4nbiKVw" name="width" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JegooR0AEeyJa8k4nbiKVw" name="height" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfHFkB0AEeyJa8k4nbiKVw" name="setWidth" specification="_JVMUkB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfHFkR0AEeyJa8k4nbiKVw" name="width">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.width = width;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfHFkh0AEeyJa8k4nbiKVw" name="setHeight" specification="_JVM7oR0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfHFkx0AEeyJa8k4nbiKVw" name="height">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.height = height;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfHsoB0AEeyJa8k4nbiKVw" name="printPhoto" specification="_JVNisB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfHsoR0AEeyJa8k4nbiKVw" name="image">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(width + &quot; x &quot; + height + &quot;크기 [사진 인쇄] &quot; + image);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVMUkB0AEeyJa8k4nbiKVw" name="setWidth" method="_JfHFkB0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_JfaAgx0AEeyJa8k4nbiKVw">
+            <body>사진의 너비를 지정된 너비로 설정한다.&#xD;
+	 * @param width 사진의 가로방향 크기</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JVM7oB0AEeyJa8k4nbiKVw" name="width">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVM7oR0AEeyJa8k4nbiKVw" name="setHeight" method="_JfHFkh0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_JfaAhB0AEeyJa8k4nbiKVw">
+            <body>사진의 높이를 지정된 높이로 설정한다.&#xD;
+	 * @param height 사진의 세로방향 크기</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JVM7oh0AEeyJa8k4nbiKVw" name="height">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVNisB0AEeyJa8k4nbiKVw" name="printPhoto" method="_JfHsoB0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_JfaAhR0AEeyJa8k4nbiKVw">
+            <body>지정된 이미지를 사진으로 출력한다.&#xD;
+	 * @param image 이미지</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JVOJwB0AEeyJa8k4nbiKVw" name="image">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVPX4B0AEeyJa8k4nbiKVw" name="PrintApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfHsoh0AEeyJa8k4nbiKVw" name="main" specification="_JVP-8B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfHsox0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfHspB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Printer printer = new Printer();&#xD;
+		&#xD;
+		ColorPrinter colorPrinter = new ColorPrinter();&#xD;
+		colorPrinter.setColors(256);&#xD;
+		&#xD;
+		PhotoPrinter photoPrinter = new PhotoPrinter();&#xD;
+		photoPrinter.setColors(256);&#xD;
+		photoPrinter.setWidth(3);&#xD;
+		photoPrinter.setHeight(4);&#xD;
+		&#xD;
+		System.out.println(&quot;### Printer객체의 출력기능 사용하기&quot;);&#xD;
+		printer.printBlackAndWhite(&quot;휴가신청서.hwp&quot;);&#xD;
+		&#xD;
+		System.out.println(&quot;### ColorPrinter객체의 출력기능 사용하기&quot;);&#xD;
+		colorPrinter.printBlackAndWhite(&quot;출장신청서.hwp&quot;);&#xD;
+		colorPrinter.printColor(&quot;프로젝트발표자료.ppt&quot;);&#xD;
+		&#xD;
+		System.out.println(&quot;### PhotoPrinter 객체의 출력기능 사용하기&quot;);&#xD;
+		photoPrinter.printBlackAndWhite(&quot;8월영업실적보고서.xlsx&quot;);&#xD;
+		photoPrinter.printColor(&quot;8월영업실적.ppt&quot;);&#xD;
+		photoPrinter.printPhoto(&quot;매장사진.png&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVP-8B0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfHsoh0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVP-8R0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JVQmAB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVRNEB0AEeyJa8k4nbiKVw" name="Printer">
+        <ownedComment xmi:id="_JfaAhh0AEeyJa8k4nbiKVw">
+          <body>문서를 흑백으로 출력하는 기능이 구현된 클래스&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfHspR0AEeyJa8k4nbiKVw" name="printBlackAndWhite" specification="_JVSbMB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfHsph0AEeyJa8k4nbiKVw" name="document">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;[흑백인쇄] &quot; + document);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVSbMB0AEeyJa8k4nbiKVw" name="printBlackAndWhite" method="_JfHspR0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVSbMR0AEeyJa8k4nbiKVw" name="document">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JSFWMB0AEeyJa8k4nbiKVw" name="example_09_15_super">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVTCQB0AEeyJa8k4nbiKVw" name="Book">
+        <generalization xmi:id="_JdlbkB0AEeyJa8k4nbiKVw" general="_JVaXAB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_Jeh2wB0AEeyJa8k4nbiKVw" name="genre">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Jeid0B0AEeyJa8k4nbiKVw" name="title">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Jeid0R0AEeyJa8k4nbiKVw" name="writer">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JejE4B0AEeyJa8k4nbiKVw" name="publisher">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfITsB0AEeyJa8k4nbiKVw" name="Book" specification="_JVUQYB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfITsR0AEeyJa8k4nbiKVw" type="_JVTCQB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>// 모든 하위클래스의 생성자에는 부모의 기본 생성자 메소드를 호출하는 super();가 자동으로 추가된다.&#xD;
+		// 단, super()외의 다른 super(값, 값, ...) 메소드를 추가하면 super();가 자동으로 추가되지 않는다.&#xD;
+		super(); &#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfITsh0AEeyJa8k4nbiKVw" name="Book" specification="_JVVegB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfITsx0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfITtB0AEeyJa8k4nbiKVw" name="genre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfITtR0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfITth0AEeyJa8k4nbiKVw" name="writer">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfITtx0AEeyJa8k4nbiKVw" name="publisher">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfITuB0AEeyJa8k4nbiKVw" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfITuR0AEeyJa8k4nbiKVw" type="_JVTCQB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>super(no, price);&#xD;
+		this.genre = genre;&#xD;
+		this.title = title;&#xD;
+		this.writer = writer;&#xD;
+		this.publisher = publisher;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfI6wB0AEeyJa8k4nbiKVw" name="Book" specification="_JVWsoB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfI6wR0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfI6wh0AEeyJa8k4nbiKVw" name="genre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfI6wx0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfI6xB0AEeyJa8k4nbiKVw" name="writer">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfI6xR0AEeyJa8k4nbiKVw" name="publisher">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfI6xh0AEeyJa8k4nbiKVw" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfI6xx0AEeyJa8k4nbiKVw" name="discountPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfI6yB0AEeyJa8k4nbiKVw" type="_JVTCQB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>// Product 객체의 Product(int no, int price, int discountPrice) 생성자를 호출한다.&#xD;
+		// super() 메소드는 언제나 생성자 메소드의 첫번째 수행문이어야 한다.&#xD;
+		// super() 메소드가 첫번째 수행문이어야 하는 이유는 언제나 상위 객체가 먼저 초기화되어야 하기 떄문이다.&#xD;
+		// 이 생성자 메소드도 원래는 super(); 자동으로 추가되지만,&#xD;
+		// super(no, price, discountPrice);가 추가되었기 때문에 super();는 추가되지 않았다.&#xD;
+		super(no, price, discountPrice);&#xD;
+		this.genre = genre;&#xD;
+		this.title = title;&#xD;
+		this.writer = writer;&#xD;
+		this.publisher = publisher;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfI6yR0AEeyJa8k4nbiKVw" name="printInfo" specification="_JVXTsB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>super.printInfo();&#xD;
+		System.out.println(&quot;장르: &quot; + genre);&#xD;
+		System.out.println(&quot;제목: &quot; + title);&#xD;
+		System.out.println(&quot;저자: &quot; + writer);&#xD;
+		System.out.println(&quot;출판사: &quot; + publisher);&#xD;
+		System.out.println();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVUQYB0AEeyJa8k4nbiKVw" name="Book" method="_JfITsB0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JVU3cB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JVU3cR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JVU3ch0AEeyJa8k4nbiKVw" type="_JVTCQB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVVegB0AEeyJa8k4nbiKVw" name="Book" method="_JfITsh0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JVVehx0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JVVeiB0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JVVegR0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVVegh0AEeyJa8k4nbiKVw" name="genre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVVegx0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVVehB0AEeyJa8k4nbiKVw" name="writer">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVVehR0AEeyJa8k4nbiKVw" name="publisher">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVVehh0AEeyJa8k4nbiKVw" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVVeiR0AEeyJa8k4nbiKVw" type="_JVTCQB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVWsoB0AEeyJa8k4nbiKVw" name="Book" method="_JfI6wB0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JVWsqB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JVWsqR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JVWsoR0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVWsoh0AEeyJa8k4nbiKVw" name="genre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVWsox0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVWspB0AEeyJa8k4nbiKVw" name="writer">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVWspR0AEeyJa8k4nbiKVw" name="publisher">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVWsph0AEeyJa8k4nbiKVw" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVWspx0AEeyJa8k4nbiKVw" name="discountPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVWsqh0AEeyJa8k4nbiKVw" type="_JVTCQB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVXTsB0AEeyJa8k4nbiKVw" name="printInfo" method="_JfI6yR0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVaXAB0AEeyJa8k4nbiKVw" name="Product">
+        <ownedAttribute xmi:id="_JejE4R0AEeyJa8k4nbiKVw" name="no">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Jejr8B0AEeyJa8k4nbiKVw" name="price">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JekTAB0AEeyJa8k4nbiKVw" name="discountPrice">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfJh0B0AEeyJa8k4nbiKVw" name="Product" specification="_JVdaUB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfJh0R0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfJh0h0AEeyJa8k4nbiKVw" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfJh0x0AEeyJa8k4nbiKVw" type="_JVaXAB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>// this.no = no;&#xD;
+		// this.price = price;&#xD;
+		// this.discountPrice = price;&#xD;
+		// 이 클래스로 생성된 객체의 생성자 메소드 중에서 Product(int, int, int) 생성자 메소드를 실행한다.&#xD;
+		this(no, price, price);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfJh1B0AEeyJa8k4nbiKVw" name="Product" specification="_JVeBYh0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfJh1R0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfJh1h0AEeyJa8k4nbiKVw" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfJh1x0AEeyJa8k4nbiKVw" name="discountPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfJh2B0AEeyJa8k4nbiKVw" type="_JVaXAB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>this.no = no;&#xD;
+		this.price = price;&#xD;
+		this.discountPrice = discountPrice;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfKI4B0AEeyJa8k4nbiKVw" name="printInfo" specification="_JVeocx0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;상품번호: &quot; + no);&#xD;
+		System.out.println(&quot;상품가격: &quot; + price);&#xD;
+		System.out.println(&quot;할인가격: &quot; + discountPrice);		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVblIB0AEeyJa8k4nbiKVw" name="Product">
+          <eAnnotations xmi:id="_JVcMMB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JVcMMR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JVczQR0AEeyJa8k4nbiKVw" type="_JVaXAB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVdaUB0AEeyJa8k4nbiKVw" name="Product" method="_JfJh0B0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JVdaUx0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JVeBYB0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JVdaUR0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVdaUh0AEeyJa8k4nbiKVw" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVeBYR0AEeyJa8k4nbiKVw" type="_JVaXAB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVeBYh0AEeyJa8k4nbiKVw" name="Product" method="_JfJh1B0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JVeocB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JVeocR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JVeBYx0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVeBZB0AEeyJa8k4nbiKVw" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVeBZR0AEeyJa8k4nbiKVw" name="discountPrice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JVeoch0AEeyJa8k4nbiKVw" type="_JVaXAB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVeocx0AEeyJa8k4nbiKVw" name="printInfo" method="_JfKI4B0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVf2kB0AEeyJa8k4nbiKVw" name="ProductApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfKI4R0AEeyJa8k4nbiKVw" name="main" specification="_JVhEsB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfKv8B0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfKv8R0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// 할인가격이 있는 Book객체 생성&#xD;
+		Book book1 = new Book(100, &quot;컴퓨터&quot;, &quot;이것이자바다&quot;, &quot;신용권&quot;, &quot;한빛미디어&quot;, 35000, 32000);&#xD;
+		// 할인가격이 없는 book객체 생성&#xD;
+		Book book2 = new Book(200, &quot;컴퓨터&quot;, &quot;자바의정석&quot;, &quot;남궁성&quot;, &quot;도우출판사&quot;, 30000);&#xD;
+	&#xD;
+		book1.printInfo();&#xD;
+		book2.printInfo();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVhEsB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfKI4R0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVhEsR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JVhrwB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JSJnoB0AEeyJa8k4nbiKVw" name="example_09_16_casting">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVhrwR0AEeyJa8k4nbiKVw" name="Car">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfKv8h0AEeyJa8k4nbiKVw" name="start" specification="_JVi54B0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;차가 출발합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfKv8x0AEeyJa8k4nbiKVw" name="stop" specification="_JVjg8B0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;차가 정지합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfLXAB0AEeyJa8k4nbiKVw" name="drive" specification="_JVjg8R0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;차를 운전합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfLXAR0AEeyJa8k4nbiKVw" name="speedUp" specification="_JVkIAB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;속도를 올립니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfLXAh0AEeyJa8k4nbiKVw" name="speedDown" specification="_JVkIAR0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;속도를 내립니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVi54B0AEeyJa8k4nbiKVw" name="start" method="_JfKv8h0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JVjg8B0AEeyJa8k4nbiKVw" name="stop" method="_JfKv8x0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JVjg8R0AEeyJa8k4nbiKVw" name="drive" method="_JfLXAB0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JVkIAB0AEeyJa8k4nbiKVw" name="speedUp" method="_JfLXAR0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JVkIAR0AEeyJa8k4nbiKVw" name="speedDown" method="_JfLXAh0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVkIAh0AEeyJa8k4nbiKVw" name="CarApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfLXAx0AEeyJa8k4nbiKVw" name="main" specification="_JVlWIB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfLXBB0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfLXBR0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// 클래스 형변환이 발생하지 않음&#xD;
+		// 생성한 객체의 타입과 참조하는 변수의 타입이 동일하다.&#xD;
+		System.out.println(&quot;### Car객체를 Car타입의 참조변수로 참조&quot;);&#xD;
+		Car car1 = new Car();&#xD;
+		car1.start();&#xD;
+		car1.drive();&#xD;
+		car1.speedUp();&#xD;
+		car1.speedDown();&#xD;
+		car1.stop();&#xD;
+		// car1 참조변수로 Car객체의 공개된 모든 속성과 공개된 모든 기능을 사용할 수 있다.&#xD;
+		&#xD;
+		System.out.println(&quot;### SUV객체를 SUV타입의 참조변수로 참조&quot;);&#xD;
+		SUV suv1 = new SUV();&#xD;
+		suv1.start();			// Car객체의 기능&#xD;
+		suv1.speedUp();			// Car객체의 기능&#xD;
+		suv1.drive();			// Car객체의 기능&#xD;
+		suv1.speedDown();		// Car객체의 기능&#xD;
+		suv1.driveOffRoad();	// SUV객체의 기능&#xD;
+		suv1.stop();			// Car객체의 기능&#xD;
+		// suv1 참조변수로 SUV객체의 공개된 모든 속성과 공개된 모든 기능을 사용할 수 있다.&#xD;
+		// suv1 참조변수로 상위객체인 Car객체의 공개된 모든 속성과 모든 기능을 사용할 수 있다.&#xD;
+		&#xD;
+		System.out.println(&quot;### RacingCar객체를 RacingCar타입의 참조변수로 참조&quot;);&#xD;
+		RacingCar racingCar1 = new RacingCar();&#xD;
+		racingCar1.start();		// Car객체의 기능&#xD;
+		racingCar1.speedUp();	// Car객체의 기능	&#xD;
+		racingCar1.race();		// RacingCar객체의 기능&#xD;
+		racingCar1.speedDown();	// Car객체의 기능&#xD;
+		racingCar1.stop();		// Car객체의 기능&#xD;
+		// racingCar 참조변수로 Racingcar객체의 공개된 모든 속성과 공개된 모든 기능을 사용할 수 있다.&#xD;
+		// racingCar 참조변수로 상위객체인 Car객체의 공개된 모든 속성과 모든 기능을 사용할 수 있다.&#xD;
+&#xD;
+		System.out.println(&quot;### Palisade객체를 Palisade타입의 참조변수로 참조&quot;);&#xD;
+		Palisade palisade1 = new Palisade();&#xD;
+		palisade1.start();				// Car객체의 기능&#xD;
+		palisade1.drive();				// Car객체의 기능&#xD;
+		palisade1.speedUp();			// Car객체의 기능&#xD;
+		palisade1.changeDriveMode();	// Palisade객체의 기능&#xD;
+		palisade1.driveOffRoad();		// SUV객체의 기능&#xD;
+		palisade1.speedDown();			// Car객체의 기능&#xD;
+		palisade1.stop();				// Car객체의 기능&#xD;
+		// palisade1 참조변수로 Palisade객체의 공개된 모든 속성과 공개된 모든 기능을 사용할 수 있다.&#xD;
+		// palisade1 참조변수로 SUV객체의 공개된 모든 속성과 모든 기능을 사용할 수 있다.&#xD;
+		// palisade1 참조변수로 상위객체인 Car객체의 공개된 모든 속성과 모든 기능을 사용할 수 있다.&#xD;
+		&#xD;
+		// 클래스 형변환이 발생한다.&#xD;
+		// 생성한 객체의 타입과 참조하는 변수의 타입이 서로 다름&#xD;
+		// 생성한 객체의 타입은 하위 클래스 타입이고, 참조하는 변수의 타입은 상위 클래스 타입이다.&#xD;
+		System.out.println(&quot;### SUV객체를 상위 클래스인 Car타입의 참조변수로 참조&quot;);&#xD;
+		Car suv2 = new SUV();&#xD;
+		suv2.start();				// Car객체의 기능&#xD;
+		suv2.speedUp();				// Car객체의 기능&#xD;
+		suv2.drive();				// Car객체의 기능&#xD;
+		suv2.speedDown();			// Car객체의 기능&#xD;
+		//suv2.driveOffRoad();		// SUV객체의 기능	// 오류발생&#xD;
+		((SUV)suv2).driveOffRoad();	// 실제 생성된 SUV객체를 참조하도록 강제형변환 할 수 있다.&#xD;
+		suv2.stop();				// Car객체의 기능&#xD;
+		// Car타입의 suv2 참조변수로 SUV객체를 참조하면 SUV객체의 공개된 모든 속성과 기능을 사용할 수 없다.&#xD;
+		// 실제로 생성한 객체는 SUV객체지만, 참조변수가 Car객체를 참조하고 있기 때문에 Car객체의 공개된 모든 속성과 기능만 사용할 수 있다.&#xD;
+		// SUV객체의 공개된 속성과 공개된 기능을 사용하기 위해서는 형변환 연산자를 이용해서 SUV객체를 참조하도록 강제형변환할 수 있다.&#xD;
+		// 단, 강제형변환을 하더라도 suv2의 참조변수의 참조값이 변하는 것은 아니다.&#xD;
+		&#xD;
+		System.out.println(&quot;### Palisade객체를 상위 클래스인 Car타입의 참조변수로 참조&quot;);&#xD;
+		Car palisade2 = new Palisade();&#xD;
+		palisade2.start();							// Car객체의 기능&#xD;
+		palisade2.drive();							// Car객체의 기능&#xD;
+		palisade2.speedUp();						// Car객체의 기능&#xD;
+		//palisade2.changeDriveMode();				// Palisade객체의 기능	// 오류발생&#xD;
+		((Palisade)palisade2).changeDriveMode();	// 생성된 Palisade객체를 참조하도록 강제형변환 할 수 있다.&#xD;
+		//palisade2.driveOffRoad();					// SUV객체의 기능		// 오류발생&#xD;
+		((SUV)palisade2).driveOffRoad();			// 생성된 Palisade객체가 포함하고 있는 SUV객체를 참조하도록 강제형병환 할 수 있다.&#xD;
+		palisade2.speedDown();						// Car객체의 기능&#xD;
+		palisade2.stop();							// Car객체의 기능&#xD;
+		// Car타입의 palisade2 참조변수로 Palisade객체를 참조하면 Palisade객체의 공개된 모든 속성과 기능을 사용할 수 없다.&#xD;
+		// 실제로 생성한 객체는 Palisade객체지만, 참조변수가 Car객체를 참조하고 있기 때문에 Car객체의 공개된 모든 속성과 기능만 사용할 수 있다.&#xD;
+		// Palisade객체와 SUV객체의 공개된 속성과 공개된 기능을 사용하기 위해서는 형변환 연산자를 이용해서 &#xD;
+		// Palisade객체 혹은 SUV객체를 참조하도록 강제형변환할 수 있다.&#xD;
+		// 단, 강제형변환을 하더라도 palisade2의 참조변수의 참조값이 변하는 것은 아니다.&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVlWIB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfLXAx0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVl9MB0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JVnLUB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVpAgB0AEeyJa8k4nbiKVw" name="CarApp2">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfL-EB0AEeyJa8k4nbiKVw" name="main" specification="_JVqOoB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfL-ER0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfL-Eh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/*&#xD;
+		 * 클래스 형변환 활용하기&#xD;
+		 * 		+ 부모타입의 참조변수로 모든 자식타입객체를 참조할 수 있다.&#xD;
+		 */&#xD;
+		&#xD;
+		Scanner scan = new Scanner(System.in);&#xD;
+		&#xD;
+		System.out.println(&quot;-------------------------------------------------&quot;);&#xD;
+		System.out.println(&quot;1.SUV  2.레이싱카  3.펠리세이드&quot;);&#xD;
+		System.out.println(&quot;-------------------------------------------------&quot;);&#xD;
+&#xD;
+		System.out.print(&quot;구매할 차종을 선택하세요: &quot;);&#xD;
+		int carType = scan.nextInt();&#xD;
+		&#xD;
+		// 부모타입의 참조변수로 모든 자식타입객체를 참조할 수 있다.&#xD;
+		Car car = null;&#xD;
+		if (carType == 1) {&#xD;
+			car = new SUV();&#xD;
+		} else if (carType == 2) {&#xD;
+			car = new RacingCar();&#xD;
+		} else if (carType == 3) {&#xD;
+			car = new Palisade();&#xD;
+		} else {&#xD;
+			System.out.println(&quot;### 지원하지 않는 차종입니다.&quot;);&#xD;
+		}&#xD;
+		&#xD;
+		System.out.println(&quot;구매한 차의 이름: &quot; + car.getClass().getName());&#xD;
+		&#xD;
+		scan.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVqOoB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfL-EB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVqOoR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JVq1sB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVsD0B0AEeyJa8k4nbiKVw" name="CarApp3">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfL-Ex0AEeyJa8k4nbiKVw" name="main" specification="_JVsq4B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfL-FB0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfL-FR0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/*&#xD;
+		 * 클래스 형변환 활용하기&#xD;
+		 * 		+ 부모타입의 배열로 다양한 자식타입객체를 저장할 수 있다.&#xD;
+		 * 		  (배열에 저장되는 객체의 종류들을 제한할 수 있다.)&#xD;
+		 */			&#xD;
+&#xD;
+		// 각종 자동차 객체를 저장할 수 있는 배열을 생성하기&#xD;
+		Car[] carArray1 = new Car[5];&#xD;
+		carArray1[0] = new Car();&#xD;
+		carArray1[1] = new SUV();&#xD;
+		carArray1[2] = new RacingCar();&#xD;
+		carArray1[3] = new Palisade();&#xD;
+		carArray1[4] = new Palisade();&#xD;
+		&#xD;
+		// 각종 SUV 객체를 저장할 수 있는 배열을 생성하기&#xD;
+		SUV[] carArray2 = new SUV[5];&#xD;
+		carArray2[0] = new SUV();&#xD;
+		carArray2[1] = new Palisade();&#xD;
+		carArray2[2] = new Palisade();&#xD;
+		//carArray2[1] = new Car();			// 오류, SUV클래스의 하위 클래스타입 객체가 아님&#xD;
+		//carArray2[0] = new RacingCar();	// 오류, SUV클래스의 하위 클래스타입 객체가 아님&#xD;
+		&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JVsq4B0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfL-Ex0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JVtR8B0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JVvHIB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JVw8UB0AEeyJa8k4nbiKVw" name="CarApp4">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfL-Fh0AEeyJa8k4nbiKVw" name="main" specification="_JV0msB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfL-Fx0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfL-GB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/*&#xD;
+		 * 클래스 형변환 활용하기&#xD;
+		 * 		+ 실제로 사용할 기능이 구현되어 있는 클래스 타입의 변수 혹은 배열객체를 생성하면&#xD;
+		 * 		  특별한 형변환없이 기능을 실행할 수 있다.&#xD;
+		 */		&#xD;
+		&#xD;
+		// 요구사항&#xD;
+		// 모든 자동차들의 출발기능, 정지기능, 운전기능을 실행해주세요&#xD;
+		// 모든 SUV자동차들의 출발기능, 정지기능, 운전기능, 오프로드기능을 실행해주세요&#xD;
+		&#xD;
+		// car배열에 저장된 자동차들의 출발기능, 정지기능, 운전기능 실행하기&#xD;
+		System.out.println(&quot;### 모든 자동차의 출발기능, 정지기능, 운전기능 실행하기&quot;);&#xD;
+		Car[] cars = new Car[3];&#xD;
+		cars[0] = new Car();&#xD;
+		cars[1] = new SUV();&#xD;
+		cars[2] = new Palisade();&#xD;
+		&#xD;
+		for (Car car : cars) {&#xD;
+			System.out.println(car.getClass().getName() + &quot;차량의 출발/정지/운전기능 실행하기&quot;);&#xD;
+			car.start();&#xD;
+			car.stop();&#xD;
+			car.drive();&#xD;
+		}&#xD;
+		&#xD;
+		// suvs배열에 저장된 자동차들의 오프로드기능 실행하기&#xD;
+		System.out.println(&quot;### 모든 SUV 자동차의 오프로드 기능 실행하기&quot;);&#xD;
+		SUV[] suvs = new SUV[3];&#xD;
+		suvs[0] = new SUV();&#xD;
+		suvs[1] = new Palisade();&#xD;
+		suvs[2] = new SUV();&#xD;
+		&#xD;
+		for (SUV suv : suvs) {&#xD;
+			System.out.println(suv.getClass().getName() + &quot;차량의 오프로드 기능 실행하기&quot;);&#xD;
+			suv.driveOffRoad();&#xD;
+		}&#xD;
+		&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JV0msB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfL-Fh0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JV0msR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JV1NwB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JV2b4B0AEeyJa8k4nbiKVw" name="CarApp5">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfL-GR0AEeyJa8k4nbiKVw" name="main" specification="_JV3qAB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfL-Gh0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfL-Gx0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/*&#xD;
+		 * 클래스 형변환 활용하기&#xD;
+		 * 		+ 생성된 객체가 클래스형변환 되어서 관리되고 있지만, &#xD;
+		 * 		  그 객체를 사용할 때는 그 객체의 모든 기능을 사용할 수 있다.&#xD;
+		 * 		  (instanceof 연산자를 사용하면 참조변수가 참조하는 객체가 실제로 어떤 객체인지 조사할 수 있다.)&#xD;
+		 * 		  문법&#xD;
+		 * 				참조변수 instanceof 클래스명&#xD;
+		 * 					참조변수가 참조하는 객체가 지정된 클래스타입의 객체면 true를 반환하고. 아니면 false를 반환한다. &#xD;
+		 */		&#xD;
+		&#xD;
+		Car car1 = new Car();&#xD;
+		Car car2 = new SUV();&#xD;
+		Car car3 = new Palisade();&#xD;
+		Car car4 = new RacingCar();&#xD;
+		&#xD;
+		System.out.println(&quot;### car1이 참조하는 객체는 Car객체인가? &quot; + (car1 instanceof Car));&#xD;
+		System.out.println(&quot;### car1이 참조하는 객체는 SUV객체인가? &quot; + (car1 instanceof SUV));&#xD;
+		System.out.println(&quot;### car1이 참조하는 객체는 RacingCar객체인가? &quot; + (car1 instanceof RacingCar));&#xD;
+		System.out.println(&quot;### car1이 참조하는 객체는 Palisade객체인가? &quot; + (car1 instanceof Palisade));&#xD;
+		&#xD;
+		System.out.println(&quot;### car2이 참조하는 객체는 Car객체인가? &quot; + (car2 instanceof Car));&#xD;
+		System.out.println(&quot;### car2이 참조하는 객체는 SUV객체인가? &quot; + (car2 instanceof SUV));&#xD;
+		System.out.println(&quot;### car2이 참조하는 객체는 RacingCar객체인가? &quot; + (car2 instanceof RacingCar));&#xD;
+		System.out.println(&quot;### car2이 참조하는 객체는 Palisade객체인가? &quot; + (car2 instanceof Palisade));&#xD;
+		&#xD;
+		System.out.println(&quot;### car3이 참조하는 객체는 Car객체인가? &quot; + (car3 instanceof Car));&#xD;
+		System.out.println(&quot;### car3이 참조하는 객체는 SUV객체인가? &quot; + (car3 instanceof SUV));&#xD;
+		System.out.println(&quot;### car3이 참조하는 객체는 RacingCar객체인가? &quot; + (car3 instanceof RacingCar));&#xD;
+		System.out.println(&quot;### car3이 참조하는 객체는 Palisade객체인가? &quot; + (car3 instanceof Palisade));&#xD;
+		&#xD;
+		System.out.println(&quot;### car4이 참조하는 객체는 Car객체인가? &quot; + (car4 instanceof Car));&#xD;
+		System.out.println(&quot;### car4이 참조하는 객체는 SUV객체인가? &quot; + (car4 instanceof SUV));&#xD;
+		System.out.println(&quot;### car4이 참조하는 객체는 RacingCar객체인가? &quot; + (car4 instanceof RacingCar));&#xD;
+		System.out.println(&quot;### car4이 참조하는 객체는 Palisade객체인가? &quot; + (car4 instanceof Palisade));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JV3qAB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfL-GR0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JV4REB0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JV4RER0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JV44IB0AEeyJa8k4nbiKVw" name="CarApp6">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfL-HB0AEeyJa8k4nbiKVw" name="main" specification="_JV7UYB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfL-HR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfL-Hh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>/*&#xD;
+		 * 클래스 형변환 활용하기&#xD;
+		 * 		+ 실제로 사용할 기능이 구현되어 있는 클래스 타입의 변수 혹은 배열객체를 생성하면&#xD;
+		 * 		  특별한 형변환없이 기능을 실행할 수 있다.&#xD;
+		 */		&#xD;
+	&#xD;
+		// 배열에 SUV, Palisade, RacingCar 객체가 순서없이 저장되어있다.&#xD;
+		// 배열에 저장된 모든 객체는 배열의 각 칸에 Car타입 객체의 주소값이 저장되어 있고, 클래스형변환되어 있는 상태다.&#xD;
+		// 배열에 저장된 객체를 순서대로 뽑아서 각 객체의 고유한 기능을 실행해라.&#xD;
+		Car[] cars = new Car[5];&#xD;
+		cars[0] = new Palisade();&#xD;
+		cars[1] = new SUV();&#xD;
+		cars[2] = new RacingCar();&#xD;
+		cars[3] = new Palisade();&#xD;
+		cars[4] = new RacingCar();&#xD;
+	&#xD;
+		for (Car car : cars) {&#xD;
+			if (car instanceof Palisade) {				// car가 참조하는 실제 객체가 Palisade일 때 true다.&#xD;
+				Palisade palisade = (Palisade)car;&#xD;
+				palisade.changeDriveMode();&#xD;
+				&#xD;
+			} else if (car instanceof SUV) {			// car가 참조하는 실제 객체가 SUV일 떄 true다.&#xD;
+				SUV suv = (SUV)car;						// car가 참조하는 실제 객체가 Palisade일 때도 true로 판정될 수 있다.&#xD;
+				suv.driveOffRoad();						// 그래서, Palisade인지 여부를 먼저 확인해서 Palisade인 경우 이 부분은 실행되지 않는다.&#xD;
+				&#xD;
+			} else if (car instanceof RacingCar) {		// car가 참조하는 실제 객체가 RacingCar일 때 true다.&#xD;
+				RacingCar racingCar = (RacingCar)car;&#xD;
+				racingCar.race();&#xD;
+				&#xD;
+			}&#xD;
+			&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JV7UYB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfL-HB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JV7UYR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JV77cB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JV9JkB0AEeyJa8k4nbiKVw" name="Palisade">
+        <generalization xmi:id="_Jdq7IB0AEeyJa8k4nbiKVw" general="_JV_l0B0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfMlIB0AEeyJa8k4nbiKVw" name="changeDriveMode" specification="_JV9woB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;드라이브 모드를 변경합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JV9woB0AEeyJa8k4nbiKVw" name="changeDriveMode" method="_JfMlIB0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JV-XsB0AEeyJa8k4nbiKVw" name="RacingCar">
+        <generalization xmi:id="_Jdq7IR0AEeyJa8k4nbiKVw" general="_JVhrwR0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfMlIR0AEeyJa8k4nbiKVw" name="race" specification="_JV--wB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;자동차 경주를 합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JV--wB0AEeyJa8k4nbiKVw" name="race" method="_JfMlIR0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JV_l0B0AEeyJa8k4nbiKVw" name="SUV">
+        <generalization xmi:id="_JdriMB0AEeyJa8k4nbiKVw" general="_JVhrwR0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfMlIh0AEeyJa8k4nbiKVw" name="driveOffRoad" specification="_JWAM4B0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;비포장 도로를 달립니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWAM4B0AEeyJa8k4nbiKVw" name="driveOffRoad" method="_JfMlIh0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JSK1wB0AEeyJa8k4nbiKVw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JSLc0B0AEeyJa8k4nbiKVw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_JTpccB0AEeyJa8k4nbiKVw" name="concurrent">
+          <packagedElement xmi:type="uml:Package" xmi:id="_JTqDgB0AEeyJa8k4nbiKVw" name="atomic">
+            <packagedElement xmi:type="uml:Class" xmi:id="_JeHAAB0AEeyJa8k4nbiKVw" name="AtomicInteger"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JdnQwB0AEeyJa8k4nbiKVw" name="Scanner"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_JdswUB0AEeyJa8k4nbiKVw" name="Date"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JST_sB0AEeyJa8k4nbiKVw" name="example_09_16_polymorphism">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWBbAB0AEeyJa8k4nbiKVw" name="EmailMessenger">
+        <generalization xmi:id="_JdsJQB0AEeyJa8k4nbiKVw" general="_JWeG8B0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_JelhIB0AEeyJa8k4nbiKVw" name="email" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JemIMR0AEeyJa8k4nbiKVw" name="password" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfMlIx0AEeyJa8k4nbiKVw" name="EmailMessenger" specification="_JWCpIB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfMlJB0AEeyJa8k4nbiKVw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfMlJR0AEeyJa8k4nbiKVw" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfMlJh0AEeyJa8k4nbiKVw" type="_JWBbAB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>this.email = email;&#xD;
+		this.password = password;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfMlJx0AEeyJa8k4nbiKVw" name="sendMessage" specification="_JWD3QB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfMlKB0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfMlKR0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfMlKh0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;[&quot; + email + &quot;][&quot; + password + &quot;]로 메일계정에 로그인함&quot;);&#xD;
+		System.out.println(&quot;### 이메일로 메세지를 발송함&quot;);&#xD;
+		System.out.println(&quot;보내는 주소: &quot; + from);&#xD;
+		System.out.println(&quot;받는 주소: &quot; + to);&#xD;
+		System.out.println(&quot;내용: &quot; + text);&#xD;
+		System.out.println();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWCpIB0AEeyJa8k4nbiKVw" name="EmailMessenger" method="_JfMlIx0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JWDQMB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JWDQMR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JWCpIR0AEeyJa8k4nbiKVw" name="email">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWCpIh0AEeyJa8k4nbiKVw" name="password">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWDQMh0AEeyJa8k4nbiKVw" type="_JWBbAB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JWD3QB0AEeyJa8k4nbiKVw" name="sendMessage" method="_JfMlJx0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JWD3QR0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWD3Qh0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWD3Qx0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWIvwB0AEeyJa8k4nbiKVw" name="EventService">
+        <ownedComment xmi:id="_JfankB0AEeyJa8k4nbiKVw">
+          <body>이벤트 등록, 이벤트 알림, 이벤트 당첨자 선정 등의 기능이 구현된 클래스다.&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_JenWUB0AEeyJa8k4nbiKVw" name="messenger" visibility="private" type="_JWeG8B0AEeyJa8k4nbiKVw" association="_JflmsB0AEeyJa8k4nbiKVw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_JenWUR0AEeyJa8k4nbiKVw" value="new EmailMessenger(&quot;admin&quot;, &quot;1234&quot;)"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfNMMB0AEeyJa8k4nbiKVw" name="noticeEvent" specification="_JWJ94B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfNMMR0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfNMMh0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfNMMx0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;### 최신 이벤트 소식을 발송합니다.&quot;);&#xD;
+		messenger.sendMessage(from, to, text);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWJ94B0AEeyJa8k4nbiKVw" name="noticeEvent" method="_JfNMMB0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_JfankR0AEeyJa8k4nbiKVw">
+            <body>최신 이벤트 소식을 수신허락한 고객들에게 보냅니다.&#xD;
+	 * @param from 보내는 곳&#xD;
+	 * @param to 받는 곳&#xD;
+	 * @param text 이벤트 내용</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JWKk8B0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWKk8R0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWKk8h0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JeQJ8B0AEeyJa8k4nbiKVw" name="addEvent">
+          <ownedParameter xmi:id="_JeQJ8R0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JeQJ8h0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JeQJ8x0AEeyJa8k4nbiKVw" name="startDate" type="_JdswUB0AEeyJa8k4nbiKVw"/>
+          <ownedParameter xmi:id="_JeQJ9B0AEeyJa8k4nbiKVw" name="endDate" type="_JdswUB0AEeyJa8k4nbiKVw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWNoQB0AEeyJa8k4nbiKVw" name="EventServiceApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfNzQB0AEeyJa8k4nbiKVw" name="main" specification="_JWQEgB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfNzQR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfNzQh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// 최신 이벤트 등록, 이벤트 알림, 이벤트 당첨자 선정 기능이 구현된 EventService객체를 생성한다.&#xD;
+		EventService service = new EventService();&#xD;
+		&#xD;
+		// 최신 이벤트 소식을 고객에게 알린다.&#xD;
+		service.noticeEvent(&quot;010-1111-1111&quot;, &quot;010-2222-2222&quot;, &quot;추석 선문세트가 새로 나왔습니다.&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWQEgB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfNzQB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JWQEgR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JWQrkB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWRSoB0AEeyJa8k4nbiKVw" name="KakaoTalkMessenger">
+        <generalization xmi:id="_JdxBwB0AEeyJa8k4nbiKVw" general="_JWeG8B0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_Jen9YB0AEeyJa8k4nbiKVw" name="nickName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JeokcR0AEeyJa8k4nbiKVw" name="profile" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfNzQx0AEeyJa8k4nbiKVw" name="KakaoTalkMessenger" specification="_JWTu4B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfNzRB0AEeyJa8k4nbiKVw" name="nickName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfNzRR0AEeyJa8k4nbiKVw" name="profile">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfNzRh0AEeyJa8k4nbiKVw" type="_JWRSoB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>this.nickName = nickName;&#xD;
+		this.profile = profile;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfNzRx0AEeyJa8k4nbiKVw" name="displayMyProfile" specification="_JWUV8B0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;별명: &quot; + nickName);&#xD;
+		System.out.println(&quot;사진: &quot; + profile);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfNzSB0AEeyJa8k4nbiKVw" name="sendMessage" specification="_JWU9AB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfNzSR0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfNzSh0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfNzSx0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;### 카톡으로 메세지를 발송함&quot;);&#xD;
+		System.out.println(&quot;보내는 사람 아이디: &quot; + from);&#xD;
+		System.out.println(&quot;받는 사람 아이디: &quot; + to);&#xD;
+		System.out.println(&quot;내용: &quot; + text);&#xD;
+		System.out.println();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWTu4B0AEeyJa8k4nbiKVw" name="KakaoTalkMessenger" method="_JfNzQx0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JWTu4x0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JWTu5B0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JWTu4R0AEeyJa8k4nbiKVw" name="nickName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWTu4h0AEeyJa8k4nbiKVw" name="profile">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWTu5R0AEeyJa8k4nbiKVw" type="_JWRSoB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JWUV8B0AEeyJa8k4nbiKVw" name="displayMyProfile" method="_JfNzRx0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JWU9AB0AEeyJa8k4nbiKVw" name="sendMessage" method="_JfNzSB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JWVkEB0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWVkER0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWVkEh0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWeG8B0AEeyJa8k4nbiKVw" name="Messenger">
+        <ownedComment xmi:id="_JfbOoB0AEeyJa8k4nbiKVw">
+          <body>메세지 전송기능이 구현된 클래스다&#xD;
+@author 박성근</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfOaUB0AEeyJa8k4nbiKVw" name="sendMessage" specification="_JWgjMB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfOaUR0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfOaUh0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfOaUx0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;### 문자메세지를 발송함&quot;);&#xD;
+		System.out.println(&quot;송신자 전화번호: &quot; + from);&#xD;
+		System.out.println(&quot;발신자 전화번호: &quot; + to);&#xD;
+		System.out.println(&quot;내용: &quot; + text);&#xD;
+		System.out.println();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWgjMB0AEeyJa8k4nbiKVw" name="sendMessage" method="_JfOaUB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JWhKQB0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWhxUB0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWhxUR0AEeyJa8k4nbiKVw" name="text">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWjmgB0AEeyJa8k4nbiKVw" name="MessengerApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfOaVB0AEeyJa8k4nbiKVw" name="main" specification="_JWmCwB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfOaVR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfOaVh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;### Messenger로 메세지 보내기&quot;);&#xD;
+		Messenger messenger = new Messenger();&#xD;
+		messenger.sendMessage(&quot;010-1111-1111&quot;, &quot;010-2222-2222&quot;, &quot;이벤트에 당첨되었습니다.&quot;);&#xD;
+		&#xD;
+		System.out.println(&quot;### KakaoTalkMessenger로 메세지 보내기&quot;);&#xD;
+		KakaoTalkMessenger katalk = new KakaoTalkMessenger(&quot;홍길동&quot;, &quot;고양이사진&quot;);&#xD;
+		katalk.sendMessage(&quot;홍길동&quot;, &quot;이순신&quot;, &quot;내일 학교에서 11시에 보자&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;### KakaoTalkMessenger로 메세지 보내기&quot;);&#xD;
+		Messenger kakao = new KakaoTalkMessenger(&quot;김유신&quot;, &quot;강아지사진&quot;);&#xD;
+		kakao.sendMessage(&quot;김유신&quot;, &quot;강감찬&quot;, &quot;빵사와라&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWmCwB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfOaVB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JWmp0B0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JWnQ4B0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWofAB0AEeyJa8k4nbiKVw" name="NewsService">
+        <ownedComment xmi:id="_JfbOoR0AEeyJa8k4nbiKVw">
+          <body>뉴스 구독을 신청한 사용자에게 최신 뉴스를 발송하는 서비스클래스다.&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_JepykB0AEeyJa8k4nbiKVw" name="messenger" visibility="private" type="_JWeG8B0AEeyJa8k4nbiKVw" association="_JfmNwR0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfOaVx0AEeyJa8k4nbiKVw" name="NewsService" specification="_JdyP4B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfOaWB0AEeyJa8k4nbiKVw" name="messenger" type="_JWeG8B0AEeyJa8k4nbiKVw"/>
+          <ownedParameter xmi:id="_JfOaWR0AEeyJa8k4nbiKVw" type="_JWofAB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>this.messenger = messenger;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfPBYB0AEeyJa8k4nbiKVw" name="setMessenger" specification="_JdzeAB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfPBYR0AEeyJa8k4nbiKVw" name="messenger" type="_JWeG8B0AEeyJa8k4nbiKVw"/>
+          <language>java</language>
+          <body>this.messenger = messenger;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfPBYh0AEeyJa8k4nbiKVw" name="broadcastNews" specification="_JWswcB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfPBYx0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfPBZB0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfPBZR0AEeyJa8k4nbiKVw" name="news">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>messenger.sendMessage(from, to, news);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWqUMB0AEeyJa8k4nbiKVw" name="NewsService">
+          <eAnnotations xmi:id="_JWq7QB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JWq7QR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JWriUR0AEeyJa8k4nbiKVw" type="_JWofAB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JWswcB0AEeyJa8k4nbiKVw" name="broadcastNews" method="_JfPBYh0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_JfbOpB0AEeyJa8k4nbiKVw">
+            <body>최신뉴스를 구독자에게 발송한다.&#xD;
+	 * @param from 뉴스를 보내는 곳&#xD;
+	 * @param to 뉴스를 수신하는 곳&#xD;
+	 * @param news 최신 뉴스</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JWswcR0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWswch0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWswcx0AEeyJa8k4nbiKVw" name="news">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JdyP4B0AEeyJa8k4nbiKVw" name="NewsService" method="_JfOaVx0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_Jdy28B0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_Jdy28R0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_JfbOoh0AEeyJa8k4nbiKVw">
+            <body>Messenger류 객체의 주소값을 전달받아서 멤버변수에 대입해는 생성자 메소드다.&#xD;
+	 * @param messenger</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JdyP4R0AEeyJa8k4nbiKVw" name="messenger" type="_JWeG8B0AEeyJa8k4nbiKVw"/>
+          <ownedParameter xmi:id="_Jdy28h0AEeyJa8k4nbiKVw" type="_JWofAB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JdzeAB0AEeyJa8k4nbiKVw" name="setMessenger" method="_JfPBYB0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_JfbOox0AEeyJa8k4nbiKVw">
+            <body>Messenger류 객체의 주소값을 전달받아서 멤버변수에 대입하는 setter 메소드다.&#xD;
+	 * @param messenger</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JdzeAR0AEeyJa8k4nbiKVw" name="messenger" type="_JWeG8B0AEeyJa8k4nbiKVw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWuloB0AEeyJa8k4nbiKVw" name="NewsServiceApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfPBZh0AEeyJa8k4nbiKVw" name="main" specification="_JWvzwB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfPBZx0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfPBaB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Messenger messenger1 = new Messenger();&#xD;
+		KakaoTalkMessenger messenger2 = new KakaoTalkMessenger(&quot;홍길동&quot;, &quot;고양이사진&quot;);&#xD;
+		EmailMessenger messenger3 = new EmailMessenger(&quot;admin&quot;, &quot;zxcv1234&quot;);&#xD;
+		&#xD;
+		NewsService service = new NewsService();&#xD;
+		service.setMessenger(messenger3);&#xD;
+		service.broadcastNews(&quot;010-1111-1111&quot;, &quot;010-2222-2222&quot;, &quot;코로나가 종식되었습니다.&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWvzwB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfPBZh0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JWvzwR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JWvzwh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_JflmsB0AEeyJa8k4nbiKVw" name="" memberEnd="_JflmsR0AEeyJa8k4nbiKVw _JenWUB0AEeyJa8k4nbiKVw">
+        <ownedEnd xmi:id="_JflmsR0AEeyJa8k4nbiKVw" name="" type="_JWIvwB0AEeyJa8k4nbiKVw" association="_JflmsB0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_JfmNwR0AEeyJa8k4nbiKVw" name="" memberEnd="_JfmNwh0AEeyJa8k4nbiKVw _JepykB0AEeyJa8k4nbiKVw">
+        <ownedEnd xmi:id="_JfmNwh0AEeyJa8k4nbiKVw" name="" type="_JWofAB0AEeyJa8k4nbiKVw" association="_JfmNwR0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JSeXwB0AEeyJa8k4nbiKVw" name="example_09_17_polymorphism">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWwa0B0AEeyJa8k4nbiKVw" name="Employee">
+        <generalization xmi:id="_Jd0sIB0AEeyJa8k4nbiKVw" general="_JZJngB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_JeqZoR0AEeyJa8k4nbiKVw" name="dept" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JerAsB0AEeyJa8k4nbiKVw" name="job" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JernwB0AEeyJa8k4nbiKVw" name="salary" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfPBaR0AEeyJa8k4nbiKVw" name="Employee" specification="_JWy3EB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfPBah0AEeyJa8k4nbiKVw" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfPBax0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfPBbB0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfPBbR0AEeyJa8k4nbiKVw" name="dept">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfPBbh0AEeyJa8k4nbiKVw" name="job">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfPBbx0AEeyJa8k4nbiKVw" name="salary">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfPBcB0AEeyJa8k4nbiKVw" type="_JWwa0B0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>super(type, name, tel);&#xD;
+		this.dept = dept;&#xD;
+		this.job =job;&#xD;
+		this.salary = salary;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfPocB0AEeyJa8k4nbiKVw" name="print" specification="_JWzeIB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>super.print();&#xD;
+		System.out.println(&quot;소속부서: &quot; + dept);&#xD;
+		System.out.println(&quot;담당업무: &quot; + job);&#xD;
+		System.out.println(&quot;급여: &quot; + salary);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JWxB4B0AEeyJa8k4nbiKVw" name="Employee">
+          <eAnnotations xmi:id="_JWxo8B0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JWxo8R0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JWxo8x0AEeyJa8k4nbiKVw" type="_JWwa0B0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JWy3EB0AEeyJa8k4nbiKVw" name="Employee" method="_JfPBaR0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JWy3Fx0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JWy3GB0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JWy3ER0AEeyJa8k4nbiKVw" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWy3Eh0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWy3Ex0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWy3FB0AEeyJa8k4nbiKVw" name="dept">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWy3FR0AEeyJa8k4nbiKVw" name="job">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWy3Fh0AEeyJa8k4nbiKVw" name="salary">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JWy3GR0AEeyJa8k4nbiKVw" type="_JWwa0B0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JWzeIB0AEeyJa8k4nbiKVw" name="print" method="_JfPocB0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JW3IgB0AEeyJa8k4nbiKVw" name="PersonApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfPocR0AEeyJa8k4nbiKVw" name="main" specification="_JW49sB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfPoch0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfPocx0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Scanner scan = new Scanner(System.in);&#xD;
+		PersonService personService = new PersonService();&#xD;
+		&#xD;
+		while (true) {&#xD;
+			System.out.println(&quot;----------------------------------------------&quot;);&#xD;
+			System.out.println(&quot;1.조회  2.등록  3.검색  0.종료&quot;);&#xD;
+			System.out.println(&quot;----------------------------------------------&quot;);&#xD;
+			&#xD;
+			System.out.print(&quot;메뉴 번호 입력: &quot;);&#xD;
+			int menuNo = scan.nextInt();&#xD;
+			&#xD;
+			if (menuNo == 1) {&#xD;
+				System.out.println(&quot;[조회]&quot;);&#xD;
+				personService.printAllPerson();&#xD;
+				&#xD;
+			} else if (menuNo == 2) {&#xD;
+				System.out.println(&quot;[신규 등록]&quot;);&#xD;
+				System.out.println(&quot;### 신규 등록할 학생, 교수 혹은 직원정보를 입력하세요.&quot;);&#xD;
+				&#xD;
+				System.out.print(&quot;이름 입력: &quot;);&#xD;
+				String name = scan.next();&#xD;
+				&#xD;
+				System.out.print(&quot;전화번호 입력: &quot;);&#xD;
+				String tel = scan.next();&#xD;
+				&#xD;
+				System.out.print(&quot;등록타입 선택(학생, 교수, 직원 중 택일): &quot;);&#xD;
+				String type = scan.next();&#xD;
+				if (&quot;교수&quot;.equals(type)) {&#xD;
+					System.out.print(&quot;담당학과 입력: &quot;);&#xD;
+					String dept = scan.next();&#xD;
+					&#xD;
+					System.out.print(&quot;직위 입력: &quot;);&#xD;
+					String position = scan.next();&#xD;
+					&#xD;
+					System.out.print(&quot;연구과제 입력: &quot;);&#xD;
+					String researchProject = scan.next();&#xD;
+					&#xD;
+					Professor professor = new Professor(type, name, tel, dept, position, researchProject);&#xD;
+					personService.addNewPerson(professor);&#xD;
+					&#xD;
+				} else if (&quot;학생&quot;.equals(type)) {&#xD;
+					System.out.print(&quot;학년 입력: &quot;);&#xD;
+					int grade = scan.nextInt();&#xD;
+							&#xD;
+					System.out.print(&quot;소속학과 입력: &quot;);&#xD;
+					String dept = scan.next();&#xD;
+					&#xD;
+					new Student();&#xD;
+					&#xD;
+					Student student = new Student(type, name, tel, grade, dept);&#xD;
+					personService.addNewPerson(student);&#xD;
+					&#xD;
+				} else if (&quot;직원&quot;.equals(type)) {&#xD;
+					System.out.print(&quot;소속부서 입력: &quot;);&#xD;
+					String dept = scan.next();&#xD;
+					&#xD;
+					System.out.print(&quot;업무 입력: &quot;);&#xD;
+					String job = scan.next();&#xD;
+					&#xD;
+					System.out.print(&quot;급여 입력: &quot;);&#xD;
+					int salary = scan.nextInt();&#xD;
+					&#xD;
+					new Employee();&#xD;
+					&#xD;
+					Employee employee = new Employee(type, name, tel, dept, job, salary);&#xD;
+					personService.addNewPerson(employee);&#xD;
+					&#xD;
+				}&#xD;
+			&#xD;
+				&#xD;
+			} else if (menuNo == 3) {&#xD;
+				System.out.println(&quot;[검색]&quot;);&#xD;
+				&#xD;
+				System.out.print(&quot;검색방식 입력(번호, 이름 중 택일)&quot;);&#xD;
+				String opt = scan.next();&#xD;
+				&#xD;
+				if (&quot;번호&quot;.equals(opt)) {&#xD;
+					System.out.print(&quot;번호 입력: &quot;);&#xD;
+					int no = scan.nextInt();&#xD;
+					// 반환타입이 참조자료형인 메소드의 반환값은 null일 수도 있다.&#xD;
+					Person person = personService.searchPerson(no);&#xD;
+					if(person != null) {&#xD;
+						person.print();&#xD;
+					} else {&#xD;
+						System.out.println(&quot;### 입력한 번호와 일치하는 정보가 없습니다.&quot;);&#xD;
+					}&#xD;
+					&#xD;
+				} else if (&quot;이름&quot;.equals(opt)) {&#xD;
+					System.out.print(&quot;이름 입력: &quot;);&#xD;
+					String name = scan.next();&#xD;
+					// 반환타입이 참조자료형인 메소드의 반환값은 null일 수도 있다.&#xD;
+					Person person = personService.searchPerson(name);&#xD;
+					if(person != null) {&#xD;
+						person.print();&#xD;
+					} else {&#xD;
+						System.out.println(&quot;### 입력한 이름과 일치하는 정보가 없습니다.&quot;);&#xD;
+					}&#xD;
+				}&#xD;
+				&#xD;
+			} else if (menuNo == 0) {&#xD;
+				System.out.println(&quot;[프로그램 종료]&quot;);&#xD;
+				break;&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		scan.close();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JW49sB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfPocR0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JW5kwB0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JW6L0B0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JW6y4B0AEeyJa8k4nbiKVw" name="PersonService">
+        <ownedComment xmi:id="_Jfb1sB0AEeyJa8k4nbiKVw">
+          <body>학생, 교수, 교직원에 대한 등록, 조회, 통계 정보를 제공하는 클래스다.&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_JernwR0AEeyJa8k4nbiKVw" name="database" visibility="private" type="_JZJngB0AEeyJa8k4nbiKVw" association="_Jfm00R0AEeyJa8k4nbiKVw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JesO0B0AEeyJa8k4nbiKVw" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Jes14B0AEeyJa8k4nbiKVw" value="new Person[100]"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Jetc8R0AEeyJa8k4nbiKVw" name="position" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Jetc8h0AEeyJa8k4nbiKVw" value="0"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfPodB0AEeyJa8k4nbiKVw" name="PersonService" specification="_JW8oEB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfPodR0AEeyJa8k4nbiKVw" type="_JW6y4B0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>database[position++] = new Student(&quot;학생&quot;, &quot;홍길동&quot;, &quot;010-1111-2222&quot;, 3, &quot;전자공학과&quot;);&#xD;
+	      database[position++] = new Student(&quot;학생&quot;, &quot;김유신&quot;, &quot;010-2222-3333&quot;, 2, &quot;컴퓨터공학과&quot;);&#xD;
+	      database[position++] = new Student(&quot;학생&quot;, &quot;강감찬&quot;, &quot;010-3333-4444&quot;, 1, &quot;전자공학과&quot;);&#xD;
+	      database[position++] = new Student(&quot;학생&quot;, &quot;이순신&quot;, &quot;010-4444-5555&quot;, 4, &quot;기계공학과&quot;);&#xD;
+	      database[position++] = new Student(&quot;학생&quot;, &quot;류관순&quot;, &quot;010-5555-6666&quot;, 3, &quot;기계공학과&quot;);&#xD;
+	      database[position++] = new Student(&quot;학생&quot;, &quot;안중근&quot;, &quot;010-6666-7777&quot;, 2, &quot;전자공학과&quot;);&#xD;
+	      database[position++] = new Professor(&quot;교수&quot;, &quot;김교수&quot;, &quot;010-7777-8888&quot;, &quot;전자공학&quot;, &quot;부교수&quot;, &quot;빅데이터 분석 알고리즘&quot;);&#xD;
+	      database[position++] = new Professor(&quot;교수&quot;, &quot;이교수&quot;, &quot;010-8888-9999&quot;, &quot;기계공학&quot;, &quot;정교수&quot;, &quot;극지방 탐험 로보트&quot;);&#xD;
+	      database[position++] = new Professor(&quot;교수&quot;, &quot;박교수&quot;, &quot;010-9999-0000&quot;, &quot;전자공학&quot;, &quot;조교수&quot;, &quot;인공지능 로보트&quot;);&#xD;
+	      database[position++] = new Professor(&quot;교수&quot;, &quot;최교수&quot;, &quot;010-0000-1111&quot;, &quot;컴퓨터공학&quot;, &quot;부교수&quot;, &quot;자동 데이터분석 머신&quot;);&#xD;
+	      database[position++] = new Employee(&quot;직원&quot;, &quot;안창호&quot;, &quot;010-1111-3333&quot;, &quot;교육팀&quot;, &quot;과장&quot;, 4_500_000);&#xD;
+	      database[position++] = new Employee(&quot;직원&quot;, &quot;이봉창&quot;, &quot;010-3333-5555&quot;, &quot;인사팀&quot;, &quot;대리&quot;, 3_500_000);&#xD;
+	      database[position++] = new Employee(&quot;직원&quot;, &quot;윤봉길&quot;, &quot;010-5555-7777&quot;, &quot;인사팀&quot;, &quot;과장&quot;, 4_500_000);&#xD;
+	      database[position++] = new Employee(&quot;직원&quot;, &quot;김좌진&quot;, &quot;010-7777-8888&quot;, &quot;교육팀&quot;, &quot;대리&quot;, 3_500_000);&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfQPgB0AEeyJa8k4nbiKVw" name="addNewPerson" specification="_Jd2hUB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfQPgR0AEeyJa8k4nbiKVw" name="person" type="_JZJngB0AEeyJa8k4nbiKVw"/>
+          <language>java</language>
+          <body>// 매개변수의 다형성이 적용되었다. Person 타입의 매개변수는 Student/Professor/Employee 객체를 전달받을 수 있다.&#xD;
+		database[position] = person;&#xD;
+		position++;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfQPgh0AEeyJa8k4nbiKVw" name="printAllPerson" specification="_JW92MB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>for (Person person : database) {&#xD;
+			if (person == null) {&#xD;
+				break;&#xD;
+			}&#xD;
+			// person 참조변수는 Student/Professor/Employee 객체의 상위객체인 Person객체를 참조하고 있다.&#xD;
+			// person 참조변수로 print()를 실행하면, person참조변수가 참조하는 Person객체의 print가 실행되는 것이 아니라&#xD;
+			// Student/Professor/Employee객체에 재정의된 print() 메소드가 실행된다.&#xD;
+			person.print();&#xD;
+			System.out.println();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfQPgx0AEeyJa8k4nbiKVw" name="searchPerson" specification="_JW92MR0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfQPhB0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQPhR0AEeyJa8k4nbiKVw" type="_JZJngB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>// 반환타입의 다형성이 적용되었다. Person 타입의 반환타입은 Student/Professor/Employee 객체를 모두 반환할 수 있다.&#xD;
+		Person foundPerson = null;&#xD;
+		&#xD;
+		for (Person person : database) {&#xD;
+			if (person != null &amp;&amp; person.getNo() == no) { // 두개의 순서가 바뀌면 안된다.&#xD;
+				foundPerson = person;&#xD;
+				break;&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return foundPerson;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfQPhh0AEeyJa8k4nbiKVw" name="searchPerson" specification="_JW_rYB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfQPhx0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQPiB0AEeyJa8k4nbiKVw" type="_JZJngB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>// 메소드 중복정의&#xD;
+		for (Person person : database) {&#xD;
+			if (person != null &amp;&amp; person.getName().equals(name)) {&#xD;
+				return person;&#xD;
+			} &#xD;
+		}&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JW8oEB0AEeyJa8k4nbiKVw" name="PersonService" method="_JfPodB0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JW8oER0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JW9PIB0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_Jfb1sR0AEeyJa8k4nbiKVw">
+            <body>PersonService의 기본 생성자 메소드다.&lt;br/>&#xD;
+	 * 테스트를 위해서 위의 database참조변수가 참조하는 배열에 테스트용 정보를 저장한다.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JW9PIR0AEeyJa8k4nbiKVw" type="_JW6y4B0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JW92MB0AEeyJa8k4nbiKVw" name="printAllPerson" method="_JfQPgh0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_Jfb1sx0AEeyJa8k4nbiKVw">
+            <body>모든 사람정보를 화면에 출력한다.</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JW92MR0AEeyJa8k4nbiKVw" name="searchPerson" method="_JfQPgx0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_Jfb1tB0AEeyJa8k4nbiKVw">
+            <body>지정된 번호로 사람을 찾아서 반환한다.&#xD;
+	 * @param no 일련번호&#xD;
+	 * @return 사람정보, null일 수 있음</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JW-dQB0AEeyJa8k4nbiKVw" name="no">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Jd3IYB0AEeyJa8k4nbiKVw" type="_JZJngB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JW_rYB0AEeyJa8k4nbiKVw" name="searchPerson" method="_JfQPhh0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_Jfb1tR0AEeyJa8k4nbiKVw">
+            <body>지정된 이름으로 사람을 찾아서 반환한다.&#xD;
+	 * @param name 검색할 이름&#xD;
+	 * @return 사람정보, null일 수 있음</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_JW_rYR0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Jd3IYR0AEeyJa8k4nbiKVw" type="_JZJngB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Jd2hUB0AEeyJa8k4nbiKVw" name="addNewPerson" method="_JfQPgB0AEeyJa8k4nbiKVw">
+          <ownedComment xmi:id="_Jfb1sh0AEeyJa8k4nbiKVw">
+            <body>지정된 사람을 데이터베이스에 저장한다.&#xD;
+	 * @param person 학생, 교수 혹은 교직원 정보</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_Jd2hUR0AEeyJa8k4nbiKVw" name="person" type="_JZJngB0AEeyJa8k4nbiKVw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXCusB0AEeyJa8k4nbiKVw" name="Professor">
+        <generalization xmi:id="_Jd3vcB0AEeyJa8k4nbiKVw" general="_JZJngB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_JeurEB0AEeyJa8k4nbiKVw" name="dept" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JeurER0AEeyJa8k4nbiKVw" name="position" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JeurEh0AEeyJa8k4nbiKVw" name="researchProject" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfQ2kB0AEeyJa8k4nbiKVw" name="Professor" specification="_JXGZEB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfQ2kR0AEeyJa8k4nbiKVw" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2kh0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2kx0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2lB0AEeyJa8k4nbiKVw" name="dept">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2lR0AEeyJa8k4nbiKVw" name="position">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2lh0AEeyJa8k4nbiKVw" name="reserchProject">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2lx0AEeyJa8k4nbiKVw" type="_JXCusB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>super(type, name, tel);&#xD;
+		this.dept = dept;&#xD;
+		this.position = position;&#xD;
+		this.researchProject = reserchProject;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfQ2mB0AEeyJa8k4nbiKVw" name="print" specification="_JXKDcB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>super.print();&#xD;
+		System.out.println(&quot;담당학과: &quot; + dept);&#xD;
+		System.out.println(&quot;직위: &quot; + position);&#xD;
+		System.out.println(&quot;연구과제: &quot; + researchProject);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXEj4B0AEeyJa8k4nbiKVw" name="Professor">
+          <eAnnotations xmi:id="_JXFK8B0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JXFK8R0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JXFK8x0AEeyJa8k4nbiKVw" type="_JXCusB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JXGZEB0AEeyJa8k4nbiKVw" name="Professor" method="_JfQ2kB0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JXHnMB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JXIOQB0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JXHAIB0AEeyJa8k4nbiKVw" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXHAIR0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXHAIh0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXHAIx0AEeyJa8k4nbiKVw" name="dept">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXHAJB0AEeyJa8k4nbiKVw" name="position">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXHAJR0AEeyJa8k4nbiKVw" name="reserchProject">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXIOQR0AEeyJa8k4nbiKVw" type="_JXCusB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JXKDcB0AEeyJa8k4nbiKVw" name="print" method="_JfQ2mB0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXNGwB0AEeyJa8k4nbiKVw" name="Student">
+        <generalization xmi:id="_Jd4WgB0AEeyJa8k4nbiKVw" general="_JZJngB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_JevSIB0AEeyJa8k4nbiKVw" name="grade" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JevSIR0AEeyJa8k4nbiKVw" name="dept" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfQ2mR0AEeyJa8k4nbiKVw" name="Student" specification="_JXRYMB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfQ2mh0AEeyJa8k4nbiKVw" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2mx0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2nB0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2nR0AEeyJa8k4nbiKVw" name="grade">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2nh0AEeyJa8k4nbiKVw" name="dept">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfQ2nx0AEeyJa8k4nbiKVw" type="_JXNGwB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>super(type, name, tel);&#xD;
+		this.grade = grade;&#xD;
+		this.dept = dept;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfQ2oB0AEeyJa8k4nbiKVw" name="print" specification="_JXTNYB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>super.print();&#xD;
+		System.out.println(&quot;학년: &quot; + grade);&#xD;
+		System.out.println(&quot;소속학과: &quot; + dept);		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXO78B0AEeyJa8k4nbiKVw" name="Student">
+          <eAnnotations xmi:id="_JXO78R0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JXPjAB0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JXQxIB0AEeyJa8k4nbiKVw" type="_JXNGwB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JXRYMB0AEeyJa8k4nbiKVw" name="Student" method="_JfQ2mR0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JXSmUB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JXSmUR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JXR_QB0AEeyJa8k4nbiKVw" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXR_QR0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXR_Qh0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXR_Qx0AEeyJa8k4nbiKVw" name="grade">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXR_RB0AEeyJa8k4nbiKVw" name="dept">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXSmUh0AEeyJa8k4nbiKVw" type="_JXNGwB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JXTNYB0AEeyJa8k4nbiKVw" name="print" method="_JfQ2oB0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JZJngB0AEeyJa8k4nbiKVw" name="Person">
+        <ownedAttribute xmi:id="_Je8tgB0AEeyJa8k4nbiKVw" name="atomicInteger" visibility="private" isStatic="true" type="_JeHAAB0AEeyJa8k4nbiKVw" association="_Jfnb4x0AEeyJa8k4nbiKVw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_Je8tgR0AEeyJa8k4nbiKVw" value="new AtomicInteger(1000)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Je97oB0AEeyJa8k4nbiKVw" name="no" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Je97oR0AEeyJa8k4nbiKVw" name="type" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Je97oh0AEeyJa8k4nbiKVw" name="name" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Je-isB0AEeyJa8k4nbiKVw" name="tel" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfW9OB0AEeyJa8k4nbiKVw" name="Person" specification="_JZNR4B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfW9OR0AEeyJa8k4nbiKVw" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfW9Oh0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfW9Ox0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfW9PB0AEeyJa8k4nbiKVw" type="_JZJngB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>this.no = atomicInteger.getAndIncrement();&#xD;
+		this.type = type;&#xD;
+		this.name = name;&#xD;
+		this.tel = tel;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfW9PR0AEeyJa8k4nbiKVw" name="print" specification="_JZOgAB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;일련번호: &quot; + no);&#xD;
+		System.out.println(&quot;구분: &quot; + type);&#xD;
+		System.out.println(&quot;이름: &quot; + name);&#xD;
+		System.out.println(&quot;전화번호: &quot; + tel);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JZK1oB0AEeyJa8k4nbiKVw" name="Person">
+          <eAnnotations xmi:id="_JZLcsB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JZLcsR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JZMq0B0AEeyJa8k4nbiKVw" type="_JZJngB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JZNR4B0AEeyJa8k4nbiKVw" name="Person" method="_JfW9OB0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JZN48x0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JZN49B0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JZN48B0AEeyJa8k4nbiKVw" name="type">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZN48R0AEeyJa8k4nbiKVw" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZN48h0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZN49R0AEeyJa8k4nbiKVw" type="_JZJngB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JZOgAB0AEeyJa8k4nbiKVw" name="print" method="_JfW9PR0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Jfm00R0AEeyJa8k4nbiKVw" name="" memberEnd="_Jfm00h0AEeyJa8k4nbiKVw _JernwR0AEeyJa8k4nbiKVw">
+        <ownedEnd xmi:id="_Jfm00h0AEeyJa8k4nbiKVw" name="" type="_JW6y4B0AEeyJa8k4nbiKVw" association="_Jfm00R0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Jfnb4x0AEeyJa8k4nbiKVw" name="" memberEnd="_Jfnb5B0AEeyJa8k4nbiKVw _Je8tgB0AEeyJa8k4nbiKVw">
+        <ownedEnd xmi:id="_Jfnb5B0AEeyJa8k4nbiKVw" name="" type="_JZJngB0AEeyJa8k4nbiKVw" association="_Jfnb4x0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JSwEkB0AEeyJa8k4nbiKVw" name="example_09_23_Interface">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_JXWQsB0AEeyJa8k4nbiKVw" name="Car">
+        <ownedComment xmi:id="_JfccwB0AEeyJa8k4nbiKVw">
+          <body>모든 자동차 객체가 반드시 포함할 기능을 정의하는 인터페이스다.&lt;br/>&#xD;
+모든 자동차는 출발, 정지, 속도변경, 속도조회 기능이 있어야 한다.&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_JXXe0B0AEeyJa8k4nbiKVw" name="MIN_SPEED" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_JXYF4B0AEeyJa8k4nbiKVw" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JXZUAB0AEeyJa8k4nbiKVw" name="MAX_SPEED">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_JXZUAR0AEeyJa8k4nbiKVw" value="200"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_JXbJMx0AEeyJa8k4nbiKVw" name="currentSpeed" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_JXaiIR0AEeyJa8k4nbiKVw" name="start" isAbstract="true"/>
+        <ownedOperation xmi:id="_JXbJMB0AEeyJa8k4nbiKVw" name="stop" isAbstract="true"/>
+        <ownedOperation xmi:id="_JXbJMR0AEeyJa8k4nbiKVw" name="speedUp"/>
+        <ownedOperation xmi:id="_JXbJMh0AEeyJa8k4nbiKVw" name="speedDown"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXbwQB0AEeyJa8k4nbiKVw" name="CarApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfRdoB0AEeyJa8k4nbiKVw" name="main" specification="_JXcXUB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfRdoR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfRdoh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// 구현클래스는 인터페이스의 자식이다.&#xD;
+		// 인터페이스 타입의 참조변수로 자식 객체를 참조할 수 있다.&#xD;
+		Car car1 = new Sonata();&#xD;
+		Car car2 = new Genesis();&#xD;
+		&#xD;
+		car1.start();&#xD;
+		car1.speedUp();&#xD;
+		car1.speedDown();&#xD;
+		int car1Speed = car1.getCurrentSpeed();&#xD;
+		System.out.println(&quot;car1의 현재속도: &quot; + car1Speed);&#xD;
+		car1.stop();&#xD;
+		&#xD;
+		car2.start();&#xD;
+		car2.speedUp();&#xD;
+		car2.speedDown();&#xD;
+		int car2Speed = car2.getCurrentSpeed();&#xD;
+		System.out.println(&quot;car2의 현재속도: &quot; + car2Speed);&#xD;
+		car2.stop();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXcXUB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfRdoB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JXcXUR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JXc-YB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXeMgR0AEeyJa8k4nbiKVw" name="Company">
+        <ownedAttribute xmi:id="_Jev5MB0AEeyJa8k4nbiKVw" name="reporter" visibility="private" type="_JXwgYB0AEeyJa8k4nbiKVw" association="_Jfnb4B0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfRdph0AEeyJa8k4nbiKVw" name="setReporter" specification="_Jd6LsB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfRdpx0AEeyJa8k4nbiKVw" name="reporter" type="_JXwgYB0AEeyJa8k4nbiKVw"/>
+          <language>java</language>
+          <body>this.reporter = reporter;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfRdqB0AEeyJa8k4nbiKVw" name="displayCompanyEarnings" specification="_JXezkB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>reporter.printReport();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXezkB0AEeyJa8k4nbiKVw" name="displayCompanyEarnings" method="_JfRdqB0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_Jd6LsB0AEeyJa8k4nbiKVw" name="setReporter" method="_JfRdph0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_Jd6ywB0AEeyJa8k4nbiKVw" name="reporter" type="_JXwgYB0AEeyJa8k4nbiKVw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXgBsB0AEeyJa8k4nbiKVw" name="CompanyApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSEsB0AEeyJa8k4nbiKVw" name="main" specification="_JXgowB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfSEsR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfSEsh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// 영업이익 Data&#xD;
+		String title = &quot;영업1팀 영업이익 현황&quot;;&#xD;
+		String[] columns = {&quot;부서명&quot;, &quot;총매출액&quot;, &quot;영업이익&quot;};&#xD;
+		String[] data = {&quot;영업1팀&quot;, &quot;100억원&quot;, &quot;20억원&quot;};&#xD;
+		&#xD;
+		// Reporter 인터페이스 구현객체 생성하기&#xD;
+		ExcelReporter excel = new ExcelReporter(title, columns, data);&#xD;
+		&#xD;
+		// Company 객체 생성하기&#xD;
+		Company company = new Company();&#xD;
+		&#xD;
+		// Company 객체가 사용할 Reporter 인터페이스 구현객체를 전달하기&#xD;
+		company.setReporter(excel);&#xD;
+		&#xD;
+		// 영업이익을 리포트로 출력하기&#xD;
+		company.displayCompanyEarnings();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXgowB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfSEsB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JXgowR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JXhP0B0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXhP0R0AEeyJa8k4nbiKVw" name="CompanyApp2">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSEsx0AEeyJa8k4nbiKVw" name="main" specification="_JXjFAB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfSEtB0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfSEtR0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String title = &quot;영업1팀 영업이익 현황&quot;;&#xD;
+		String[] columnLabels = {&quot;총매출액&quot;, &quot;영업이익&quot;};&#xD;
+		int[] values = {350_000_000, 120_000_000};&#xD;
+		&#xD;
+		ChartReporter chart = new ChartReporter(title, columnLabels, values);&#xD;
+		&#xD;
+		Company company = new Company();&#xD;
+		company.setReporter(chart);&#xD;
+		&#xD;
+		company.displayCompanyEarnings();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXjFAB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfSEsx0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JXjFAR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JXjsEB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXuEIB0AEeyJa8k4nbiKVw" name="ReporterApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSrwh0AEeyJa8k4nbiKVw" name="main" specification="_JXvSQB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfSrwx0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfSrxB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String title = &quot;회원목록&quot;;&#xD;
+		String[] columns = {&quot;순번&quot;, &quot;이름&quot;, &quot;연락처&quot;};&#xD;
+		String[] data = {&quot;100&quot;, &quot;홍길동&quot;, &quot;010-1111-1111&quot;};&#xD;
+		&#xD;
+		ExcelReporter excel = new ExcelReporter(title, columns, data);&#xD;
+		excel.printReport();&#xD;
+		&#xD;
+		System.out.println();&#xD;
+		&#xD;
+		title = &quot;매출현황&quot;;&#xD;
+		columns = new String[]{&quot;부서명&quot;, &quot;총매출액&quot;, &quot;영업이익&quot;};&#xD;
+		data = new String[] {&quot;영업1팀&quot;, &quot;100억원&quot;, &quot;15억원&quot;};&#xD;
+		excel = new ExcelReporter(title, columns, data);&#xD;
+		excel.printReport();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXvSQB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfSrwh0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JXv5UB0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JXv5UR0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_JXwgYB0AEeyJa8k4nbiKVw" name="Reporter">
+        <ownedOperation xmi:id="_JXwgYR0AEeyJa8k4nbiKVw" name="printReport"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXwgYh0AEeyJa8k4nbiKVw" name="Genesis">
+        <ownedAttribute xmi:id="_JexHUB0AEeyJa8k4nbiKVw" name="speed" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_Jd-dIB0AEeyJa8k4nbiKVw" client="_JXwgYh0AEeyJa8k4nbiKVw" supplier="_JXWQsB0AEeyJa8k4nbiKVw" contract="_JXWQsB0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSrxR0AEeyJa8k4nbiKVw" name="start" specification="_JXxHcB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스를 출발시킨다.&quot;);&#xD;
+		speed = 20;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSrxh0AEeyJa8k4nbiKVw" name="stop" specification="_JXyVkB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스를 정지시킨다.&quot;);&#xD;
+		speed = 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSrxx0AEeyJa8k4nbiKVw" name="speedUp" specification="_JX0KwB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 속도를 높힌다.&quot;);&#xD;
+		speed += 10;&#xD;
+		if (speed > Car.MAX_SPEED) {&#xD;
+			speed = Car.MAX_SPEED;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSryB0AEeyJa8k4nbiKVw" name="speedDown" specification="_JX1_8h0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 속도를 낮춘다.&quot;);&#xD;
+		speed -= 10;&#xD;
+		if (speed &lt; Car.MIN_SPEED) {&#xD;
+			speed = Car.MIN_SPEED;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfTS0B0AEeyJa8k4nbiKVw" name="getCurrentSpeed" specification="_JX4cMR0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfTS0R0AEeyJa8k4nbiKVw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 현재 속도를 반환한다.&quot;);&#xD;
+		return speed;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXxHcB0AEeyJa8k4nbiKVw" name="start" method="_JfSrxR0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JXyVkB0AEeyJa8k4nbiKVw" name="stop" method="_JfSrxh0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JX0KwB0AEeyJa8k4nbiKVw" name="speedUp" method="_JfSrxx0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JX1_8h0AEeyJa8k4nbiKVw" name="speedDown" method="_JfSryB0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JX4cMR0AEeyJa8k4nbiKVw" name="getCurrentSpeed" method="_JfTS0B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JX5DQB0AEeyJa8k4nbiKVw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JX-i0B0AEeyJa8k4nbiKVw" name="Sonata">
+        <ownedComment xmi:id="_JfdD0B0AEeyJa8k4nbiKVw">
+          <body>Sonata는 Car 인터페이스의 모든 기능을 구현하는 구현클래스다.&lt;br>&#xD;
+Sonata는 Car에 정의된 구현부가 없는 메소드를 전부 재정의해야 한다.&#xD;
+@author 박성근&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_Jey8gB0AEeyJa8k4nbiKVw" name="speed" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_Jd_rQB0AEeyJa8k4nbiKVw" client="_JX-i0B0AEeyJa8k4nbiKVw" supplier="_JXWQsB0AEeyJa8k4nbiKVw" contract="_JXWQsB0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfTS0h0AEeyJa8k4nbiKVw" name="start" specification="_JX_w8B0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;소나타를 출발시킨다.&quot;);&#xD;
+		speed = 10;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfTS0x0AEeyJa8k4nbiKVw" name="stop" specification="_JYCNMR0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;소나타를 정지시킨다.&quot;);&#xD;
+		speed = 0;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfTS1B0AEeyJa8k4nbiKVw" name="speedUp" specification="_JYEpcB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;소나타의 속도를 높힌다.&quot;);&#xD;
+		speed += 5;&#xD;
+		if (speed > Car.MAX_SPEED) {&#xD;
+			speed = Car.MAX_SPEED;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfTS1R0AEeyJa8k4nbiKVw" name="speedDown" specification="_JYGeoB0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;소나타의 속도를 낮춘다.&quot;);&#xD;
+		speed -= 5;&#xD;
+		if (speed &lt; Car.MIN_SPEED) {&#xD;
+			speed = Car.MIN_SPEED;&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfTS1h0AEeyJa8k4nbiKVw" name="getCurrentSpeed" specification="_JYLXIB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfTS1x0AEeyJa8k4nbiKVw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;소나타의 현재 속도를 반환한다.&quot;);&#xD;
+		return speed;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JX_w8B0AEeyJa8k4nbiKVw" name="start" method="_JfTS0h0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JYCNMR0AEeyJa8k4nbiKVw" name="stop" method="_JfTS0x0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JYEpcB0AEeyJa8k4nbiKVw" name="speedUp" method="_JfTS1B0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JYGeoB0AEeyJa8k4nbiKVw" name="speedDown" method="_JfTS1R0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JYLXIB0AEeyJa8k4nbiKVw" name="getCurrentSpeed" method="_JfTS1h0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JYMlQB0AEeyJa8k4nbiKVw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JY2skB0AEeyJa8k4nbiKVw" name="ExcelReporter">
+        <ownedAttribute xmi:id="_Je1_0R0AEeyJa8k4nbiKVw" name="title" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Je2m4R0AEeyJa8k4nbiKVw" name="columns" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Je2m4h0AEeyJa8k4nbiKVw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Je31AB0AEeyJa8k4nbiKVw" name="data" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Je31AR0AEeyJa8k4nbiKVw" value="*"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_JeFK0B0AEeyJa8k4nbiKVw" client="_JY2skB0AEeyJa8k4nbiKVw" supplier="_JXwgYB0AEeyJa8k4nbiKVw" contract="_JXwgYB0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfVvEB0AEeyJa8k4nbiKVw" name="ExcelReporter" specification="_JY4hwB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfVvER0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfVvEh0AEeyJa8k4nbiKVw" name="columns">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfVvEx0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfVvFB0AEeyJa8k4nbiKVw" name="data">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfVvFR0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfVvFh0AEeyJa8k4nbiKVw" type="_JY2skB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>this.title = title;&#xD;
+		this.columns = columns;&#xD;
+		this.data = data;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfVvFx0AEeyJa8k4nbiKVw" name="printReport" specification="_JY5v4B0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;[ &quot; + title + &quot; ]&quot;);&#xD;
+		&#xD;
+		// 컬럼명 표시&#xD;
+		for (String column : columns) {&#xD;
+			System.out.print(column + &quot;\t&quot;);&#xD;
+		}&#xD;
+		System.out.println();&#xD;
+		&#xD;
+		// 데이터 표시&#xD;
+		for (String value : data) {&#xD;
+			System.out.print(value + &quot;\t&quot;);&#xD;
+		}&#xD;
+		System.out.println();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JY4hwB0AEeyJa8k4nbiKVw" name="ExcelReporter" method="_JfVvEB0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JY5I0B0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JY5I0R0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JY4hwR0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JY4hwh0AEeyJa8k4nbiKVw" name="columns">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JY5I0x0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JY4hwx0AEeyJa8k4nbiKVw" name="data">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JY5I1B0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JY5I0h0AEeyJa8k4nbiKVw" type="_JY2skB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JY5v4B0AEeyJa8k4nbiKVw" name="printReport" method="_JfVvFx0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JZBEoB0AEeyJa8k4nbiKVw" name="ChartReporter">
+        <ownedAttribute xmi:id="_Je5DIB0AEeyJa8k4nbiKVw" name="title" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Je6RQB0AEeyJa8k4nbiKVw" name="columnLabels" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Je6RQR0AEeyJa8k4nbiKVw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Je7fYB0AEeyJa8k4nbiKVw" name="values" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Je7fYR0AEeyJa8k4nbiKVw" value="*"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_JeGY8R0AEeyJa8k4nbiKVw" client="_JZBEoB0AEeyJa8k4nbiKVw" supplier="_JXwgYB0AEeyJa8k4nbiKVw" contract="_JXwgYB0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfW9MB0AEeyJa8k4nbiKVw" name="ChartReporter" specification="_JZBrsB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfW9MR0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfW9Mh0AEeyJa8k4nbiKVw" name="columnLabels">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfW9Mx0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfW9NB0AEeyJa8k4nbiKVw" name="values">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfW9NR0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfW9Nh0AEeyJa8k4nbiKVw" type="_JZBEoB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>this.title = title;&#xD;
+		this.columnLabels = columnLabels;&#xD;
+		this.values = values;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfW9Nx0AEeyJa8k4nbiKVw" name="printReport" specification="_JZCSxx0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;[&quot; + title + &quot;]\n&quot;);&#xD;
+		&#xD;
+		for (int index = 0; index &lt; columnLabels.length; index++) {&#xD;
+			System.out.print(columnLabels[index] + &quot;\t&quot;);&#xD;
+			&#xD;
+			int value = values[index];&#xD;
+			int startCount = value/10_000_000; // 천만원 단위마다 *를 하나씩 표시&#xD;
+			for (int i = 1; i &lt;= startCount; i++) {&#xD;
+				System.out.print(&quot;*&quot;);&#xD;
+			}&#xD;
+			&#xD;
+			System.out.println();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JZBrsB0AEeyJa8k4nbiKVw" name="ChartReporter" method="_JfW9MB0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JZCSwh0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JZCSwx0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JZBrsR0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZCSwB0AEeyJa8k4nbiKVw" name="columnLabels">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JZCSxR0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZCSwR0AEeyJa8k4nbiKVw" name="values">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JZCSxh0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZCSxB0AEeyJa8k4nbiKVw" type="_JZBEoB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JZCSxx0AEeyJa8k4nbiKVw" name="printReport" method="_JfW9Nx0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Jfnb4B0AEeyJa8k4nbiKVw" name="" memberEnd="_Jfnb4R0AEeyJa8k4nbiKVw _Jev5MB0AEeyJa8k4nbiKVw">
+        <ownedEnd xmi:id="_Jfnb4R0AEeyJa8k4nbiKVw" name="" type="_JXeMgR0AEeyJa8k4nbiKVw" association="_Jfnb4B0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JSzu8B0AEeyJa8k4nbiKVw" name="example_09_24_abstract">
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXc-YR0AEeyJa8k4nbiKVw" name="PhoneApp">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfRdox0AEeyJa8k4nbiKVw" name="main" specification="_JXdlcB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfRdpB0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JfRdpR0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Iphone객체를 Iphone타입의 참조변수가 참조한다.&#xD;
+		// Iphone은 구현클래스다.&#xD;
+		// Iphone은 AbstractPhone에 구현된 기능, AbstractSmartPhone에 구현된 기능을 상속받았다.&#xD;
+		// Iphone은 Phone인터페이스의 기능 중 AbstractPhone에서 구현하지 않은 on기능을 구현했다.&#xD;
+		// Iphone은 SmartPhone인터페이스의 기능 중 AbstractSmartPhone에 구현하지 않은 game기능을 구현했다.&#xD;
+		System.out.println(&quot;### Iphone객체를 Iphone타입의 참조변수로 참조하기&quot;);&#xD;
+		Iphone p1 = new Iphone(&quot;010-1111-1111&quot;, &quot;192.168.0.1&quot;, &quot;hong&quot;);&#xD;
+		p1.on();&#xD;
+		p1.call(&quot;010-2222-2222&quot;);&#xD;
+		p1.sms(&quot;010-2222-2222&quot;, &quot;점심에 보자&quot;);&#xD;
+		p1.off();&#xD;
+		p1.sendEmail(&quot;hong@gmail.com&quot;, &quot;kim@gmail.com&quot;, &quot;보고서&quot;, &quot;연차신청 보고서입니다.&quot;);&#xD;
+		p1.internet(&quot;https:google.com&quot;);&#xD;
+		p1.playgame();&#xD;
+		System.out.println();&#xD;
+		&#xD;
+		// Iphone객체를 SmartPhone타입의 참조변수가 참조한다.&#xD;
+		// SmartPhone은 인터페이스 타입이다.&#xD;
+		// SmartPhone 인터페이스에는 sendEmail, internet, game 기능이 선언되어 있다.&#xD;
+		System.out.println(&quot;### Iphone객체를 SmartPhone타입의 참조변수로 참조하기&quot;);&#xD;
+		SmartPhone p2 = new Iphone(&quot;010-1111-1111&quot;, &quot;192.168.0.1&quot;, &quot;hong&quot;);&#xD;
+		p2.sendEmail(&quot;hong@gmail.com&quot;, &quot;kim@gmail.com&quot;, &quot;보고서&quot;, &quot;연차신청 보고서입니다.&quot;);&#xD;
+		p2.internet(&quot;https:google.com&quot;);&#xD;
+		p2.playgame();&#xD;
+		System.out.println();&#xD;
+		&#xD;
+		// Iphone객체를 Phone타입의 참조변수가 참조한다.&#xD;
+		// Phone은 인터페이스 타입이다.&#xD;
+		// Phone 인터페이스에는 on, off, call, sms 기능이 선언되어 있다.&#xD;
+		System.out.println(&quot;### Iphone객체를 Phone타입의 참조변수로 참조하기&quot;);&#xD;
+		Phone p3 = new Iphone(&quot;010-1111-1111&quot;, &quot;192.168.0.1&quot;, &quot;hong&quot;);&#xD;
+		p3.on();&#xD;
+		p3.call(&quot;010-2222-2222&quot;);&#xD;
+		p3.sms(&quot;010-2222-2222&quot;, &quot;점심에 보자&quot;);&#xD;
+		p3.off();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXdlcB0AEeyJa8k4nbiKVw" name="main" isStatic="true" method="_JfRdox0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JXdlcR0AEeyJa8k4nbiKVw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JXeMgB0AEeyJa8k4nbiKVw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JXjsER0AEeyJa8k4nbiKVw" name="Iphone">
+        <ownedComment xmi:id="_JfccwR0AEeyJa8k4nbiKVw">
+          <body>Iphone&#xD;
+	-구현클래스다.&#xD;
+	-추상클래스인 AbstractPhone 클래스를 상속받았다.&#xD;
+	-Iphone이 Phone인터페이스 대신 AbstractPhone 추상클래스를 상속받았기 때문에&#xD;
+  추상클래스에서 구현되지 않은 on()메소드만 구현하면 된다.</body>
+        </ownedComment>
+        <generalization xmi:id="_Jd9PAB0AEeyJa8k4nbiKVw" general="_JYh8cB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_JewgQR0AEeyJa8k4nbiKVw" name="userId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSEth0AEeyJa8k4nbiKVw" name="Iphone" specification="_JXpLoB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfSEtx0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfSEuB0AEeyJa8k4nbiKVw" name="ip">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfSEuR0AEeyJa8k4nbiKVw" name="userId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfSEuh0AEeyJa8k4nbiKVw" type="_JXjsER0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>// AbstractPhone의 매개변수 있는 생성자를 호출하는 수행문&#xD;
+		super(tel, ip);&#xD;
+		this.userId = userId;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSrwB0AEeyJa8k4nbiKVw" name="on" specification="_JXqZwR0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;얼굴 인식으로 화면을 켭니다.&quot;);	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfSrwR0AEeyJa8k4nbiKVw" name="playgame" specification="_JXrn4h0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;애플 아케이드 게임을 플레이한다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JXk6MB0AEeyJa8k4nbiKVw" name="Iphone">
+          <eAnnotations xmi:id="_JXlhQB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JXlhQR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JXmvYR0AEeyJa8k4nbiKVw" type="_JXjsER0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JXpLoB0AEeyJa8k4nbiKVw" name="Iphone" method="_JfSEth0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JXpysx0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JXpytB0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JXpysB0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXpysR0AEeyJa8k4nbiKVw" name="ip">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXpysh0AEeyJa8k4nbiKVw" name="userId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JXqZwB0AEeyJa8k4nbiKVw" type="_JXjsER0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JXqZwR0AEeyJa8k4nbiKVw" name="on" method="_JfSrwB0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JXrn4h0AEeyJa8k4nbiKVw" name="playgame" method="_JfSrwR0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JYRdwB0AEeyJa8k4nbiKVw" name="AbstractPhone" isAbstract="true">
+        <ownedComment xmi:id="_JfdD0R0AEeyJa8k4nbiKVw">
+          <body>추상클래스&#xD;
+	추상클래스는 구현부가 없는 메소드를 가질 수 있는 클래스다.&#xD;
+ 추상클래스는 구현부가 있는 메소드를 가질 수 있다.&#xD;
+ 멤버변수, 생성자, 멤버메소드, 정적변수, 정적메소드 전부 가질 수 있다.&#xD;
+	구현부가 없는 메소드를 가질 수 있기 때문에 new 키워드로 객체생성할 수 없다.</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_JezjkB0AEeyJa8k4nbiKVw" name="tel">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_JeA5YB0AEeyJa8k4nbiKVw" client="_JYRdwB0AEeyJa8k4nbiKVw" supplier="_JY_2gB0AEeyJa8k4nbiKVw" contract="_JY_2gB0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfTS2B0AEeyJa8k4nbiKVw" name="AbstractPhone" specification="_JYVvMB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfT54B0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfT54R0AEeyJa8k4nbiKVw" type="_JYRdwB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>this.tel = tel;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfT54h0AEeyJa8k4nbiKVw" name="call" specification="_JYXkYB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfT54x0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;[&quot; + tel + &quot;]&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfT55B0AEeyJa8k4nbiKVw" name="sms" specification="_JYbOwB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfT55R0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfT55h0AEeyJa8k4nbiKVw" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;[&quot; + tel + &quot;]로 [&quot; + message + &quot;]를 보냅니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfT55x0AEeyJa8k4nbiKVw" name="off" specification="_JYdrAR0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;화면을 끕니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JYTS8B0AEeyJa8k4nbiKVw" name="AbstractPhone">
+          <eAnnotations xmi:id="_JYT6AB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JYT6AR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JYUhER0AEeyJa8k4nbiKVw" type="_JYRdwB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYVvMB0AEeyJa8k4nbiKVw" name="AbstractPhone" method="_JfTS2B0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JYWWQR0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JYWWQh0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JYWWQB0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYW9UB0AEeyJa8k4nbiKVw" type="_JYRdwB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYXkYB0AEeyJa8k4nbiKVw" name="call" method="_JfT54h0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JYYLcB0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYbOwB0AEeyJa8k4nbiKVw" name="sms" method="_JfT55B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JYbOwR0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYbOwh0AEeyJa8k4nbiKVw" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYdrAR0AEeyJa8k4nbiKVw" name="off" method="_JfT55x0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JYh8cB0AEeyJa8k4nbiKVw" name="AbstractSmartPhone" isAbstract="true">
+        <generalization xmi:id="_JeD8sB0AEeyJa8k4nbiKVw" general="_JYRdwB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_Je0KoB0AEeyJa8k4nbiKVw" name="ip">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_JeCukB0AEeyJa8k4nbiKVw" client="_JYh8cB0AEeyJa8k4nbiKVw" supplier="_JZEH8B0AEeyJa8k4nbiKVw" contract="_JZEH8B0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfT56B0AEeyJa8k4nbiKVw" name="AbstractSmartPhone" specification="_JYmN4B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfT56R0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfT56h0AEeyJa8k4nbiKVw" name="ip">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfT56x0AEeyJa8k4nbiKVw" type="_JYh8cB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>super(tel);&#xD;
+		this.ip = ip;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfUg8B0AEeyJa8k4nbiKVw" name="sendEmail" specification="_JYoDEB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfUg8R0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfUg8h0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfUg8x0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfUg9B0AEeyJa8k4nbiKVw" name="content">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;[&quot;+from+&quot;]이 [&quot;+to+&quot;]에게 [&quot;+title+&quot;][&quot;+content+&quot;]를 메일로 보냅니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfUg9R0AEeyJa8k4nbiKVw" name="internet" specification="_JYrtcB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfUg9h0AEeyJa8k4nbiKVw" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;[&quot;+url+&quot;]에 해당하는 웹페이지를 표시합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JYk_wB0AEeyJa8k4nbiKVw" name="AbstractSmartPhone">
+          <eAnnotations xmi:id="_JYk_wR0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JYlm0B0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JYlm0h0AEeyJa8k4nbiKVw" type="_JYh8cB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYmN4B0AEeyJa8k4nbiKVw" name="AbstractSmartPhone" method="_JfT56B0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JYncAB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JYncAR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JYm08B0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYm08R0AEeyJa8k4nbiKVw" name="ip">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYncAh0AEeyJa8k4nbiKVw" type="_JYh8cB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYoDEB0AEeyJa8k4nbiKVw" name="sendEmail" method="_JfUg8B0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JYoqIB0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYoqIR0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYpRMB0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYpRMR0AEeyJa8k4nbiKVw" name="content">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYrtcB0AEeyJa8k4nbiKVw" name="internet" method="_JfUg9R0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JYsUgB0AEeyJa8k4nbiKVw" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JYv-4B0AEeyJa8k4nbiKVw" name="Galaxy">
+        <generalization xmi:id="_JeEjwB0AEeyJa8k4nbiKVw" general="_JYh8cB0AEeyJa8k4nbiKVw"/>
+        <ownedAttribute xmi:id="_Je1YwB0AEeyJa8k4nbiKVw" name="gmail" visibility="public">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfUg9x0AEeyJa8k4nbiKVw" name="Galaxy" specification="_JYybIB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfUg-B0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfUg-R0AEeyJa8k4nbiKVw" name="ip">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfUg-h0AEeyJa8k4nbiKVw" name="gmail">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfUg-x0AEeyJa8k4nbiKVw" type="_JYv-4B0AEeyJa8k4nbiKVw" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>super(tel, ip);&#xD;
+		this.gmail = gmail;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfVIBB0AEeyJa8k4nbiKVw" name="on" specification="_JYzpQh0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;홍채 인식으로 화면을 켭니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfVIBR0AEeyJa8k4nbiKVw" name="playgame" specification="_JY0QUh0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;갤럽시 앱 마켓의 게임을 플레이한다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JYxNAB0AEeyJa8k4nbiKVw" name="Galaxy">
+          <eAnnotations xmi:id="_JYxNAR0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JYxNAh0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JYx0ER0AEeyJa8k4nbiKVw" type="_JYv-4B0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYybIB0AEeyJa8k4nbiKVw" name="Galaxy" method="_JfUg9x0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JYybJB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JYybJR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JYybIR0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYybIh0AEeyJa8k4nbiKVw" name="ip">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYybIx0AEeyJa8k4nbiKVw" name="gmail">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JYybJh0AEeyJa8k4nbiKVw" type="_JYv-4B0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JYzpQh0AEeyJa8k4nbiKVw" name="on" method="_JfVIBB0AEeyJa8k4nbiKVw"/>
+        <ownedOperation xmi:id="_JY0QUh0AEeyJa8k4nbiKVw" name="playgame" method="_JfVIBR0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JY8MIB0AEeyJa8k4nbiKVw" name="NormalPhone">
+        <generalization xmi:id="_JeGY8B0AEeyJa8k4nbiKVw" general="_JYRdwB0AEeyJa8k4nbiKVw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfWWIB0AEeyJa8k4nbiKVw" name="NormalPhone" specification="_JY-BUB0AEeyJa8k4nbiKVw">
+          <ownedParameter xmi:id="_JfWWIR0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JfWWIh0AEeyJa8k4nbiKVw" type="_JY8MIB0AEeyJa8k4nbiKVw" direction="return"/>
+          <language>java</language>
+          <body>super(tel);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JfWWIx0AEeyJa8k4nbiKVw" name="on" specification="_JY-oYR0AEeyJa8k4nbiKVw">
+          <language>java</language>
+          <body>System.out.println(&quot;전원버튼을 누르면 화면이 켜집니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_JY8zMB0AEeyJa8k4nbiKVw" name="NormalPhone">
+          <eAnnotations xmi:id="_JY9aQB0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JY9aQR0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JY9aQx0AEeyJa8k4nbiKVw" type="_JY8MIB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JY-BUB0AEeyJa8k4nbiKVw" name="NormalPhone" method="_JfWWIB0AEeyJa8k4nbiKVw">
+          <eAnnotations xmi:id="_JY-BUh0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_JY-BUx0AEeyJa8k4nbiKVw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_JY-BUR0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JY-oYB0AEeyJa8k4nbiKVw" type="_JY8MIB0AEeyJa8k4nbiKVw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JY-oYR0AEeyJa8k4nbiKVw" name="on" method="_JfWWIx0AEeyJa8k4nbiKVw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_JY_2gB0AEeyJa8k4nbiKVw" name="Phone">
+        <ownedOperation xmi:id="_JY_2gR0AEeyJa8k4nbiKVw" name="on"/>
+        <ownedOperation xmi:id="_JZAdkB0AEeyJa8k4nbiKVw" name="off"/>
+        <ownedOperation xmi:id="_JZAdkR0AEeyJa8k4nbiKVw" name="call">
+          <ownedParameter xmi:id="_JZAdkh0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JZAdkx0AEeyJa8k4nbiKVw" name="sms">
+          <ownedParameter xmi:id="_JZAdlB0AEeyJa8k4nbiKVw" name="tel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZAdlR0AEeyJa8k4nbiKVw" name="message">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_JZEH8B0AEeyJa8k4nbiKVw" name="SmartPhone">
+        <ownedOperation xmi:id="_JZFWEB0AEeyJa8k4nbiKVw" name="sendEmail">
+          <ownedParameter xmi:id="_JZF9IB0AEeyJa8k4nbiKVw" name="from">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZF9IR0AEeyJa8k4nbiKVw" name="to">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZF9Ih0AEeyJa8k4nbiKVw" name="title">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_JZF9Ix0AEeyJa8k4nbiKVw" name="content">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JZHyUB0AEeyJa8k4nbiKVw" name="internet">
+          <ownedParameter xmi:id="_JZIZYB0AEeyJa8k4nbiKVw" name="url">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JZJAcB0AEeyJa8k4nbiKVw" name="playgame"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_JFnngB0AEeyJa8k4nbiKVw">
+      <eAnnotations xmi:id="_JFnngR0AEeyJa8k4nbiKVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_JFnngh0AEeyJa8k4nbiKVw" base_Package="_JBn4UB0AEeyJa8k4nbiKVw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JUwPsB0AEeyJa8k4nbiKVw" base_Element="_JUuagB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JVAuYB0AEeyJa8k4nbiKVw" base_Element="_JU_gQB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JVB8gB0AEeyJa8k4nbiKVw" base_Element="_JU_gQB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JVB8gR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JVDKoB0AEeyJa8k4nbiKVw" base_Element="_JVCjkB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JVDxsB0AEeyJa8k4nbiKVw" base_Element="_JVCjkB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JVDxsR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JVGN8B0AEeyJa8k4nbiKVw" base_Element="_JVFm4B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JVGN8R0AEeyJa8k4nbiKVw" base_Element="_JVFm4B0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JVGN8h0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JVX6wB0AEeyJa8k4nbiKVw" base_Element="_JVXTsB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JVX6wR0AEeyJa8k4nbiKVw" base_Element="_JVXTsB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JVX6wh0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JVczQB0AEeyJa8k4nbiKVw" base_Element="_JVblIB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JWEeUB0AEeyJa8k4nbiKVw" base_Element="_JWD3QB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JWG6kB0AEeyJa8k4nbiKVw" base_Element="_JWD3QB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JWG6kR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JWWLIB0AEeyJa8k4nbiKVw" base_Element="_JWU9AB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JWYAUB0AEeyJa8k4nbiKVw" base_Element="_JWU9AB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JWYAUR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JWriUB0AEeyJa8k4nbiKVw" base_Element="_JWqUMB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JWxo8h0AEeyJa8k4nbiKVw" base_Element="_JWxB4B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JWzeIR0AEeyJa8k4nbiKVw" base_Element="_JWzeIB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JW0FMB0AEeyJa8k4nbiKVw" base_Element="_JWzeIB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JW0FMR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXFK8h0AEeyJa8k4nbiKVw" base_Element="_JXEj4B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXKqgB0AEeyJa8k4nbiKVw" base_Element="_JXKDcB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JXLRkB0AEeyJa8k4nbiKVw" base_Element="_JXKDcB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JXLRkR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXQKEB0AEeyJa8k4nbiKVw" base_Element="_JXO78B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXUbgB0AEeyJa8k4nbiKVw" base_Element="_JXTNYB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JXVCkB0AEeyJa8k4nbiKVw" base_Element="_JXTNYB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JXVCkR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXaiIB0AEeyJa8k4nbiKVw" base_Element="_JXZUAB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXmvYB0AEeyJa8k4nbiKVw" base_Element="_JXk6MB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXrA0B0AEeyJa8k4nbiKVw" base_Element="_JXqZwR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JXrn4B0AEeyJa8k4nbiKVw" base_Element="_JXqZwR0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JXrn4R0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXsO8B0AEeyJa8k4nbiKVw" base_Element="_JXrn4h0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JXsO8R0AEeyJa8k4nbiKVw" base_Element="_JXrn4h0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JXs2AB0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXxugB0AEeyJa8k4nbiKVw" base_Element="_JXxHcB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JXxugR0AEeyJa8k4nbiKVw" base_Element="_JXxHcB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JXxugh0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JXyVkR0AEeyJa8k4nbiKVw" base_Element="_JXyVkB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JXzjsB0AEeyJa8k4nbiKVw" base_Element="_JXyVkB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JXzjsR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JX1Y4B0AEeyJa8k4nbiKVw" base_Element="_JX0KwB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JX1_8B0AEeyJa8k4nbiKVw" base_Element="_JX0KwB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JX1_8R0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JX3OEB0AEeyJa8k4nbiKVw" base_Element="_JX1_8h0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JX31IB0AEeyJa8k4nbiKVw" base_Element="_JX1_8h0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JX4cMB0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JX5qUB0AEeyJa8k4nbiKVw" base_Element="_JX4cMR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JX64cB0AEeyJa8k4nbiKVw" base_Element="_JX4cMR0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JX7fgB0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYA_EB0AEeyJa8k4nbiKVw" base_Element="_JX_w8B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYBmIB0AEeyJa8k4nbiKVw" base_Element="_JX_w8B0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYCNMB0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYDbUB0AEeyJa8k4nbiKVw" base_Element="_JYCNMR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYECYB0AEeyJa8k4nbiKVw" base_Element="_JYCNMR0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYECYR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYFQgB0AEeyJa8k4nbiKVw" base_Element="_JYEpcB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYF3kB0AEeyJa8k4nbiKVw" base_Element="_JYEpcB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYF3kR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYHswB0AEeyJa8k4nbiKVw" base_Element="_JYGeoB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYJh8B0AEeyJa8k4nbiKVw" base_Element="_JYGeoB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYKJAB0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYNMUB0AEeyJa8k4nbiKVw" base_Element="_JYLXIB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYOacB0AEeyJa8k4nbiKVw" base_Element="_JYLXIB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYPBgB0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYUhEB0AEeyJa8k4nbiKVw" base_Element="_JYTS8B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYYygB0AEeyJa8k4nbiKVw" base_Element="_JYXkYB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYaAoB0AEeyJa8k4nbiKVw" base_Element="_JYXkYB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYansB0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYcc4B0AEeyJa8k4nbiKVw" base_Element="_JYbOwB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYdD8B0AEeyJa8k4nbiKVw" base_Element="_JYbOwB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYdrAB0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYfgMB0AEeyJa8k4nbiKVw" base_Element="_JYdrAR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYgHQB0AEeyJa8k4nbiKVw" base_Element="_JYdrAR0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYgHQR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYlm0R0AEeyJa8k4nbiKVw" base_Element="_JYk_wB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYp4QB0AEeyJa8k4nbiKVw" base_Element="_JYoDEB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYrGYB0AEeyJa8k4nbiKVw" base_Element="_JYoDEB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYrGYR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYtioB0AEeyJa8k4nbiKVw" base_Element="_JYrtcB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JYuJsB0AEeyJa8k4nbiKVw" base_Element="_JYrtcB0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JYuJsR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYx0EB0AEeyJa8k4nbiKVw" base_Element="_JYxNAB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JYzpQx0AEeyJa8k4nbiKVw" base_Element="_JYzpQh0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JY0QUB0AEeyJa8k4nbiKVw" base_Element="_JYzpQh0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JY0QUR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JY03YB0AEeyJa8k4nbiKVw" base_Element="_JY0QUh0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JY1ecB0AEeyJa8k4nbiKVw" base_Element="_JY0QUh0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JY1ecR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JY5v4R0AEeyJa8k4nbiKVw" base_Element="_JY5v4B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JY6-AB0AEeyJa8k4nbiKVw" base_Element="_JY5v4B0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JY6-AR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JY9aQh0AEeyJa8k4nbiKVw" base_Element="_JY8zMB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JY-oYh0AEeyJa8k4nbiKVw" base_Element="_JY-oYR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JY_PcB0AEeyJa8k4nbiKVw" base_Element="_JY-oYR0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JY_PcR0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JZC50B0AEeyJa8k4nbiKVw" base_Element="_JZCSxx0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Annotations xmi:id="_JZC50R0AEeyJa8k4nbiKVw" base_Element="_JZCSxx0AEeyJa8k4nbiKVw">
+    <annotations xmi:id="_JZDg4B0AEeyJa8k4nbiKVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JZMDwB0AEeyJa8k4nbiKVw" base_Element="_JZK1oB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Reference xmi:id="_Jdn30B0AEeyJa8k4nbiKVw" base_Element="_JdnQwB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Reference xmi:id="_Jdt-cB0AEeyJa8k4nbiKVw" base_Element="_JdswUB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Reference xmi:id="_JeHnEB0AEeyJa8k4nbiKVw" base_Element="_JeHAAB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JeQxAB0AEeyJa8k4nbiKVw" base_Element="_JeQJ8B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JeeMYB0AEeyJa8k4nbiKVw" base_Element="_JedlUB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JefagB0AEeyJa8k4nbiKVw" base_Element="_JeezcB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JegooB0AEeyJa8k4nbiKVw" base_Element="_JegBkB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JehPsB0AEeyJa8k4nbiKVw" base_Element="_JegooR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JemIMB0AEeyJa8k4nbiKVw" base_Element="_JelhIB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JemvQB0AEeyJa8k4nbiKVw" base_Element="_JemIMR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JenWUh0AEeyJa8k4nbiKVw" base_Element="_JenWUB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JeokcB0AEeyJa8k4nbiKVw" base_Element="_Jen9YB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JepLgB0AEeyJa8k4nbiKVw" base_Element="_JeokcR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JeqZoB0AEeyJa8k4nbiKVw" base_Element="_JepykB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Array xmi:id="_JesO0R0AEeyJa8k4nbiKVw" dimensions="1" base_Element="_JernwR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Jetc8B0AEeyJa8k4nbiKVw" base_Element="_JernwR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JeuEAB0AEeyJa8k4nbiKVw" base_Element="_Jetc8R0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JewgQB0AEeyJa8k4nbiKVw" base_Element="_Jev5MB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JeyVcB0AEeyJa8k4nbiKVw" base_Element="_JexHUB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Jey8gR0AEeyJa8k4nbiKVw" base_Element="_Jey8gB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Je2m4B0AEeyJa8k4nbiKVw" base_Element="_Je1_0R0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Array xmi:id="_Je3N8B0AEeyJa8k4nbiKVw" base_Element="_Je2m4R0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Je3N8R0AEeyJa8k4nbiKVw" base_Element="_Je2m4R0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Array xmi:id="_Je31Ah0AEeyJa8k4nbiKVw" dimensions="1" base_Element="_Je31AB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Je4cEB0AEeyJa8k4nbiKVw" base_Element="_Je31AB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Je5DIR0AEeyJa8k4nbiKVw" base_Element="_Je5DIB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Array xmi:id="_Je64UB0AEeyJa8k4nbiKVw" base_Element="_Je6RQB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Je64UR0AEeyJa8k4nbiKVw" base_Element="_Je6RQB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Array xmi:id="_Je7fYh0AEeyJa8k4nbiKVw" dimensions="1" base_Element="_Je7fYB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Je8GcB0AEeyJa8k4nbiKVw" base_Element="_Je7fYB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Je9UkB0AEeyJa8k4nbiKVw" base_Element="_Je8tgB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Reference xmi:id="_JfmNwB0AEeyJa8k4nbiKVw" base_Element="_JflmsB0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Reference xmi:id="_Jfm00B0AEeyJa8k4nbiKVw" base_Element="_JfmNwR0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Reference xmi:id="_Jfm00x0AEeyJa8k4nbiKVw" base_Element="_Jfm00R0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Reference xmi:id="_Jfnb4h0AEeyJa8k4nbiKVw" base_Element="_Jfnb4B0AEeyJa8k4nbiKVw"/>
+  <UMLLabProfile:Reference xmi:id="_JfoC8B0AEeyJa8k4nbiKVw" base_Element="_Jfnb4x0AEeyJa8k4nbiKVw"/>
+</xmi:XMI>
