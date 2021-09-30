@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_x55HUB_qEeyDKLWsbA9snw">
+  <modelElement href="oop2.uml#_yBaEkB_qEeyDKLWsbA9snw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zb8I4B_qEeyDKLWsbA9snw" sourceAnchor="52.0,0.0" targetAnchor="102.0,147.0" dashed="true" superClass="_zbzmAB_qEeyDKLWsbA9snw" subClass="_zcHvEB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCYU8x_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_foiaYB_rEeyDKLWsbA9snw" sourceY="-25" targetX="104" targetY="18"/>
+    <bendpoints xmi:id="_foiaYR_rEeyDKLWsbA9snw" sourceX="-104" sourceY="-25" targetY="18"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zcBBYB_qEeyDKLWsbA9snw" sourceAnchor="78.0,0.0" targetAnchor="96.0,111.0" superClass="_zbeO0B_qEeyDKLWsbA9snw" subClass="_zcHvEB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCY8AB_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_foiaYh_rEeyDKLWsbA9snw" sourceY="-818" targetX="-104" targetY="36"/>
+    <bendpoints xmi:id="_foiaYx_rEeyDKLWsbA9snw" sourceX="104" sourceY="-818" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zcjz8B_qEeyDKLWsbA9snw" sourceAnchor="65.0,0.0" targetAnchor="67.0,108.0" dashed="true" superClass="_zcs94B_qEeyDKLWsbA9snw" subClass="_zcHvEB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCYU8h_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_foiaZB_rEeyDKLWsbA9snw" sourceY="-1130" targetX="-494" targetY="37"/>
+    <bendpoints xmi:id="_foiaZR_rEeyDKLWsbA9snw" sourceX="494" sourceY="-1130" targetY="37"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zc9ckB_qEeyDKLWsbA9snw" sourceAnchor="84.0,0.0" targetAnchor="35.0,44.0" dashed="true" superClass="_zbsRQB_qEeyDKLWsbA9snw" subClass="_zdF_cB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCY8Ah_qEeyDKLWsbA9snw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zdZhcB_qEeyDKLWsbA9snw" sourceAnchor="48.0,0.0" targetAnchor="67.0,108.0" superClass="_zcs94B_qEeyDKLWsbA9snw" subClass="_zdkgkB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCY8BB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_Pf4UwR_rEeyDKLWsbA9snw" position="326.0,598.0"/>
+    <bendpoints xmi:id="_fojBeB_rEeyDKLWsbA9snw" sourceY="-17" targetX="-325" targetY="843"/>
+    <bendpoints xmi:id="_fojBeR_rEeyDKLWsbA9snw" sourceX="585" sourceY="-17" targetX="260" targetY="843"/>
+    <bendpoints xmi:id="_fojBeh_rEeyDKLWsbA9snw" sourceX="585" sourceY="-823" targetX="260" targetY="37"/>
+    <bendpoints xmi:id="_fojBex_rEeyDKLWsbA9snw" sourceX="325" sourceY="-823" targetY="37"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zeV8oB_qEeyDKLWsbA9snw" sourceAnchor="84.0,0.0" targetAnchor="35.0,44.0" dashed="true" superClass="_zdkgkB_qEeyDKLWsbA9snw" subClass="_zelNMB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCZjEB_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_fojBch_rEeyDKLWsbA9snw" sourceY="-20" targetX="169" targetY="30"/>
+    <bendpoints xmi:id="_fojBcx_rEeyDKLWsbA9snw" sourceX="-169" sourceY="-20" targetY="30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zfFjgB_qEeyDKLWsbA9snw" sourceAnchor="84.0,0.0" targetAnchor="35.0,44.0" dashed="true" superClass="_zdkgkB_qEeyDKLWsbA9snw" subClass="_zfXQUB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCZjER_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_fojBcB_rEeyDKLWsbA9snw" sourceY="-33" targetX="-26" targetY="30"/>
+    <bendpoints xmi:id="_fojBcR_rEeyDKLWsbA9snw" sourceX="26" sourceY="-33" targetY="30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zf6p8B_qEeyDKLWsbA9snw" sourceAnchor="114.0,0.0" targetAnchor="78.0,54.0" superClass="_zcHvEB_qEeyDKLWsbA9snw" subClass="_zgNk4B_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCZjEh_qEeyDKLWsbA9snw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zg46UB_qEeyDKLWsbA9snw" sourceAnchor="96.0,0.0" targetAnchor="85.0,128.0" dashed="true" superClass="_zhQGsB_qEeyDKLWsbA9snw" subClass="_zbeO0B_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCXt4B_qEeyDKLWsbA9snw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zh4Y0B_qEeyDKLWsbA9snw" sourceAnchor="37.0,0.0" targetAnchor="67.0,108.0" dashed="true" superClass="_zcs94B_qEeyDKLWsbA9snw" subClass="_zjMAYB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCaKIR_qEeyDKLWsbA9snw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ziMh4B_qEeyDKLWsbA9snw" sourceAnchor="24.0,0.0" targetAnchor="96.0,111.0" superClass="_zbeO0B_qEeyDKLWsbA9snw" subClass="_zjMAYB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCaKIh_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_fojBdB_rEeyDKLWsbA9snw" sourceY="-207" targetX="364" targetY="36"/>
+    <bendpoints xmi:id="_fojBdR_rEeyDKLWsbA9snw" sourceX="-364" sourceY="-207" targetY="36"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ziMh4R_qEeyDKLWsbA9snw" sourceAnchor="84.0,0.0" targetAnchor="24.0,27.0" superClass="_zjMAYB_qEeyDKLWsbA9snw" subClass="_zcT8UB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCY8AR_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_foiaaB_rEeyDKLWsbA9snw" sourceY="-33" targetX="-26" targetY="39"/>
+    <bendpoints xmi:id="_foiaaR_rEeyDKLWsbA9snw" sourceX="26" sourceY="-33" targetY="39"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ziMh4h_qEeyDKLWsbA9snw" sourceAnchor="84.0,0.0" targetAnchor="24.0,27.0" superClass="_zjMAYB_qEeyDKLWsbA9snw" subClass="_zd6e0B_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCY8BR_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_foiaah_rEeyDKLWsbA9snw" sourceY="-20" targetX="169" targetY="39"/>
+    <bendpoints xmi:id="_foiaax_rEeyDKLWsbA9snw" sourceX="-169" sourceY="-20" targetY="39"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zkQ-cB_qEeyDKLWsbA9snw" sourceAnchor="35.0,0.0" targetAnchor="73.0,128.0" superClass="_zlqsoB_qEeyDKLWsbA9snw" subClass="_zbsRQB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCYU8B_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_foiabB_rEeyDKLWsbA9snw" sourceY="-17" targetX="65" targetY="27"/>
+    <bendpoints xmi:id="_foiabR_rEeyDKLWsbA9snw" sourceX="-65" sourceY="-17" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zkrOIB_qEeyDKLWsbA9snw" sourceAnchor="91.0,0.0" targetAnchor="73.0,128.0" dashed="true" superClass="_zlqsoB_qEeyDKLWsbA9snw" subClass="_zcHvEB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCYU8R_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_foiaZh_rEeyDKLWsbA9snw" sourceY="-636" targetX="-169" targetY="27"/>
+    <bendpoints xmi:id="_foiaZx_rEeyDKLWsbA9snw" sourceX="169" sourceY="-636" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zkrOIR_qEeyDKLWsbA9snw" sourceAnchor="35.0,0.0" targetAnchor="73.0,128.0" superClass="_zlqsoB_qEeyDKLWsbA9snw" subClass="_zdkgkB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCY8Ax_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_Pf4UwB_rEeyDKLWsbA9snw" position="326.0,598.0"/>
+    <bendpoints xmi:id="_fojBfB_rEeyDKLWsbA9snw" sourceY="-329" targetX="-39" targetY="27"/>
+    <bendpoints xmi:id="_fojBfR_rEeyDKLWsbA9snw" sourceX="39" sourceY="-329" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_zkr1MB_qEeyDKLWsbA9snw" sourceAnchor="11.0,0.0" targetAnchor="73.0,128.0" dashed="true" superClass="_zlqsoB_qEeyDKLWsbA9snw" subClass="_zjMAYB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yCaKIB_qEeyDKLWsbA9snw"/>
+    <bendpoints xmi:id="_fojBdh_rEeyDKLWsbA9snw" sourceY="-25" targetX="273" targetY="27"/>
+    <bendpoints xmi:id="_fojBdx_rEeyDKLWsbA9snw" sourceX="-273" sourceY="-25" targetY="27"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zmZFYB_qEeyDKLWsbA9snw" name="차App">
+    <modelElement href="oop2.uml#_yB2Jch_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zmZFYR_qEeyDKLWsbA9snw" position="1044.0,32.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zmZFYh_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zmZFYx_qEeyDKLWsbA9snw" name="main" staticOperation="true">
+      <modelElement href="oop2.uml#_yB2Jcx_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zmZFZB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zmZFZR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zmZFZh_qEeyDKLWsbA9snw" name="args">
+        <modelElement href="oop2.uml#_yB2JdB_qEeyDKLWsbA9snw"/>
+        <cardinality xmi:id="_zmZFZx_qEeyDKLWsbA9snw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_zmZFaB_qEeyDKLWsbA9snw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zcHvEB_qEeyDKLWsbA9snw" name="고급차" abstractClass="true" generalizations="_zb8I4B_qEeyDKLWsbA9snw _zcBBYB_qEeyDKLWsbA9snw _zcjz8B_qEeyDKLWsbA9snw _zkrOIB_qEeyDKLWsbA9snw" subclassedBy="_zf6p8B_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBmR1h_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zcHvER_qEeyDKLWsbA9snw" position="164.0,1306.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zcHvEh_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zcHvEx_qEeyDKLWsbA9snw" name="에어콘기능">
+      <modelElement href="oop2.uml#_yBm44B_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zcHvFB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBm44R_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcHvFR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBm44h_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zcHvFh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcHvFx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zgNk4B_qEeyDKLWsbA9snw" name="제네시스" generalizations="_zf6p8B_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBxQ8B_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zgNk4R_qEeyDKLWsbA9snw" position="128.0,1395.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zgNk4h_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zgNk4x_qEeyDKLWsbA9snw" name="출발기능">
+      <modelElement href="oop2.uml#_yBxQ8R_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNk5B_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBx4AB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNk5R_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBx4AR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNk5h_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNk5x_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNk6B_qEeyDKLWsbA9snw" name="정지기능">
+      <modelElement href="oop2.uml#_yBx4Ax_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNk6R_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBx4BB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNk6h_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBx4BR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNk6x_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNk7B_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNk7R_qEeyDKLWsbA9snw" name="운전기능">
+      <modelElement href="oop2.uml#_yBx4Bx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNk7h_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yByfEB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNk7x_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yByfER_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNk8B_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNk8R_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNk8h_qEeyDKLWsbA9snw" name="속도변경기능">
+      <modelElement href="oop2.uml#_yByfEx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNk8x_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yByfFB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNk9B_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yByfFR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNk9R_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNk9h_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNk9x_qEeyDKLWsbA9snw" name="라디오기능">
+      <modelElement href="oop2.uml#_yByfFx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNk-B_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yByfGB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNk-R_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yByfGR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNk-h_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNk-x_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNk_B_qEeyDKLWsbA9snw" name="에어콘기능">
+      <modelElement href="oop2.uml#_yByfGx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNk_R_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBzGIB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNk_h_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBzGIR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNk_x_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNlAB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNlAR_qEeyDKLWsbA9snw" name="길안내기능">
+      <modelElement href="oop2.uml#_yBzGIx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNlAh_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBzGJB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNlAx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBzGJR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNlBB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNlBR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNlBh_qEeyDKLWsbA9snw" name="공기청정기능">
+      <modelElement href="oop2.uml#_yBzGJx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNlBx_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBzGKB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNlCB_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBztMB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNlCR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNlCh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNlCx_qEeyDKLWsbA9snw" name="고속도로주행보조기능">
+      <modelElement href="oop2.uml#_yBztMh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNlDB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBztMx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNlDR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBztNB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNlDh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNlDx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNlEB_qEeyDKLWsbA9snw" name="운전자주의경고기능">
+      <modelElement href="oop2.uml#_yBztNh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNlER_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBztNx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNlEh_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBztOB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNlEx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNlFB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNlFR_qEeyDKLWsbA9snw" name="주행영상기록기능">
+      <modelElement href="oop2.uml#_yBztOh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNlFh_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBztOx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNlFx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBztPB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNlGB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNlGR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zgNlGh_qEeyDKLWsbA9snw" name="원격스마트주차보조기능">
+      <modelElement href="oop2.uml#_yB0UQR_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zgNlGx_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yB0UQh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zgNlHB_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yB0UQx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zgNlHR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zgNlHh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zcT8UB_qEeyDKLWsbA9snw" name="그랜져" generalizations="_ziMh4R_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBnf8B_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zcT8UR_qEeyDKLWsbA9snw" position="601.0,793.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zcT8Uh_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zcT8Ux_qEeyDKLWsbA9snw" name="출발기능">
+      <modelElement href="oop2.uml#_yBnf8R_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zcT8VB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBnf8h_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcT8VR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBoHAB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zcT8Vh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcT8Vx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zcT8WB_qEeyDKLWsbA9snw" name="정지기능">
+      <modelElement href="oop2.uml#_yBoHAh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zcT8WR_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBoHAx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcT8Wh_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBoHBB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zcT8Wx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcT8XB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zcT8XR_qEeyDKLWsbA9snw" name="운전기능">
+      <modelElement href="oop2.uml#_yBoHBh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zcT8Xh_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBoHBx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcT8Xx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBouEB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zcT8YB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcT8YR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zcT8Yh_qEeyDKLWsbA9snw" name="속도변경기능">
+      <modelElement href="oop2.uml#_yBouEh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zcT8Yx_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBouEx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcT8ZB_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBouFB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zcT8ZR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcT8Zh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zcT8Zx_qEeyDKLWsbA9snw" name="라디오기능">
+      <modelElement href="oop2.uml#_yBouFh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zcT8aB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBouFx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcT8aR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBouGB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zcT8ah_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcT8ax_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zcT8bB_qEeyDKLWsbA9snw" name="에어콘기능">
+      <modelElement href="oop2.uml#_yBouGh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zcT8bR_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBpVIB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcT8bh_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBpVIR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zcT8bx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcT8cB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zcT8cR_qEeyDKLWsbA9snw" name="길안내기능">
+      <modelElement href="oop2.uml#_yBpVIx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zcT8ch_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBpVJB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zcT8cx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBpVJR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zcT8dB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcT8dR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zd6e0B_qEeyDKLWsbA9snw" name="쏘나타" generalizations="_ziMh4h_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBrxYB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zd6e0R_qEeyDKLWsbA9snw" position="796.0,781.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zd6e0h_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zd6e0x_qEeyDKLWsbA9snw" name="출발기능">
+      <modelElement href="oop2.uml#_yBrxYR_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zd6e1B_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBrxYh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zd6e1R_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBsYcB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zd6e1h_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zd6e1x_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zd6e2B_qEeyDKLWsbA9snw" name="정지기능">
+      <modelElement href="oop2.uml#_yBsYch_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zd6e2R_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBsYcx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zd6e2h_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBsYdB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zd6e2x_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zd6e3B_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zd6e3R_qEeyDKLWsbA9snw" name="운전기능">
+      <modelElement href="oop2.uml#_yBsYdh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zd6e3h_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBsYdx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zd6e3x_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBsYeB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zd6e4B_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zd6e4R_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zd6e4h_qEeyDKLWsbA9snw" name="속도변경기능">
+      <modelElement href="oop2.uml#_yBsYeh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zd6e4x_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBsYex_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zd6e5B_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBsYfB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zd6e5R_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zd6e5h_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zd6e5x_qEeyDKLWsbA9snw" name="라디오기능">
+      <modelElement href="oop2.uml#_yBs_gB_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zd6e6B_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBs_gR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zd6e6R_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBs_gh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zd6e6h_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zd6e6x_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zd6e7B_qEeyDKLWsbA9snw" name="에어콘기능">
+      <modelElement href="oop2.uml#_yBs_hB_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zd6e7R_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBs_hR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zd6e7h_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBs_hh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zd6e7x_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zd6e8B_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zd6e8R_qEeyDKLWsbA9snw" name="길안내기능">
+      <modelElement href="oop2.uml#_yBs_iB_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zd6e8h_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBs_iR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zd6e8x_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBs_ih_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zd6e9B_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zd6e9R_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zdF_cB_qEeyDKLWsbA9snw" name="마티즈" generalizations="_zc9ckB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBp8NB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zdF_cR_qEeyDKLWsbA9snw" position="406.0,756.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zdF_ch_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zdF_cx_qEeyDKLWsbA9snw" name="출발기능">
+      <modelElement href="oop2.uml#_yBqjQB_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zdF_dB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBqjQR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zdF_dR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBqjQh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zdF_dh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zdF_dx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zdF_eB_qEeyDKLWsbA9snw" name="정지기능">
+      <modelElement href="oop2.uml#_yBqjRB_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zdF_eR_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBqjRR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zdF_eh_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBqjRh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zdF_ex_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zdF_fB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zdF_fR_qEeyDKLWsbA9snw" name="운전기능">
+      <modelElement href="oop2.uml#_yBqjSB_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zdF_fh_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBrKUB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zdF_fx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBrKUR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zdF_gB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zdF_gR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zdF_gh_qEeyDKLWsbA9snw" name="속도변경기능">
+      <modelElement href="oop2.uml#_yBrKUx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zdF_gx_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBrKVB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zdF_hB_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBrKVR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zdF_hR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zdF_hh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zbsRQB_qEeyDKLWsbA9snw" name="경차" generalizations="_zkQ-cB_qEeyDKLWsbA9snw" subclassedBy="_zc9ckB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBlqxh_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zbsRQR_qEeyDKLWsbA9snw" position="454.0,687.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zbsRQh_qEeyDKLWsbA9snw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zfXQUB_qEeyDKLWsbA9snw" name="엑셀" generalizations="_zfFjgB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBvbwB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zfXQUR_qEeyDKLWsbA9snw" position="276.0,1106.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zfXQUh_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zfXQUx_qEeyDKLWsbA9snw" name="출발기능">
+      <modelElement href="oop2.uml#_yBvbwR_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zfXQVB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBvbwh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zfXQVR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBvbwx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zfXQVh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zfXQVx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zfXQWB_qEeyDKLWsbA9snw" name="정지기능">
+      <modelElement href="oop2.uml#_yBvbxR_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zfXQWR_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBvbxh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zfXQWh_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBwC0B_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zfXQWx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zfXQXB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zfXQXR_qEeyDKLWsbA9snw" name="운전기능">
+      <modelElement href="oop2.uml#_yBwC0h_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zfXQXh_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBwC0x_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zfXQXx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBwC1B_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zfXQYB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zfXQYR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zfXQYh_qEeyDKLWsbA9snw" name="속도변경기능">
+      <modelElement href="oop2.uml#_yBwC1h_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zfXQYx_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBwC1x_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zfXQZB_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBwC2B_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zfXQZR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zfXQZh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zfXQZx_qEeyDKLWsbA9snw" name="라디오기능">
+      <modelElement href="oop2.uml#_yBwC2h_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zfXQaB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBwC2x_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zfXQaR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBwp4B_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zfXQah_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zfXQax_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zfXQbB_qEeyDKLWsbA9snw" name="에어콘기능">
+      <modelElement href="oop2.uml#_yBwp4h_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zfXQbR_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBwp4x_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zfXQbh_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBwp5B_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zfXQbx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zfXQcB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zfXQcR_qEeyDKLWsbA9snw" name="길안내기능">
+      <modelElement href="oop2.uml#_yBwp5h_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zfXQch_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBwp5x_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zfXQcx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBwp6B_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zfXQdB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zfXQdR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zelNMB_qEeyDKLWsbA9snw" name="아반떼" generalizations="_zeV8oB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBtmkB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zelNMR_qEeyDKLWsbA9snw" position="471.0,1093.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zelNMh_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zelNMx_qEeyDKLWsbA9snw" name="출발기능">
+      <modelElement href="oop2.uml#_yBtmkR_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zelNNB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBtmkh_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zelNNR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBtmkx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zelNNh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zelNNx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zelNOB_qEeyDKLWsbA9snw" name="정지기능">
+      <modelElement href="oop2.uml#_yBtmlR_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zelNOR_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBuNoB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zelNOh_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBuNoR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zelNOx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zelNPB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zelNPR_qEeyDKLWsbA9snw" name="운전기능">
+      <modelElement href="oop2.uml#_yBuNox_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zelNPh_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBuNpB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zelNPx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBuNpR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zelNQB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zelNQR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zelNQh_qEeyDKLWsbA9snw" name="속도변경기능">
+      <modelElement href="oop2.uml#_yBuNpx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zelNQx_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBuNqB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zelNRB_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBuNqR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zelNRR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zelNRh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zelNRx_qEeyDKLWsbA9snw" name="라디오기능">
+      <modelElement href="oop2.uml#_yBuNqx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zelNSB_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBuNrB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zelNSR_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBu0sB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zelNSh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zelNSx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zelNTB_qEeyDKLWsbA9snw" name="에어콘기능">
+      <modelElement href="oop2.uml#_yBu0sh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zelNTR_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBu0sx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zelNTh_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBu0tB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zelNTx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zelNUB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zelNUR_qEeyDKLWsbA9snw" name="길안내기능">
+      <modelElement href="oop2.uml#_yBu0th_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zelNUh_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBu0tx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zelNUx_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBu0uB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zelNVB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zelNVR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zhQGsB_qEeyDKLWsbA9snw" name="주행보조편의사양" subclassedBy="_zg46UB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yB0URR_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zhQGsR_qEeyDKLWsbA9snw" position="261.0,189.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zhQGsh_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zhQGsx_qEeyDKLWsbA9snw" name="차선유지기능">
+      <modelElement href="oop2.uml#_yB07UB_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zhQGtB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zhQGtR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zhQGth_qEeyDKLWsbA9snw" name="차선자동변경기능">
+      <modelElement href="oop2.uml#_yB07UR_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zhQGtx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zhQGuB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zhQGuR_qEeyDKLWsbA9snw" name="차간거리유지기능">
+      <modelElement href="oop2.uml#_yB07Uh_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zhQGuh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zhQGux_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zhQGvB_qEeyDKLWsbA9snw" name="자동추차기능">
+      <modelElement href="oop2.uml#_yB07Ux_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zhQGvR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zhQGvh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zjMAYB_qEeyDKLWsbA9snw" name="중형차" abstractClass="true" generalizations="_zh4Y0B_qEeyDKLWsbA9snw _ziMh4B_qEeyDKLWsbA9snw _zkr1MB_qEeyDKLWsbA9snw" subclassedBy="_ziMh4R_qEeyDKLWsbA9snw _ziMh4h_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yB07VB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zjMAYR_qEeyDKLWsbA9snw" position="686.0,695.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zjMAYh_qEeyDKLWsbA9snw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zlqsoB_qEeyDKLWsbA9snw" name="차" subclassedBy="_zkQ-cB_qEeyDKLWsbA9snw _zkrOIB_qEeyDKLWsbA9snw _zkrOIR_qEeyDKLWsbA9snw _zkr1MB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yB1iYB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zlqsoR_qEeyDKLWsbA9snw" position="351.0,515.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zlqsoh_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zlqsox_qEeyDKLWsbA9snw" name="출발기능">
+      <modelElement href="oop2.uml#_yB1iYR_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zlqspB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zlqspR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zlqsph_qEeyDKLWsbA9snw" name="정지기능">
+      <modelElement href="oop2.uml#_yB1iYh_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zlqspx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zlqsqB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zlqsqR_qEeyDKLWsbA9snw" name="운전기능">
+      <modelElement href="oop2.uml#_yB2JcB_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zlqsqh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zlqsqx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zlqsrB_qEeyDKLWsbA9snw" name="속도변경기능">
+      <modelElement href="oop2.uml#_yB2JcR_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zlqsrR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zlqsrh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zcs94B_qEeyDKLWsbA9snw" name="기본편의사양" subclassedBy="_zcjz8B_qEeyDKLWsbA9snw _zdZhcB_qEeyDKLWsbA9snw _zh4Y0B_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBp8MB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zcs94R_qEeyDKLWsbA9snw" position="657.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zcs94h_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zcs94x_qEeyDKLWsbA9snw" name="라디오기능">
+      <modelElement href="oop2.uml#_yBp8MR_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zcs95B_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcs95R_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zcs95h_qEeyDKLWsbA9snw" name="에어콘기능">
+      <modelElement href="oop2.uml#_yBp8Mh_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zcs95x_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcs96B_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zcs96R_qEeyDKLWsbA9snw" name="길안내기능">
+      <modelElement href="oop2.uml#_yBp8Mx_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zcs96h_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zcs96x_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zdkgkB_qEeyDKLWsbA9snw" name="소형차" generalizations="_zdZhcB_qEeyDKLWsbA9snw _zkrOIR_qEeyDKLWsbA9snw" subclassedBy="_zeV8oB_qEeyDKLWsbA9snw _zfFjgB_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBrKVx_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zdkgkR_qEeyDKLWsbA9snw" position="351.0,999.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zdkgkh_qEeyDKLWsbA9snw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_zbzmAB_qEeyDKLWsbA9snw" name="고급사양" subclassedBy="_zb8I4B_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBmR0B_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zbzmAR_qEeyDKLWsbA9snw" position="11.0,1116.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zbzmAh_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zbzmAx_qEeyDKLWsbA9snw" name="공기청정기능">
+      <modelElement href="oop2.uml#_yBmR0R_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zbzmBB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbzmBR_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zbzmBh_qEeyDKLWsbA9snw" name="고속도로주행보조기능">
+      <modelElement href="oop2.uml#_yBmR0h_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zbzmBx_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbzmCB_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zbzmCR_qEeyDKLWsbA9snw" name="운전자주의경고기능">
+      <modelElement href="oop2.uml#_yBmR0x_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zbzmCh_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbzmCx_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zbzmDB_qEeyDKLWsbA9snw" name="주행영상기록기능">
+      <modelElement href="oop2.uml#_yBmR1B_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zbzmDR_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbzmDh_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zbzmDx_qEeyDKLWsbA9snw" name="원격스마트주차보조기능">
+      <modelElement href="oop2.uml#_yBmR1R_qEeyDKLWsbA9snw"/>
+      <visibility xmi:id="_zbzmEB_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbzmER_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zbeO0B_qEeyDKLWsbA9snw" name="Abstract주행보조편의사양" abstractClass="true" generalizations="_zg46UB_qEeyDKLWsbA9snw" subclassedBy="_zcBBYB_qEeyDKLWsbA9snw _ziMh4B_qEeyDKLWsbA9snw">
+    <modelElement href="oop2.uml#_yBkcoB_qEeyDKLWsbA9snw"/>
+    <visualProperties xmi:id="_zbeO0R_qEeyDKLWsbA9snw" position="250.0,340.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zbeO0h_qEeyDKLWsbA9snw" label="+"/>
+    <operations xmi:id="_zbeO0x_qEeyDKLWsbA9snw" name="차선유지기능">
+      <modelElement href="oop2.uml#_yBkcoR_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zbeO1B_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBlDsB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbeO1R_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBlDsR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zbeO1h_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbeO1x_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zbeO2B_qEeyDKLWsbA9snw" name="차선자동변경기능">
+      <modelElement href="oop2.uml#_yBlDsx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zbeO2R_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBlDtB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbeO2h_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBlDtR_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zbeO2x_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbeO3B_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zbeO3R_qEeyDKLWsbA9snw" name="차간거리유지기능">
+      <modelElement href="oop2.uml#_yBlDtx_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zbeO3h_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBlDuB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbeO3x_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBlqwB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zbeO4B_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbeO4R_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zbeO4h_qEeyDKLWsbA9snw" name="자동추차기능">
+      <modelElement href="oop2.uml#_yBlqwh_qEeyDKLWsbA9snw"/>
+      <stereotypes xmi:id="_zbeO4x_qEeyDKLWsbA9snw" name="LegacyStyledElement">
+        <modelElement href="oop2.uml#_yBlqwx_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_zbeO5B_qEeyDKLWsbA9snw" name="Annotations">
+        <modelElement href="oop2.uml#_yBlqxB_qEeyDKLWsbA9snw"/>
+      </stereotypes>
+      <visibility xmi:id="_zbeO5R_qEeyDKLWsbA9snw" label="+"/>
+      <cardinality xmi:id="_zbeO5h_qEeyDKLWsbA9snw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

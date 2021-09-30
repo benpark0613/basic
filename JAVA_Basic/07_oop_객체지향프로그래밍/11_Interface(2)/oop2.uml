@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_x5Nx4B_qEeyDKLWsbA9snw" name="oop2">
+    <eAnnotations xmi:id="_x7ykwB_qEeyDKLWsbA9snw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_x7ykwR_qEeyDKLWsbA9snw" source="codegen">
+        <details xmi:id="_x7zL0B_qEeyDKLWsbA9snw" key="codegenDirectory" value="/oop2/src"/>
+        <details xmi:id="_yEEXAB_qEeyDKLWsbA9snw" key="AssociatedSourceCode" value="/oop2/src/example_09_27_interface/Abstract주행보조편의사양.java;491443134/1;/oop2/src/example_09_27_interface/경차.java;2718314846/1;/oop2/src/example_09_27_interface/고급사양.java;817295071/1;/oop2/src/example_09_27_interface/고급차.java;773442325/1;/oop2/src/example_09_27_interface/그랜져.java;2030087782/1;/oop2/src/example_09_27_interface/기본편의사양.java;1180260749/1;/oop2/src/example_09_27_interface/마티즈.java;109766907/1;/oop2/src/example_09_27_interface/소형차.java;828655176/1;/oop2/src/example_09_27_interface/쏘나타.java;1741652207/1;/oop2/src/example_09_27_interface/아반떼.java;2334440471/1;/oop2/src/example_09_27_interface/엑셀.java;24013339/1;/oop2/src/example_09_27_interface/제네시스.java;65787142/1;/oop2/src/example_09_27_interface/주행보조편의사양.java;3567327380/1;/oop2/src/example_09_27_interface/중형차.java;2221719873/1;/oop2/src/example_09_27_interface/차.java;57158352/1;/oop2/src/example_09_27_interface/차App.java;3032293783/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_yBY2cB_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_yBZdgB_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_yBZdgR_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_yBZdgh_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_yBZdgx_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_yBZdhB_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_yBZdhR_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_yBZdhh_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_yBZdhx_qEeyDKLWsbA9snw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_yBaEkB_qEeyDKLWsbA9snw" name="example_09_27_interface">
+      <packagedElement xmi:type="uml:Class" xmi:id="_yBkcoB_qEeyDKLWsbA9snw" name="Abstract주행보조편의사양" isAbstract="true">
+        <interfaceRealization xmi:id="_yCXt4B_qEeyDKLWsbA9snw" client="_yBkcoB_qEeyDKLWsbA9snw" supplier="_yB0URR_qEeyDKLWsbA9snw" contract="_yB0URR_qEeyDKLWsbA9snw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYQB_qEeyDKLWsbA9snw" name="차선유지기능" specification="_yBkcoR_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;주행 중 자동으로 차선을 유지시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYQR_qEeyDKLWsbA9snw" name="차선자동변경기능" specification="_yBlDsx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;주행 중 자동으로 변경하려는 차선으로 이동합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYQh_qEeyDKLWsbA9snw" name="차간거리유지기능" specification="_yBlDtx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;주행중 자동으로 앞차와의 간격을 유지합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYQx_qEeyDKLWsbA9snw" name="자동추차기능" specification="_yBlqwh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;운전자 개입없이 자동으로 차를 주차시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yBkcoR_qEeyDKLWsbA9snw" name="차선유지기능" method="_yCbYQB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBlDsx_qEeyDKLWsbA9snw" name="차선자동변경기능" method="_yCbYQR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBlDtx_qEeyDKLWsbA9snw" name="차간거리유지기능" method="_yCbYQh_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBlqwh_qEeyDKLWsbA9snw" name="자동추차기능" method="_yCbYQx_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_yBlqxh_qEeyDKLWsbA9snw" name="경차">
+        <generalization xmi:id="_yCYU8B_qEeyDKLWsbA9snw" general="_yB1iYB_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_yBmR0B_qEeyDKLWsbA9snw" name="고급사양">
+        <ownedOperation xmi:id="_yBmR0R_qEeyDKLWsbA9snw" name="공기청정기능"/>
+        <ownedOperation xmi:id="_yBmR0h_qEeyDKLWsbA9snw" name="고속도로주행보조기능"/>
+        <ownedOperation xmi:id="_yBmR0x_qEeyDKLWsbA9snw" name="운전자주의경고기능"/>
+        <ownedOperation xmi:id="_yBmR1B_qEeyDKLWsbA9snw" name="주행영상기록기능"/>
+        <ownedOperation xmi:id="_yBmR1R_qEeyDKLWsbA9snw" name="원격스마트주차보조기능"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yBmR1h_qEeyDKLWsbA9snw" name="고급차" isAbstract="true">
+        <generalization xmi:id="_yCY8AB_qEeyDKLWsbA9snw" general="_yBkcoB_qEeyDKLWsbA9snw"/>
+        <interfaceRealization xmi:id="_yCYU8R_qEeyDKLWsbA9snw" client="_yBmR1h_qEeyDKLWsbA9snw" supplier="_yB1iYB_qEeyDKLWsbA9snw" contract="_yB1iYB_qEeyDKLWsbA9snw"/>
+        <interfaceRealization xmi:id="_yCYU8h_qEeyDKLWsbA9snw" client="_yBmR1h_qEeyDKLWsbA9snw" supplier="_yBp8MB_qEeyDKLWsbA9snw" contract="_yBp8MB_qEeyDKLWsbA9snw"/>
+        <interfaceRealization xmi:id="_yCYU8x_qEeyDKLWsbA9snw" client="_yBmR1h_qEeyDKLWsbA9snw" supplier="_yBmR0B_qEeyDKLWsbA9snw" contract="_yBmR0B_qEeyDKLWsbA9snw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYRB_qEeyDKLWsbA9snw" name="에어콘기능" specification="_yBm44B_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;고급차는 풀오토 에어콘 기능을 지원합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yBm44B_qEeyDKLWsbA9snw" name="에어콘기능" method="_yCbYRB_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yBnf8B_qEeyDKLWsbA9snw" name="그랜져">
+        <generalization xmi:id="_yCY8AR_qEeyDKLWsbA9snw" general="_yB07VB_qEeyDKLWsbA9snw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYRR_qEeyDKLWsbA9snw" name="출발기능" specification="_yBnf8R_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;그랜져의 출발기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYRh_qEeyDKLWsbA9snw" name="정지기능" specification="_yBoHAh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;그랜져의 정지기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYRx_qEeyDKLWsbA9snw" name="운전기능" specification="_yBoHBh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;그랜져의 운전기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCbYSB_qEeyDKLWsbA9snw" name="속도변경기능" specification="_yBouEh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;그랜져의 속도변경기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_UB_qEeyDKLWsbA9snw" name="라디오기능" specification="_yBouFh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;그랜져의 라디오기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_UR_qEeyDKLWsbA9snw" name="에어콘기능" specification="_yBouGh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;그랜져의 에어콘기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_Uh_qEeyDKLWsbA9snw" name="길안내기능" specification="_yBpVIx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;그랜져의 길안내기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yBnf8R_qEeyDKLWsbA9snw" name="출발기능" method="_yCbYRR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBoHAh_qEeyDKLWsbA9snw" name="정지기능" method="_yCbYRh_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBoHBh_qEeyDKLWsbA9snw" name="운전기능" method="_yCbYRx_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBouEh_qEeyDKLWsbA9snw" name="속도변경기능" method="_yCbYSB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBouFh_qEeyDKLWsbA9snw" name="라디오기능" method="_yCb_UB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBouGh_qEeyDKLWsbA9snw" name="에어콘기능" method="_yCb_UR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBpVIx_qEeyDKLWsbA9snw" name="길안내기능" method="_yCb_Uh_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_yBp8MB_qEeyDKLWsbA9snw" name="기본편의사양">
+        <ownedOperation xmi:id="_yBp8MR_qEeyDKLWsbA9snw" name="라디오기능"/>
+        <ownedOperation xmi:id="_yBp8Mh_qEeyDKLWsbA9snw" name="에어콘기능"/>
+        <ownedOperation xmi:id="_yBp8Mx_qEeyDKLWsbA9snw" name="길안내기능"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yBp8NB_qEeyDKLWsbA9snw" name="마티즈">
+        <interfaceRealization xmi:id="_yCY8Ah_qEeyDKLWsbA9snw" client="_yBp8NB_qEeyDKLWsbA9snw" supplier="_yBlqxh_qEeyDKLWsbA9snw" contract="_yBlqxh_qEeyDKLWsbA9snw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_Ux_qEeyDKLWsbA9snw" name="출발기능" specification="_yBqjQB_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;자동차를 출발시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_VB_qEeyDKLWsbA9snw" name="정지기능" specification="_yBqjRB_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;자동차를 정지시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_VR_qEeyDKLWsbA9snw" name="운전기능" specification="_yBqjSB_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;자동차를 운전합니다.&quot;);		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_Vh_qEeyDKLWsbA9snw" name="속도변경기능" specification="_yBrKUx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;자동차의 속도를 변경합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yBqjQB_qEeyDKLWsbA9snw" name="출발기능" method="_yCb_Ux_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBqjRB_qEeyDKLWsbA9snw" name="정지기능" method="_yCb_VB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBqjSB_qEeyDKLWsbA9snw" name="운전기능" method="_yCb_VR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBrKUx_qEeyDKLWsbA9snw" name="속도변경기능" method="_yCb_Vh_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_yBrKVx_qEeyDKLWsbA9snw" name="소형차">
+        <generalization xmi:id="_yCY8Ax_qEeyDKLWsbA9snw" general="_yB1iYB_qEeyDKLWsbA9snw"/>
+        <generalization xmi:id="_yCY8BB_qEeyDKLWsbA9snw" general="_yBp8MB_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yBrxYB_qEeyDKLWsbA9snw" name="쏘나타">
+        <generalization xmi:id="_yCY8BR_qEeyDKLWsbA9snw" general="_yB07VB_qEeyDKLWsbA9snw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_Vx_qEeyDKLWsbA9snw" name="출발기능" specification="_yBrxYR_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;쏘나타의 출발기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_WB_qEeyDKLWsbA9snw" name="정지기능" specification="_yBsYch_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;쏘나타의 정지기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_WR_qEeyDKLWsbA9snw" name="운전기능" specification="_yBsYdh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;쏘나타의 운전기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCb_Wh_qEeyDKLWsbA9snw" name="속도변경기능" specification="_yBsYeh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;쏘나타의 속도변경기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmYB_qEeyDKLWsbA9snw" name="라디오기능" specification="_yBs_gB_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;쏘나타의 라디오기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmYR_qEeyDKLWsbA9snw" name="에어콘기능" specification="_yBs_hB_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;쏘나타의 에어콘기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmYh_qEeyDKLWsbA9snw" name="길안내기능" specification="_yBs_iB_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;쏘나타의 길안내 기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yBrxYR_qEeyDKLWsbA9snw" name="출발기능" method="_yCb_Vx_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBsYch_qEeyDKLWsbA9snw" name="정지기능" method="_yCb_WB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBsYdh_qEeyDKLWsbA9snw" name="운전기능" method="_yCb_WR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBsYeh_qEeyDKLWsbA9snw" name="속도변경기능" method="_yCb_Wh_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBs_gB_qEeyDKLWsbA9snw" name="라디오기능" method="_yCcmYB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBs_hB_qEeyDKLWsbA9snw" name="에어콘기능" method="_yCcmYR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBs_iB_qEeyDKLWsbA9snw" name="길안내기능" method="_yCcmYh_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yBtmkB_qEeyDKLWsbA9snw" name="아반떼">
+        <interfaceRealization xmi:id="_yCZjEB_qEeyDKLWsbA9snw" client="_yBtmkB_qEeyDKLWsbA9snw" supplier="_yBrKVx_qEeyDKLWsbA9snw" contract="_yBrKVx_qEeyDKLWsbA9snw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmYx_qEeyDKLWsbA9snw" name="출발기능" specification="_yBtmkR_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;아반떼의 출발기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmZB_qEeyDKLWsbA9snw" name="정지기능" specification="_yBtmlR_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;아반떼의 정지기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmZR_qEeyDKLWsbA9snw" name="운전기능" specification="_yBuNox_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;아반떼의 운전기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmZh_qEeyDKLWsbA9snw" name="속도변경기능" specification="_yBuNpx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;아반떼의 속도변경기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmZx_qEeyDKLWsbA9snw" name="라디오기능" specification="_yBuNqx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;아반떼의 라디오 기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmaB_qEeyDKLWsbA9snw" name="에어콘기능" specification="_yBu0sh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;아반테의 에이콘기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmaR_qEeyDKLWsbA9snw" name="길안내기능" specification="_yBu0th_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;아반떼의 길 안내기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yBtmkR_qEeyDKLWsbA9snw" name="출발기능" method="_yCcmYx_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBtmlR_qEeyDKLWsbA9snw" name="정지기능" method="_yCcmZB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBuNox_qEeyDKLWsbA9snw" name="운전기능" method="_yCcmZR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBuNpx_qEeyDKLWsbA9snw" name="속도변경기능" method="_yCcmZh_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBuNqx_qEeyDKLWsbA9snw" name="라디오기능" method="_yCcmZx_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBu0sh_qEeyDKLWsbA9snw" name="에어콘기능" method="_yCcmaB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBu0th_qEeyDKLWsbA9snw" name="길안내기능" method="_yCcmaR_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yBvbwB_qEeyDKLWsbA9snw" name="엑셀">
+        <interfaceRealization xmi:id="_yCZjER_qEeyDKLWsbA9snw" client="_yBvbwB_qEeyDKLWsbA9snw" supplier="_yBrKVx_qEeyDKLWsbA9snw" contract="_yBrKVx_qEeyDKLWsbA9snw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmah_qEeyDKLWsbA9snw" name="출발기능" specification="_yBvbwR_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;엑셀의 출발기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmax_qEeyDKLWsbA9snw" name="정지기능" specification="_yBvbxR_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;엑셀의 정지기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCcmbB_qEeyDKLWsbA9snw" name="운전기능" specification="_yBwC0h_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;엑셀의 운전기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNcB_qEeyDKLWsbA9snw" name="속도변경기능" specification="_yBwC1h_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;엑셀의 속도변경기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNcR_qEeyDKLWsbA9snw" name="라디오기능" specification="_yBwC2h_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;엑셀의 라디오기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNch_qEeyDKLWsbA9snw" name="에어콘기능" specification="_yBwp4h_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;엑셀의 에어콘기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNcx_qEeyDKLWsbA9snw" name="길안내기능" specification="_yBwp5h_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;엑셀의 길안내기능을 실행합니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yBvbwR_qEeyDKLWsbA9snw" name="출발기능" method="_yCcmah_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBvbxR_qEeyDKLWsbA9snw" name="정지기능" method="_yCcmax_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBwC0h_qEeyDKLWsbA9snw" name="운전기능" method="_yCcmbB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBwC1h_qEeyDKLWsbA9snw" name="속도변경기능" method="_yCdNcB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBwC2h_qEeyDKLWsbA9snw" name="라디오기능" method="_yCdNcR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBwp4h_qEeyDKLWsbA9snw" name="에어콘기능" method="_yCdNch_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBwp5h_qEeyDKLWsbA9snw" name="길안내기능" method="_yCdNcx_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yBxQ8B_qEeyDKLWsbA9snw" name="제네시스">
+        <generalization xmi:id="_yCZjEh_qEeyDKLWsbA9snw" general="_yBmR1h_qEeyDKLWsbA9snw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNdB_qEeyDKLWsbA9snw" name="출발기능" specification="_yBxQ8R_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 출발기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNdR_qEeyDKLWsbA9snw" name="정지기능" specification="_yBx4Ax_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 정지기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNdh_qEeyDKLWsbA9snw" name="운전기능" specification="_yBx4Bx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 운전기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNdx_qEeyDKLWsbA9snw" name="속도변경기능" specification="_yByfEx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 속도변경기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNeB_qEeyDKLWsbA9snw" name="라디오기능" specification="_yByfFx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 라디오기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNeR_qEeyDKLWsbA9snw" name="에어콘기능" specification="_yByfGx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 에어콘기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNeh_qEeyDKLWsbA9snw" name="길안내기능" specification="_yBzGIx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 길안내기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNex_qEeyDKLWsbA9snw" name="공기청정기능" specification="_yBzGJx_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 출발기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNfB_qEeyDKLWsbA9snw" name="고속도로주행보조기능" specification="_yBztMh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 고속도로주행보조기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNfR_qEeyDKLWsbA9snw" name="운전자주의경고기능" specification="_yBztNh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 운전자주의경고 기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCdNfh_qEeyDKLWsbA9snw" name="주행영상기록기능" specification="_yBztOh_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 주행영상기록기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCd0gB_qEeyDKLWsbA9snw" name="원격스마트주차보조기능" specification="_yB0UQR_qEeyDKLWsbA9snw">
+          <language>java</language>
+          <body>System.out.println(&quot;제네시스의 원격스마트주차보조기능을 실행시킵니다.&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yBxQ8R_qEeyDKLWsbA9snw" name="출발기능" method="_yCdNdB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBx4Ax_qEeyDKLWsbA9snw" name="정지기능" method="_yCdNdR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBx4Bx_qEeyDKLWsbA9snw" name="운전기능" method="_yCdNdh_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yByfEx_qEeyDKLWsbA9snw" name="속도변경기능" method="_yCdNdx_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yByfFx_qEeyDKLWsbA9snw" name="라디오기능" method="_yCdNeB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yByfGx_qEeyDKLWsbA9snw" name="에어콘기능" method="_yCdNeR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBzGIx_qEeyDKLWsbA9snw" name="길안내기능" method="_yCdNeh_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBzGJx_qEeyDKLWsbA9snw" name="공기청정기능" method="_yCdNex_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBztMh_qEeyDKLWsbA9snw" name="고속도로주행보조기능" method="_yCdNfB_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBztNh_qEeyDKLWsbA9snw" name="운전자주의경고기능" method="_yCdNfR_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yBztOh_qEeyDKLWsbA9snw" name="주행영상기록기능" method="_yCdNfh_qEeyDKLWsbA9snw"/>
+        <ownedOperation xmi:id="_yB0UQR_qEeyDKLWsbA9snw" name="원격스마트주차보조기능" method="_yCd0gB_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_yB0URR_qEeyDKLWsbA9snw" name="주행보조편의사양">
+        <ownedOperation xmi:id="_yB07UB_qEeyDKLWsbA9snw" name="차선유지기능"/>
+        <ownedOperation xmi:id="_yB07UR_qEeyDKLWsbA9snw" name="차선자동변경기능"/>
+        <ownedOperation xmi:id="_yB07Uh_qEeyDKLWsbA9snw" name="차간거리유지기능"/>
+        <ownedOperation xmi:id="_yB07Ux_qEeyDKLWsbA9snw" name="자동추차기능"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yB07VB_qEeyDKLWsbA9snw" name="중형차" isAbstract="true">
+        <generalization xmi:id="_yCaKIh_qEeyDKLWsbA9snw" general="_yBkcoB_qEeyDKLWsbA9snw"/>
+        <interfaceRealization xmi:id="_yCaKIB_qEeyDKLWsbA9snw" client="_yB07VB_qEeyDKLWsbA9snw" supplier="_yB1iYB_qEeyDKLWsbA9snw" contract="_yB1iYB_qEeyDKLWsbA9snw"/>
+        <interfaceRealization xmi:id="_yCaKIR_qEeyDKLWsbA9snw" client="_yB07VB_qEeyDKLWsbA9snw" supplier="_yBp8MB_qEeyDKLWsbA9snw" contract="_yBp8MB_qEeyDKLWsbA9snw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_yB1iYB_qEeyDKLWsbA9snw" name="차">
+        <ownedOperation xmi:id="_yB1iYR_qEeyDKLWsbA9snw" name="출발기능"/>
+        <ownedOperation xmi:id="_yB1iYh_qEeyDKLWsbA9snw" name="정지기능"/>
+        <ownedOperation xmi:id="_yB2JcB_qEeyDKLWsbA9snw" name="운전기능"/>
+        <ownedOperation xmi:id="_yB2JcR_qEeyDKLWsbA9snw" name="속도변경기능"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yB2Jch_qEeyDKLWsbA9snw" name="차App">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yCd0gR_qEeyDKLWsbA9snw" name="main" specification="_yB2Jcx_qEeyDKLWsbA9snw">
+          <ownedParameter xmi:id="_yCd0gh_qEeyDKLWsbA9snw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yCd0gx_qEeyDKLWsbA9snw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>중형차[] 중형차들 = new 중형차[3];&#xD;
+		중형차들[0] = new 쏘나타();&#xD;
+		중형차들[1] = new 그랜져();&#xD;
+		중형차들[2] = new 쏘나타();&#xD;
+		//중형차들[2] = new 마티즈();	// 오류 type mismatch 오류&#xD;
+		//중형차들[2] = new 엑셀();		// 오류 type mismatch 오류&#xD;
+		//중형차들[2] = new 아반떼();	// 오류 type mismatch 오류&#xD;
+		//중형차들[2] = new 제네시스();	// 오류 type mismatch 오류&#xD;
+		&#xD;
+		// 주행보조편의사양이 제공되는 차량&#xD;
+		주행보조편의사양[] 주행보조편의사양차량 = new 주행보조편의사양[3];&#xD;
+		주행보조편의사양차량[0] = new 쏘나타();&#xD;
+		주행보조편의사양차량[1] = new 그랜져();&#xD;
+		주행보조편의사양차량[2] = new 제네시스();&#xD;
+		&#xD;
+		차[] 차량들 = new 차[5];&#xD;
+		차량들[0] = new 마티즈();&#xD;
+		차량들[1] = new 엑셀();&#xD;
+		차량들[2] = new 아반떼();&#xD;
+		차량들[3] = new 쏘나타();&#xD;
+		차량들[4] = new 그랜져();&#xD;
+		차량들[5] = new 제네시스();&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yB2Jcx_qEeyDKLWsbA9snw" name="main" isStatic="true" method="_yCd0gR_qEeyDKLWsbA9snw">
+          <ownedParameter xmi:id="_yB2JdB_qEeyDKLWsbA9snw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yB2wgB_qEeyDKLWsbA9snw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_x7zL0R_qEeyDKLWsbA9snw">
+      <eAnnotations xmi:id="_x7zy4B_qEeyDKLWsbA9snw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_x70Z8B_qEeyDKLWsbA9snw" base_Package="_x5Nx4B_qEeyDKLWsbA9snw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBlDsB_qEeyDKLWsbA9snw" base_Element="_yBkcoR_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBlDsR_qEeyDKLWsbA9snw" base_Element="_yBkcoR_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBlDsh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBlDtB_qEeyDKLWsbA9snw" base_Element="_yBlDsx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBlDtR_qEeyDKLWsbA9snw" base_Element="_yBlDsx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBlDth_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBlDuB_qEeyDKLWsbA9snw" base_Element="_yBlDtx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBlqwB_qEeyDKLWsbA9snw" base_Element="_yBlDtx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBlqwR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBlqwx_qEeyDKLWsbA9snw" base_Element="_yBlqwh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBlqxB_qEeyDKLWsbA9snw" base_Element="_yBlqwh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBlqxR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBm44R_qEeyDKLWsbA9snw" base_Element="_yBm44B_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBm44h_qEeyDKLWsbA9snw" base_Element="_yBm44B_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBm44x_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBnf8h_qEeyDKLWsbA9snw" base_Element="_yBnf8R_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBoHAB_qEeyDKLWsbA9snw" base_Element="_yBnf8R_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBoHAR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBoHAx_qEeyDKLWsbA9snw" base_Element="_yBoHAh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBoHBB_qEeyDKLWsbA9snw" base_Element="_yBoHAh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBoHBR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBoHBx_qEeyDKLWsbA9snw" base_Element="_yBoHBh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBouEB_qEeyDKLWsbA9snw" base_Element="_yBoHBh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBouER_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBouEx_qEeyDKLWsbA9snw" base_Element="_yBouEh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBouFB_qEeyDKLWsbA9snw" base_Element="_yBouEh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBouFR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBouFx_qEeyDKLWsbA9snw" base_Element="_yBouFh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBouGB_qEeyDKLWsbA9snw" base_Element="_yBouFh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBouGR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBpVIB_qEeyDKLWsbA9snw" base_Element="_yBouGh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBpVIR_qEeyDKLWsbA9snw" base_Element="_yBouGh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBpVIh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBpVJB_qEeyDKLWsbA9snw" base_Element="_yBpVIx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBpVJR_qEeyDKLWsbA9snw" base_Element="_yBpVIx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBpVJh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBqjQR_qEeyDKLWsbA9snw" base_Element="_yBqjQB_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBqjQh_qEeyDKLWsbA9snw" base_Element="_yBqjQB_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBqjQx_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBqjRR_qEeyDKLWsbA9snw" base_Element="_yBqjRB_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBqjRh_qEeyDKLWsbA9snw" base_Element="_yBqjRB_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBqjRx_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBrKUB_qEeyDKLWsbA9snw" base_Element="_yBqjSB_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBrKUR_qEeyDKLWsbA9snw" base_Element="_yBqjSB_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBrKUh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBrKVB_qEeyDKLWsbA9snw" base_Element="_yBrKUx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBrKVR_qEeyDKLWsbA9snw" base_Element="_yBrKUx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBrKVh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBrxYh_qEeyDKLWsbA9snw" base_Element="_yBrxYR_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBsYcB_qEeyDKLWsbA9snw" base_Element="_yBrxYR_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBsYcR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBsYcx_qEeyDKLWsbA9snw" base_Element="_yBsYch_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBsYdB_qEeyDKLWsbA9snw" base_Element="_yBsYch_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBsYdR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBsYdx_qEeyDKLWsbA9snw" base_Element="_yBsYdh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBsYeB_qEeyDKLWsbA9snw" base_Element="_yBsYdh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBsYeR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBsYex_qEeyDKLWsbA9snw" base_Element="_yBsYeh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBsYfB_qEeyDKLWsbA9snw" base_Element="_yBsYeh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBsYfR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBs_gR_qEeyDKLWsbA9snw" base_Element="_yBs_gB_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBs_gh_qEeyDKLWsbA9snw" base_Element="_yBs_gB_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBs_gx_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBs_hR_qEeyDKLWsbA9snw" base_Element="_yBs_hB_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBs_hh_qEeyDKLWsbA9snw" base_Element="_yBs_hB_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBs_hx_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBs_iR_qEeyDKLWsbA9snw" base_Element="_yBs_iB_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBs_ih_qEeyDKLWsbA9snw" base_Element="_yBs_iB_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBs_ix_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBtmkh_qEeyDKLWsbA9snw" base_Element="_yBtmkR_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBtmkx_qEeyDKLWsbA9snw" base_Element="_yBtmkR_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBtmlB_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBuNoB_qEeyDKLWsbA9snw" base_Element="_yBtmlR_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBuNoR_qEeyDKLWsbA9snw" base_Element="_yBtmlR_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBuNoh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBuNpB_qEeyDKLWsbA9snw" base_Element="_yBuNox_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBuNpR_qEeyDKLWsbA9snw" base_Element="_yBuNox_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBuNph_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBuNqB_qEeyDKLWsbA9snw" base_Element="_yBuNpx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBuNqR_qEeyDKLWsbA9snw" base_Element="_yBuNpx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBuNqh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBuNrB_qEeyDKLWsbA9snw" base_Element="_yBuNqx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBu0sB_qEeyDKLWsbA9snw" base_Element="_yBuNqx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBu0sR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBu0sx_qEeyDKLWsbA9snw" base_Element="_yBu0sh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBu0tB_qEeyDKLWsbA9snw" base_Element="_yBu0sh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBu0tR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBu0tx_qEeyDKLWsbA9snw" base_Element="_yBu0th_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBu0uB_qEeyDKLWsbA9snw" base_Element="_yBu0th_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBu0uR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBvbwh_qEeyDKLWsbA9snw" base_Element="_yBvbwR_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBvbwx_qEeyDKLWsbA9snw" base_Element="_yBvbwR_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBvbxB_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBvbxh_qEeyDKLWsbA9snw" base_Element="_yBvbxR_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBwC0B_qEeyDKLWsbA9snw" base_Element="_yBvbxR_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBwC0R_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBwC0x_qEeyDKLWsbA9snw" base_Element="_yBwC0h_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBwC1B_qEeyDKLWsbA9snw" base_Element="_yBwC0h_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBwC1R_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBwC1x_qEeyDKLWsbA9snw" base_Element="_yBwC1h_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBwC2B_qEeyDKLWsbA9snw" base_Element="_yBwC1h_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBwC2R_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBwC2x_qEeyDKLWsbA9snw" base_Element="_yBwC2h_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBwp4B_qEeyDKLWsbA9snw" base_Element="_yBwC2h_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBwp4R_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBwp4x_qEeyDKLWsbA9snw" base_Element="_yBwp4h_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBwp5B_qEeyDKLWsbA9snw" base_Element="_yBwp4h_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBwp5R_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBwp5x_qEeyDKLWsbA9snw" base_Element="_yBwp5h_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBwp6B_qEeyDKLWsbA9snw" base_Element="_yBwp5h_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBwp6R_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBx4AB_qEeyDKLWsbA9snw" base_Element="_yBxQ8R_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBx4AR_qEeyDKLWsbA9snw" base_Element="_yBxQ8R_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBx4Ah_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBx4BB_qEeyDKLWsbA9snw" base_Element="_yBx4Ax_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBx4BR_qEeyDKLWsbA9snw" base_Element="_yBx4Ax_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBx4Bh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yByfEB_qEeyDKLWsbA9snw" base_Element="_yBx4Bx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yByfER_qEeyDKLWsbA9snw" base_Element="_yBx4Bx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yByfEh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yByfFB_qEeyDKLWsbA9snw" base_Element="_yByfEx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yByfFR_qEeyDKLWsbA9snw" base_Element="_yByfEx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yByfFh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yByfGB_qEeyDKLWsbA9snw" base_Element="_yByfFx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yByfGR_qEeyDKLWsbA9snw" base_Element="_yByfFx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yByfGh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBzGIB_qEeyDKLWsbA9snw" base_Element="_yByfGx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBzGIR_qEeyDKLWsbA9snw" base_Element="_yByfGx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBzGIh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBzGJB_qEeyDKLWsbA9snw" base_Element="_yBzGIx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBzGJR_qEeyDKLWsbA9snw" base_Element="_yBzGIx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBzGJh_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBzGKB_qEeyDKLWsbA9snw" base_Element="_yBzGJx_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBztMB_qEeyDKLWsbA9snw" base_Element="_yBzGJx_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBztMR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBztMx_qEeyDKLWsbA9snw" base_Element="_yBztMh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBztNB_qEeyDKLWsbA9snw" base_Element="_yBztMh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBztNR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBztNx_qEeyDKLWsbA9snw" base_Element="_yBztNh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBztOB_qEeyDKLWsbA9snw" base_Element="_yBztNh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yBztOR_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yBztOx_qEeyDKLWsbA9snw" base_Element="_yBztOh_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yBztPB_qEeyDKLWsbA9snw" base_Element="_yBztOh_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yB0UQB_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yB0UQh_qEeyDKLWsbA9snw" base_Element="_yB0UQR_qEeyDKLWsbA9snw"/>
+  <UMLLabProfile:Annotations xmi:id="_yB0UQx_qEeyDKLWsbA9snw" base_Element="_yB0UQR_qEeyDKLWsbA9snw">
+    <annotations xmi:id="_yB0URB_qEeyDKLWsbA9snw" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>
