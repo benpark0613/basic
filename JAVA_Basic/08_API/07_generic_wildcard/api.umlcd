@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WfEbgCYtEey6vZlrFa-vUg">
+  <modelElement href="api.uml#_VV-sgCYtEey6vZlrFa-vUg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ZEF9ACYtEey6vZlrFa-vUg" source="_ZEGkGCYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_XBWCISYtEey6vZlrFa-vUg"/>
+    <stereotypes xmi:id="_ZEGkECYtEey6vZlrFa-vUg" name="Reference">
+      <modelElement href="api.uml#_XBWCIyYtEey6vZlrFa-vUg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ZEGkESYtEey6vZlrFa-vUg" text=""/>
+    <sourceRole xmi:id="_ZEGkEiYtEey6vZlrFa-vUg" aggregationKind="NONE" name="">
+      <modelElement href="api.uml#_XBWCIiYtEey6vZlrFa-vUg"/>
+      <visibility xmi:id="_ZEGkEyYtEey6vZlrFa-vUg" label="+"/>
+      <cardinality xmi:id="_ZEGkFCYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ZEGkFSYtEey6vZlrFa-vUg" aggregationKind="NONE" name="requests" navigable="true">
+      <modelElement href="api.uml#_XAtI8SYtEey6vZlrFa-vUg"/>
+      <visibility xmi:id="_ZEGkFiYtEey6vZlrFa-vUg" label="-"/>
+      <cardinality xmi:id="_ZEGkFyYtEey6vZlrFa-vUg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZEV0oCYtEey6vZlrFa-vUg" sourceAnchor="29.0,0.0" targetAnchor="25.0,27.0" superClass="_ZESxUCYtEey6vZlrFa-vUg" subClass="_ZEXp0CYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_XAK9cSYtEey6vZlrFa-vUg"/>
+    <bendpoints xmi:id="_bZzQICYtEey6vZlrFa-vUg" sourceY="-30" targetX="-84" targetY="68"/>
+    <bendpoints xmi:id="_bZzQISYtEey6vZlrFa-vUg" sourceX="84" sourceY="-30" targetY="68"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZEWbsCYtEey6vZlrFa-vUg" sourceAnchor="78.0,0.0" targetAnchor="29.0,27.0" superClass="_ZEXp0CYtEey6vZlrFa-vUg" subClass="_ZEUmgCYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_XAK9cCYtEey6vZlrFa-vUg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_ZEio8CYtEey6vZlrFa-vUg" sourceAnchor="27.0,0.0" targetAnchor="25.0,27.0" superClass="_ZESxUCYtEey6vZlrFa-vUg" subClass="_ZEjQACYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_XAK9ciYtEey6vZlrFa-vUg"/>
+    <bendpoints xmi:id="_bZypECYtEey6vZlrFa-vUg" sourceY="-39" targetX="84" targetY="68"/>
+    <bendpoints xmi:id="_bZypESYtEey6vZlrFa-vUg" sourceX="-84" sourceY="-39" targetY="68"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZEQVECYtEey6vZlrFa-vUg" name="CourseApp">
+    <modelElement href="api.uml#_W9W6ACYtEey6vZlrFa-vUg"/>
+    <visualProperties xmi:id="_ZEQVESYtEey6vZlrFa-vUg" position="46.0,246.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZEQVEiYtEey6vZlrFa-vUg" label="+"/>
+    <operations xmi:id="_ZEQVEyYtEey6vZlrFa-vUg" name="main" staticOperation="true">
+      <modelElement href="api.uml#_W9XhECYtEey6vZlrFa-vUg"/>
+      <visibility xmi:id="_ZEQVFCYtEey6vZlrFa-vUg" label="+"/>
+      <cardinality xmi:id="_ZEQVFSYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZEQVFiYtEey6vZlrFa-vUg" name="args">
+        <modelElement href="api.uml#_W9XhESYtEey6vZlrFa-vUg"/>
+        <cardinality xmi:id="_ZEQVFyYtEey6vZlrFa-vUg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ZEQVGCYtEey6vZlrFa-vUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZEjQACYtEey6vZlrFa-vUg" name="Worker" generalizations="_ZEio8CYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_W9ZWQCYtEey6vZlrFa-vUg"/>
+    <visualProperties xmi:id="_ZEjQASYtEey6vZlrFa-vUg" position="877.0,208.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZEjQAiYtEey6vZlrFa-vUg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZEGkGCYtEey6vZlrFa-vUg" name="Course" associationsOut="_ZEF9ACYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_W9T2sCYtEey6vZlrFa-vUg"/>
+    <visualProperties xmi:id="_ZEGkGSYtEey6vZlrFa-vUg" position="35.0,357.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_ZEGkGiYtEey6vZlrFa-vUg" name="Generics">
+      <modelElement href="api.uml#_W9VE0CYtEey6vZlrFa-vUg"/>
+    </stereotypes>
+    <visibility xmi:id="_ZEGkGyYtEey6vZlrFa-vUg" label="+"/>
+    <attributes xmi:id="_ZEGkHCYtEey6vZlrFa-vUg" name="name">
+      <modelElement href="api.uml#_XAtI8CYtEey6vZlrFa-vUg"/>
+      <visibility xmi:id="_ZEGkHSYtEey6vZlrFa-vUg" label="+"/>
+      <cardinality xmi:id="_ZEGkHiYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+      <type xmi:id="_ZEGkHyYtEey6vZlrFa-vUg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ZEGkICYtEey6vZlrFa-vUg" name="requests">
+      <modelElement href="api.uml#_XAtI8SYtEey6vZlrFa-vUg"/>
+      <stereotypes xmi:id="_ZEGkISYtEey6vZlrFa-vUg" name="Array">
+        <modelElement href="api.uml#_XAtI8yYtEey6vZlrFa-vUg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ZEGkIiYtEey6vZlrFa-vUg" name="LegacyStyledElement">
+        <modelElement href="api.uml#_XAtI9CYtEey6vZlrFa-vUg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZEGkIyYtEey6vZlrFa-vUg" label="-"/>
+      <cardinality xmi:id="_ZEGkJCYtEey6vZlrFa-vUg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ZEGkJSYtEey6vZlrFa-vUg" name="T">
+        <modelElement href="api.uml#_XAY_4CYtEey6vZlrFa-vUg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ZEGkJiYtEey6vZlrFa-vUg" name="Course">
+      <modelElement href="api.uml#_W9Vr4CYtEey6vZlrFa-vUg"/>
+      <keywords xmi:id="_ZEGkJyYtEey6vZlrFa-vUg" keyword="create"/>
+      <visibility xmi:id="_ZEGkKCYtEey6vZlrFa-vUg" label="+"/>
+      <cardinality xmi:id="_ZEGkKSYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ZEGkKiYtEey6vZlrFa-vUg">
+        <modelElement href="api.uml#_W9WS8SYtEey6vZlrFa-vUg"/>
+        <type xmi:id="_ZEGkKyYtEey6vZlrFa-vUg" name="Course">
+          <modelElement href="api.uml#_W9T2sCYtEey6vZlrFa-vUg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ZEGkLCYtEey6vZlrFa-vUg" name="name">
+        <modelElement href="api.uml#_W9Vr4SYtEey6vZlrFa-vUg"/>
+        <cardinality xmi:id="_ZEGkLSYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+        <type xmi:id="_ZEGkLiYtEey6vZlrFa-vUg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZDYyYCYtEey6vZlrFa-vUg" name="Academy">
+    <modelElement href="api.uml#_W9SokCYtEey6vZlrFa-vUg"/>
+    <visualProperties xmi:id="_ZDYyYSYtEey6vZlrFa-vUg" position="2.0,57.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZDYyYiYtEey6vZlrFa-vUg" label="+"/>
+    <operations xmi:id="_ZDYyYyYtEey6vZlrFa-vUg" name="모든과정등록">
+      <modelElement href="api.uml#_XAHTECYtEey6vZlrFa-vUg"/>
+      <stereotypes xmi:id="_ZDYyZCYtEey6vZlrFa-vUg" name="LegacyStyledElement">
+        <modelElement href="api.uml#_XAHTEiYtEey6vZlrFa-vUg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZDYyZSYtEey6vZlrFa-vUg" label="+"/>
+      <cardinality xmi:id="_ZDYyZiYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZDYyZyYtEey6vZlrFa-vUg" name="course">
+        <modelElement href="api.uml#_XAHTESYtEey6vZlrFa-vUg"/>
+        <cardinality xmi:id="_ZDYyaCYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+        <type xmi:id="_ZDYyaSYtEey6vZlrFa-vUg" name="Course">
+          <modelElement href="api.uml#_W9T2sCYtEey6vZlrFa-vUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZDYyaiYtEey6vZlrFa-vUg" name="전공과정등록">
+      <modelElement href="api.uml#_XAH6ISYtEey6vZlrFa-vUg"/>
+      <stereotypes xmi:id="_ZDYyayYtEey6vZlrFa-vUg" name="LegacyStyledElement">
+        <modelElement href="api.uml#_XAIhMCYtEey6vZlrFa-vUg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZDYybCYtEey6vZlrFa-vUg" label="+"/>
+      <cardinality xmi:id="_ZDYybSYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZDYybiYtEey6vZlrFa-vUg" name="course">
+        <modelElement href="api.uml#_XAH6IiYtEey6vZlrFa-vUg"/>
+        <cardinality xmi:id="_ZDYybyYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+        <type xmi:id="_ZDYycCYtEey6vZlrFa-vUg" name="Course">
+          <modelElement href="api.uml#_W9T2sCYtEey6vZlrFa-vUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZDYycSYtEey6vZlrFa-vUg" name="대학원과정등록">
+      <modelElement href="api.uml#_XAIhMiYtEey6vZlrFa-vUg"/>
+      <stereotypes xmi:id="_ZDYyciYtEey6vZlrFa-vUg" name="LegacyStyledElement">
+        <modelElement href="api.uml#_XAJIQSYtEey6vZlrFa-vUg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZDYycyYtEey6vZlrFa-vUg" label="+"/>
+      <cardinality xmi:id="_ZDYydCYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZDYydSYtEey6vZlrFa-vUg" name="course">
+        <modelElement href="api.uml#_XAJIQCYtEey6vZlrFa-vUg"/>
+        <cardinality xmi:id="_ZDYydiYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+        <type xmi:id="_ZDYydyYtEey6vZlrFa-vUg" name="Course">
+          <modelElement href="api.uml#_W9T2sCYtEey6vZlrFa-vUg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZDYyeCYtEey6vZlrFa-vUg" name="직장인및일반인과정등록">
+      <modelElement href="api.uml#_XAJvUSYtEey6vZlrFa-vUg"/>
+      <stereotypes xmi:id="_ZDYyeSYtEey6vZlrFa-vUg" name="LegacyStyledElement">
+        <modelElement href="api.uml#_XAKWYCYtEey6vZlrFa-vUg"/>
+      </stereotypes>
+      <visibility xmi:id="_ZDYyeiYtEey6vZlrFa-vUg" label="+"/>
+      <cardinality xmi:id="_ZDYyeyYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ZDYyfCYtEey6vZlrFa-vUg" name="course">
+        <modelElement href="api.uml#_XAJvUiYtEey6vZlrFa-vUg"/>
+        <cardinality xmi:id="_ZDYyfSYtEey6vZlrFa-vUg" label="1" max="1" min="1"/>
+        <type xmi:id="_ZDYyfiYtEey6vZlrFa-vUg" name="Course">
+          <modelElement href="api.uml#_W9T2sCYtEey6vZlrFa-vUg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZEUmgCYtEey6vZlrFa-vUg" name="PostGraduatedStudent" generalizations="_ZEWbsCYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_W9YIISYtEey6vZlrFa-vUg"/>
+    <visualProperties xmi:id="_ZEUmgSYtEey6vZlrFa-vUg" position="658.0,303.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZEUmgiYtEey6vZlrFa-vUg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZESxUCYtEey6vZlrFa-vUg" name="Person" subclassedBy="_ZEV0oCYtEey6vZlrFa-vUg _ZEio8CYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_W9YIICYtEey6vZlrFa-vUg"/>
+    <visualProperties xmi:id="_ZESxUSYtEey6vZlrFa-vUg" position="795.0,74.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZESxUiYtEey6vZlrFa-vUg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ZEXp0CYtEey6vZlrFa-vUg" name="Student" generalizations="_ZEV0oCYtEey6vZlrFa-vUg" subclassedBy="_ZEWbsCYtEey6vZlrFa-vUg">
+    <modelElement href="api.uml#_W9YvMCYtEey6vZlrFa-vUg"/>
+    <visualProperties xmi:id="_ZEXp0SYtEey6vZlrFa-vUg" position="707.0,199.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ZEXp0iYtEey6vZlrFa-vUg" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
