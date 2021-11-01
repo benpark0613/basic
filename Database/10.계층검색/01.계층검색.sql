@@ -1,0 +1,73 @@
+-- 계층검색
+-- 계층형 쿼리를 이용해서 상/하 관계에 있는 데이터를 조회한다.
+
+-- 100번 직원의 하위에 위치하고 있는 직원 조회하기
+SELECT LEVEL, EMPLOYEE_ID,LPAD('-', (LEVEL-1)*5, '-') || FIRST_NAME
+FROM EMPLOYEES
+START WITH EMPLOYEE_ID = 100
+CONNECT BY PRIOR EMPLOYEE_ID = MANAGER_ID AND LEVEL <= 3;
+
+-- 101번 직원의 하위에 위치하고 있는 직원 조회하기
+SELECT LEVEL, EMPLOYEE_ID,LPAD('-', (LEVEL-1)*5, '-') || FIRST_NAME
+FROM EMPLOYEES
+START WITH EMPLOYEE_ID = 101
+CONNECT BY PRIOR EMPLOYEE_ID = MANAGER_ID AND LEVEL <= 2;
+
+-- 205번 직원의 상위에 위치하고 있는 매니저 조회하기
+SELECT LEVEL, EMPLOYEE_ID, FIRST_NAME
+FROM EMPLOYEES
+START WITH EMPLOYEE_ID = 205
+CONNECT BY PRIOR MANAGER_ID = EMPLOYEE_ID;      -- Shelley > Neena > Steven 
+
+--------------------------------------------------------------------------------
+-- LEVEL과 CONNECT BY로 연속된 숫자/ 날짜 생성하기
+
+-- 2004년에 입사한 직원들을 월별로 몇 명 씩 입사했는지 조회하기
+SELECT TO_NUMBER(Y.MONTH) MONTH , Y.MONTH, NVL(X.CNT, 0) CNT
+FROM (SELECT TO_CHAR(HIRE_DATE, 'MM') MONTH, COUNT(*) CNT
+      FROM EMPLOYEES 
+      WHERE HIRE_DATE > '2004/01/01' AND HIRE_DATE < TO_DATE('2004/12/31') + 1
+      GROUP BY TO_CHAR(HIRE_DATE, 'MM')) X,
+     (SELECT LPAD(LEVEL, 2, '0') MONTH
+      FROM DUAL
+      CONNECT BY LEVEL <= 12) Y
+WHERE X.MONTH(+) = Y.MONTH
+ORDER BY Y.MONTH ASC;
+
+-- 2021/10/01 ~ 2021/10/31 사이의 날짜를 생성하기
+SELECT TO_DATE('2021/10/01', 'YYYY/MM/DD') + LEVEL - 1
+FROM DUAL
+CONNECT BY LEVEL <= TO_DATE('2021/10/31') - TO_DATE('2021/10/01') + 1;
+
+-- 직원들의 급여 1000달러 단위로 구분해서 급여별 인원수를 조회하기
+SELECT Y.SALARY, NVL(CNT, 0) NVL
+FROM (SELECT TRUNC(SALARY, -3) SALARY, COUNT(*) CNT
+      FROM EMPLOYEES
+      GROUP BY TRUNC(SALARY, -3)) X,
+     (SELECT LEVEL*1000 SALARY
+      FROM DUAL
+      CONNECT BY LEVEL <= 24) Y
+WHERE X.SALARY(+) = Y.SALARY      
+ORDER BY 1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
