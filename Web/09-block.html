@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            background-color: lightgray;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>블록 엘리먼트(블록 태그)</h1>
+    <!-- 
+        엘리먼트는 태그를 표현하는 객체다.
+        엘리먼트는 브라우저가 HTML 문서를 해석해서 HTML Document Object Model 객체를 생성할 때, 
+        HTML 문서에 포함된 모든 태그마다 하나씩 생성되는 객체다.
+
+        블록 엘리먼트
+            - 항상 새로운 줄의 처음에서 시작한다.
+            - 항상 사용가능한 전체 너비를 차지한다.
+            - 블록 엘리먼트의 왼쪽이나 오른쪽에는 다른 엘리먼트가 위치할 수 없다.
+            - 엘리먼트의 너비(width)를 지정할 수 있다.
+            - 엘리먼트 내의 컨텐츠(자식엘리먼트, 텍스트)를 정렬할 수 있다.
+
+            h1, h2, h3, h4, h5, h6                              - 제목 컨텐츠를 담는 태그
+            p                                                   - 본문의 내용을 담는 태그
+            nav, header, main, footer, aside, article, section  - 문서의 내비게이션, 헤더, 메인, 푸터, 섹션, 사이드영역을 표현하는 태그
+            ul, ol, li, dl, dt, dd                              - 목록을 담는 태그
+            table                                               - 표를 담는 태그
+            form                                                - 폼 입력요소를 담는 태그
+            canvas, video                                       - 2차원 도형, 비디오를 표현하는 태그
+            hr                                                  - 수평선을 표현하는 태그
+            
+            div                                                 - 블록엘리먼트의 컨테이너 태그
+     -->
+    <p style="width: 200px;">블록엘리먼트</p>
+    <p style="width: 400px;">블록엘리먼트</p>
+    <p style="width: 600px">블록엘리먼트</p>
+
+    <p style="width: 25%;">블록엘리먼트</p>
+    <p style="width: 55%;">블록엘리먼트</p>
+    <p style="width: 75%;">블록엘리먼트</p>
+
+    <p style="text-align: left;">블록엘리먼트</p>
+    <p style="text-align: center;">블록엘리먼트</p>
+    <p style="text-align: right;">블록엘리먼트</p>
+</body>
+
+</html>

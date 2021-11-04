@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{width: 100%; border-collapse: collapse; margin-top: 10px;}
+        thead tr {background-color: black; color: white; font-weight: bold;}
+        td, th {border: 1px solid #ddd; padding: 8px; text-align: left;}
+    </style>
+</head>
+<body>
+    <h1>HTML 태그 연습하기</h1>
+    <h2>표를 담은 태그</h2>
+
+    <!-- 
+        표를 담는 태그
+        <table>, <thead>, <tbody>, <tfood>, <tr>, <th>, <td>, <caption>, <colgroup>, <col>
+        
+        <table>은 표를 담는 태그다.
+        <thead>는 표의 헤더부를 담는 태그다.
+        <tbody>는 표의 데이터부를 담는 태그다.
+        <tfoot>은 표의 푸터부를 담는 태그다.
+        <tr>은 표의 행을 생성하는 태그다.
+        <th>는 각 항목의 제목을 담는 태그다.
+        <td>는 각 항목의 데이터를 담는 태그다.
+        <colgroup>, <col>은 테이블에 포함된 각 컬럼의 너비를 지정하는 태그다.
+        <caption>는 표에 대한 설명을 담는 태그다.
+
+        table       (caption?, colgroup?, thead?, tbody?, tfoot?, tr+)
+        caption     (텍스트)
+        colgroup    (col+)
+        thead       (tr+)
+        tbody       (tr+)
+        tfoot       (tr+)
+        tr          (th|td)+   
+     -->
+     <table>
+         <caption>연락처입니다</caption>
+         <tr>
+             <th>번호</th>
+             <th>이름</th>
+             <th>연락처</th>
+         </tr>
+         <tr>
+             <td>1</td>
+             <td>홍길동</td>
+             <td>010-1234-5678</td>
+         </tr>
+         <tr>
+             <td>1</td>
+             <td>홍길동</td>
+             <td>010-1234-5678</td>
+         </tr>
+         <tr>
+             <td>1</td>
+             <td>홍길동</td>
+             <td>010-1234-5678</td>
+         </tr>
+     </table>
+
+     <table>
+         <thead>
+             <tr>
+                <th>번호</th>
+                <th>이름</th>
+                <th>연락처</th>
+             </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>1</td>
+                <td>홍길동</td>
+                <td>010-1234-5678</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>홍길동</td>
+                <td>010-1234-5678</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>홍길동</td>
+                <td>010-1234-5678</td>
+            </tr>
+         </tbody>
+     </table>
+
+     <table>
+         <!-- 
+             각 컬럼의 폭을 지정한다.
+             width="*"은 값이 지정된 컬럼의 폭을 제외한 나머지 너비를 전부 차지한다.
+          -->
+         <colgroup>
+            <col width="5%"/>
+            <col width="*"/>
+            <col width="10%"/>
+            <col width="10%"/>
+            <col width="6%"/>
+            <col width="10%"/>
+        </colgroup>
+         <thead>
+             <tr>
+                 <th>순번</th>
+                 <th>상품명</th>
+                 <th>가격</th>
+                 <th>할인가격</th>
+                 <th>구매수량</th>
+                 <th>구매금액</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>100</td>
+                 <td>아이폰 13 프로</td>
+                 <td>1,600,000 원</td>
+                 <td>1,500,000 원</td>
+                 <td>2 대</td>
+                 <td>3,000,000 원</td>
+             </tr>
+             <tr>
+                <td>100</td>
+                <td>갤럭시 z 플립3 256gb 알뜰폰</td>
+                <td>1,600,000 원</td>
+                <td>1,500,000 원</td>
+                <td>2 대</td>
+                <td>3,000,000 원</td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>아이폰 13 프로</td>
+                <td>1,600,000 원</td>
+                <td>1,500,000 원</td>
+                <td>2 대</td>
+                <td>3,000,000 원</td>
+            </tr>
+         </tbody>
+     </table>
+</body>
+</html>
