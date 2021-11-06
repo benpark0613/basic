@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /**
+        태그 선택자로 스타일 적용하기
+        **/
+        h3  {color:red;}
+        p   {background-color: yellow;}
+
+        /**
+        아이디 선택자로 스타일 적용하기
+        **/
+        #first-message {color: blue; font-weight: bolder;}
+
+        /**
+        클래스 선택자로 스타일 적용하기
+        **/
+        .top {font-weight: bolder; color: blue;}
+
+        /**
+        한번에 여러 가지 선택자로 스타일 적용하기
+        **/
+        #first-message, .top {border: 2px solid red;}
+       
+
+    </style>
+</head>
+<body>
+    <h1>기본 선택자 연습</h1>
+
+    <div>
+        <h3>태그 선택자</h3>
+        <p>첫번째 내용</p>
+        <p>두번째 내용</p>
+        <p>세번째 내용</p>
+    </div>
+
+    <div>
+        <h3>아이디 선택자</h3>
+        <p id="first-message">아이디선택자 첫번째 내용</p>
+        <p>아이디 선택자 두번째 내용</p>
+        <p>아이디 선택자 세번째 내용</p>
+    </div>
+
+    <div>
+        <h3>클래스 선택자</h3>
+        <h4>이달의 베스트 셀러</h4>
+        <ol>
+            <li class="top">트렌드 코리아 2022</li>
+            <li>거꾸로 읽는 세계사</li>
+            <li>주식투자 절대 원칙</li>
+        </ol>
+
+        <h4>이달의 영화</h4>
+        <ol>
+            <li class="top">이터널스</li>
+            <li>듄</li>
+            <li>최선의 삶</li>
+        </ol>
+
+        <h4>이달의 콘서트</h4>
+        <ol>
+            <li class="top">2021년 거미 전국투어 콘서트</li>
+            <li>노들섬 2주년 기획공연</li>
+            <li>2021년 적재 전국투어</li>
+        </ol>
+    </div>
+    <script>
+        console.log("### 태그 선택자");
+        var a = document.querySelector("h3");
+        console.log(a);
+        var b = document.querySelectorAll("p");
+        console.log(b);
+
+        console.log("### #아이디 선택자");
+        var c = document.querySelector("#first-message");
+        console.log(c);
+
+        console.log("### .클래스 선택자");
+        var d = document.querySelectorAll(".top");
+        console.log(d);
+
+        console.log("### 한 번에 여러 개의 선택자 사용")
+        var e = document.querySelectorAll("#first-message, .top");
+        console.log(e);
+    </script>
+</body>
+</html>

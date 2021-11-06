@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /**
+            태그 선택자
+        **/
+        div {border: 2px dotted gray; margin: 10px; padding: 10px;}
+
+        /**
+            자손 선택자 : 공백
+        **/
+        #box-1 p {color: red;}                          /** id="box-1"인 엘리먼트의 모든 하위엘리먼트 중에서 p엘리먼트를 선택한다. **/
+        .box p {border: 3px solid green;}               /** class="box"인 엘리먼트의 모든 하위엘리먼트 중에서 p엘리먼트를 선택한다. **/
+
+        /**
+            자식 선택자 : >
+        **/
+        .box > p {background-color: black; color: white; font-weight: bolder;}  /** class="box"인 엘리먼트의 바로 하위에 위치한 엘리먼트 중에서 p엘리먼트를 선택한다. **/
+
+        /**
+            동생 선택자 : +
+            동생들 선택자 : ~
+        **/
+        h3 + p {font-size: 25px;} /** h3의 바로 다음 엘리먼트인 p엘리먼트를 선택하기 **/
+        h3 ~ p {padding: 20px;}   /** h3엘리먼트의 동생들(<p>, <p>, <div id="box-1">, <div id="box-2">)중에서 p엘리먼트 선택하기 **/
+        h3 + div {background-color: pink;} /** h3의 바로 다음 엘리먼트인 div엘리먼트를 선택하기, 선택되는 엘리먼트 없음 **/
+        h3 ~ div {background-color: yellow;} /** h3엘리먼트의 동생들(<p>, <p>, <div id="box-1">, <div id="box-2">)중에서 div 엘리먼트 선택하기 **/
+    </style>
+</head>
+<body>
+    <h1>자손, 자식, 형제 선택자 연습</h1>
+
+    <div class="box">
+        <h3>자손/자식/형제 선택자</h3>
+
+        <p>자손 선택자는 선택자와 선택자사이에 공백이 포함된다.</p>
+        <p>자식 선택자는 선택자와 선택자사이에 > 이 포함된다.</p>
+        <div id="box-1">
+            <p>첫번째 div의 내용</p>
+            <p>첫번째 div의 내용</p>
+            <p>첫번째 div의 내용</p>
+        </div>
+        <div id="box-2">            
+            <p>두번째 div의 내용</p>
+            <p>두번째 div의 내용</p>
+            <p>두번째 div의 내용</p>
+        </div>
+    </div>
+
+    <script>
+        console.log("### 자손 선택자 사용하기");
+        var a = document.querySelectorAll(".box p");
+        console.log(a); // p가 8개 선택됨
+        
+        console.log("### 자식 선택자 사용하기");
+        var b = document.querySelectorAll(".box > p");
+        console.log(b); // p가 2개 선택됨
+    </script>
+</body>
+</html>
