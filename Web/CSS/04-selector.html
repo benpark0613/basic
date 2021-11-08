@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    li {margin: 20px 5px;}
+    
+    /**
+        속성선택자
+    **/
+    [href]              {border: 1px solid red; padding: 5px;} /** href 속성을 가지는 엘리먼트를 선택해서 스타일을 적용한다. **/
+    [title='google']    {background-color: yellow;}            /** title='google' 속성을 가지는 엘리먼트를 선택해서 스타일을 적용한다.  **/
+    [href^='www']       {background-color: lightgreen;}        /** href속성의 값이 "www"로 "시작하는" 엘리먼트를 선택해서 스타일을 적용한다. **/
+    [href$='kr']        {border-width: 3px;}                   /** href속성의 값이 "kr"으로 "끝나는" 엘리먼트를 선택해서 스타일을 적용한다. **/
+    [title*='홈페이지']  {text-decoration: none;}               /** title속성값에 "홈페이지"라는 "텍스트"를 "포함"하고 있는 엘리먼트를 선택해서 스타일을 적용한다. **/
+    [title~='홈페이지']  {font-size: 30px;}                     /** title속성값에 "홈페이지"라는 "단어"를 "포함"하고 있는 엘리먼트를 선택해서 스타일을 적용한다. **/
+    
+    p[id^='news']        {background-color: lightgreen;}
+    /**
+    #news-1, #news-2 #news-3, #news-4 {background-color: lightgreen;}
+    **/
+</style>
+<body>
+    <h1>속성선택자</h1>
+
+    <div>
+        <div>
+            <h3>속성선택자 연습1</h3>
+            <ul>
+                <li><a href="www.daum.net" title="다음홈페이지">다음</a></li>
+                <li><a href="www.naver.com" title="네이버 홈페이지">네이버</a></li>
+                <li><a href="google.com" title="google">구글</a></li>
+                <li><a href="www.amazon.com" title="amazon">아마존</a></li>
+                <li><a href="www.apple.com/kr" title="apple 애플코리아 애플">애플</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>속성선택자 연습2</h3>
+            <div>
+                <h4>뉴스 리스트</h4>
+                <p id="news-1">첫번째 뉴스</p>
+                <p id="news-2">두번째 뉴스</p>
+                <p id="news-3">세번째 뉴스</p>
+                <p id="news-4">네번째 뉴스</p>
+                
+                <h4>스포츠 뉴스 리스트</h4>
+                <p id="sports-1">첫번째 뉴스</p>
+                <p id="sports-2">두번째 뉴스</p>
+                <p id="sports-3">세번째 뉴스</p>
+                <p id="sports-4">네번째 뉴스</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
