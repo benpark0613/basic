@@ -1,0 +1,83 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>부서정보 관리::부서 상세정보</title>
+<link rel="stylesheet" type="text/css" href="../../resources/css/style.css"> 
+</head>
+<body>
+	<h1>부서 정보</h1>
+	
+	<h3>부서 상세정보</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>아이디</th>
+				<th>부서명</th>
+				<th>부서관리자</th>
+				<th>부서소재지</th>
+				<th>소속사원수</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>10</td>
+				<td>사장실</td>
+				<td>홍길동</td>
+				<td>서울</td>
+				<td>3명</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<h3>소속 사원 리스트</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>아이디</th>
+				<th>이름</th>
+				<th>이메일</th>
+				<th>전화번호</th>
+				<th>입사일</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>100</td>
+				<td><a href="">홍길동</a></td>
+				<td>hong@gmail.com</td>
+				<td>010-1111-2222</td>
+				<td>2007-01-02</td>
+			</tr>
+			<tr>
+				<td>100</td>
+				<td><a href="">홍길동</a></td>
+				<td>hong@gmail.com</td>
+				<td>010-1111-2222</td>
+				<td>2007-01-02</td>
+			</tr>
+			<tr>
+				<td>100</td>
+				<td><a href="">홍길동</a></td>
+				<td>hong@gmail.com</td>
+				<td>010-1111-2222</td>
+				<td>2007-01-02</td>
+			</tr>
+			<tr>
+				<td>100</td>
+				<td><a href="">홍길동</a></td>
+				<td>hong@gmail.com</td>
+				<td>010-1111-2222</td>
+				<td>2007-01-02</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<div class="text-right">
+		<a href="list.jsp">부서 목록</a>
+	</div>
+	
+</body>
+</html>

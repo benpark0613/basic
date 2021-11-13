@@ -1,0 +1,6 @@
+package com.sample.dao;
+
+import static com.sample.utils.ConnectionUtils.*;
+public class DepartmentDao {
+
+}

@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	/*
+		modifyform.jsp에서 수정폼의 값을 제출하면 update.jsp가 실행된다.
+		update.jsp에는 
+			id=부서아이디&name=부서이름&managerId=부서관리자아이디&locationId=부서소재아이디
+			id=부서아이디&name=부서이름&locationId=부서소재아이디
+	*/
+%>

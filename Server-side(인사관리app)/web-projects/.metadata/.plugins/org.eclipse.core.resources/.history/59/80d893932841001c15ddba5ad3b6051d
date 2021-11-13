@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상품정보 등록 폼</title>
+</head>
+<body>
+	<h1>상품정보 등록 폼</h1>
+	
+	<form>
+		<div>
+			<label>상품이름</label>
+			<input type="text" name="name" />
+		</div>
+		<div>
+			<label>제조회사</label>
+			<select name="company">
+				<option value="애플">애플</option>
+				<option value="삼성전자">삼성전자</option>
+				<option value="LG전자">LG전자</option>
+				<option value="소니">소니</option>
+				<option value="샤오미">샤오미</option>
+			</select>
+		</div>
+	</form>
+</body>
+</html>

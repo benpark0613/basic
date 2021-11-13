@@ -1,0 +1,80 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../../resources/css/style.css">
+<title>사원정보관리::등록폼</title>
+</head>
+<body>
+	<h1>새 사원정보 등록폼</h1>
+	
+	<div>
+		<form class="well" method="post" action="register.jsp">
+			<div class="form-group">
+				<label>소속부서</label>
+				<select name="deptId">
+					<option value="">부서1</option>
+					<option value="">부서2</option>
+					<option value="">부서3</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>직종</label>
+				<select name="jobId">
+					<option value="">직종1 (1000 ~ 3000 달러)</option>
+					<option value="">직종2 (3000 ~ 5000 달러)</option>
+					<option value="">직종3 (5000 ~ 10000 달러)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label>이름</label>
+				<input type="text" name="firstName" />
+			</div>
+			<div class="form-group">
+				<label>이름1</label>
+				<input type="text" name="firstName" />
+			</div>
+			<div class="form-group">
+				<label>이름2</label>
+				<input type="text" name="lastName" />
+			</div>
+			<div class="form-group">
+				<label>이메일</label>
+				<input type="text" name="email" />
+			</div>
+			<div class="form-group">
+				<label>전화번호</label>
+				<input type="text" name="phoneNumber" />
+			</div>
+			<div class="form-group">
+				<label>급여</label>
+				<input type="number" name="salary" />
+			</div>
+			<div class="form-group">
+				<label>커미션</label>
+				<input type="radio" name="commissionPct" value="0.1" />0.1
+				<input type="radio" name="commissionPct" value="0.15" />0.15
+				<input type="radio" name="commissionPct" value="0.2" />0.2
+				<input type="radio" name="commissionPct" value="0.25" checked="checked" />0.25
+				<input type="radio" name="commissionPct" value="0.3" />0.3
+				<input type="radio" name="commissionPct" value="0.35" />0.35
+				<input type="radio" name="commissionPct" value="0.4" />0.4
+				<input type="radio" name="commissionPct" value="0.45" />0.45
+			</div>
+			<div class="form-group">
+				<label>관리자</label>
+				<select name="managerId">
+					<option value="">홍길동 (부서1)</option>
+					<option value="">강강참 (부서2)</option>
+					<option value="">김유신 (부서3)</option>
+				</select>
+			</div>
+			<div class="text-right">
+				<button type="submit" class="btn">등록</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

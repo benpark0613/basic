@@ -1,0 +1,76 @@
+<%@page import="com.sample.vo.Employee"%>
+<%@page import="java.util.List"%>
+<%@page import="com.sample.dao.EmployeeDao"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../resources/css/style.css"> 
+<title>사원정보 관리::리스트</title>
+</head>
+<body>
+	<h1>전체 사원 리스트</h1>
+<%
+	// 한 화면에 표시할 행의 갯수 
+	final int rowsPerPage = 5;
+	// 한 화면(블록)에 표시할 페이지번호 갯수
+	final int pagesPerBlock = 5;
+	
+	// 페이지 번호 조회하기
+	int currentPageNo = Integer.parseInt(request.getParameter("cpno"));
+	
+	//조회할 데이터범위를 계산하기
+	int begin = (currentPageNo - 1)*rowsPerPage + 1;
+	int end = currentPageNo*rowsPerPage;
+
+	EmployeeDao employeeDao = new EmployeeDao();
+	List<Employee> employeeList = employeeDao.getEmployees(begin, end);
+	
+%>
+	<table>
+		<thead>
+			<tr>
+				<th>아이디</th>
+				<th>이름</th>
+				<th>전화번호</th>
+				<th>이메일</th>
+				<th>직종아이디</th>
+				<th>소속부서명</th>
+			</tr>
+		</thead>
+		<tbody>
+<%
+	for (Employee emp : employeeList){
+%>
+			<tr>
+				<td><%=emp.getId() %></td>
+				<td><%=emp.getFirstName() %> <%=emp.getLastName() %></td>
+				<td><%=emp.getPhoneNumber() %></td>
+				<td><%=emp.getEmail() %></td>
+				<td><%=emp.getJob().getId() %></td>
+				<td><a href="../dept/detail.jsp?deptId=<%=emp.getDepartment().getId() %>"><%=emp.getDepartment().getName() %></a></td>
+			</tr>
+<%
+	}
+%>
+		</tbody>
+	</table>
+<%
+	// 전체 사원수 조회하기
+	int totalRecords = employeeDao.getEmployeesCount();
+	// 전체 페이지 갯수 계산하기
+	int totalPages = (int)(Math.ceil((double)totalRecords/rowsPerPage));
+%>
+	<div class="text-center pagination">
+<%
+	for (int pno = 1; pno <= totalPages; pno++) {
+%>
+		<a href="list.jsp?cpno=<%=pno %>"class="<%=pno == currentPageNo ? "active" : "" %>"><%=pno %></a>
+<%	
+	}
+%>		
+	</div>
+</body>
+</html>

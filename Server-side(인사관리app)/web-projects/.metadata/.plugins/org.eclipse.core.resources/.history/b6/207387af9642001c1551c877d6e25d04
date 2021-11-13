@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../../resources/css/style.css">
+<title>부서정보 관리::입력폼</title>
+</head>
+<body>
+	<h1>새 부서 등록폼</h1>
+	
+	<div>
+		<form method="post" action="register.jsp"></form>	
+	</div>
+</body>
+</html>

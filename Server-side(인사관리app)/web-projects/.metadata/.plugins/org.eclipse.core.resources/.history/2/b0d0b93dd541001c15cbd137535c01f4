@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>부서정보 관리::부서목록 </title>
+</head>
+<body>
+	<h1>전체 부서 목록</h1>
+	
+	<table>
+		<thead>
+			<tr>
+				<th>아이디</th>
+				<th>부서명</th>
+				<th>부서 관리자</th>
+				<th>부서 소재지</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>10</td>
+				<td><a href="detail.jsp?id=10">사장실</a></td>
+				<td>홍길동</td>
+				<td>서울</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td><a href="detail.jsp?id=20">엽엉팀</a></td>
+				<td>홍길동</td>
+				<td>서울</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td><a href="detail.jsp?id=30">총무팀</a></td>
+				<td>홍길동</td>
+				<td>서울</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td><a href="detail.jsp?id=40">경영지원팀</a></td>
+				<td>홍길동</td>
+				<td>서울</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td><a href="detail.jsp?id=50">고객서비스팀</a></td>
+				<td>홍길동</td>
+				<td>서울</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td><a href="detail.jsp?id=60">인사팀</a></td>
+				<td>홍길동</td>
+				<td>서울</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

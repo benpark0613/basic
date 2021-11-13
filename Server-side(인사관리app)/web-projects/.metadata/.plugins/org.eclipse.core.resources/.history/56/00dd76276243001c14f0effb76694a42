@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+}
+
+div {
+	margin: 10px 0;
+	padding: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border: 1px solid black;
+}
+
+thead th {
+	background-color: #0072B5;
+	color: white;
+	font-weight: bolder;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.form-group {
+	margin-bottom: 10px;
+}
+.form-group label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.form-group input[type='text'],
+	.form-group input[type='password'],
+	.form-group input[type='number'],
+	.form-group input[type='date'] {
+		height: 30px;
+		width: 100%;
+		padding-left: 8px 
+}
+.form-group select {
+	height: 37px;
+	width: 100%;
+}
+.form-group select {
+	padding-left: 8px
+}
+.btn {
+	padding: 7px 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    font-size: 17px;
+    background-color: white;
+}
+.well {
+	background-color: #eee;
+	border: 1px solid #ddd;
+}
+
+.pagination a {
+	font-size: 16px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div {
+	margin: 10px 0;
+	padding: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border: 1px solid black;
+}
+
+thead th {
+	background-color: #0072B5;
+	color : white;
+	font-weight: bolder;
+}
