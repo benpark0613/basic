@@ -1,7 +1,0 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%
-	/*
-		modifyform.jsp에서 수정폼의 값을 제출하면 update.jsp가 실행된다.
-	*/
-%>
