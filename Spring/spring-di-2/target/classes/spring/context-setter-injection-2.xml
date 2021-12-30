@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="productServiceImpl" class="com.sample.service.ProductServiceImpl"></bean>
+	<bean id="userServiceImpl" class="com.sample.service.UserServiceImpl"></bean>
+	
+	<!-- 
+		<property name="setter메소드이름" ref="스프링 컨테이너에 보관중인 객체의 아이디"/>
+		대신
+		p:setter메소드이름-ref="스프링 컨테이너에 보관중인 객체의 아이디"
+		로 설정해도 setter 의존성 주입이 이루어진다.
+	 -->
+	<bean id="setterController" class="com.sample.controller.SampleSetterController"
+		p:productService-ref="productServiceImpl"
+		p:userService-ref="userServiceImpl">
+	</bean>
+	
+
+</beans>

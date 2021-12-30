@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="sampleController" class="com.sample.controller.SampleValueController">
+		<property name="host" value="192.168.0.2"></property>
+		<property name="port" value="3000"></property>
+		<property name="username" value="hong@gmail.com"></property>
+		<property name="password" value="zxcv1234"></property>
+	</bean>
+
+</beans>

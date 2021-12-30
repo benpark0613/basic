@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 
+		+ spring bean configuration 파일
+			- 애플리케이션 실행에 필요한 객체에 대한 정보를 설정하는 파일이다.
+			- <bean /> 태그를 이용해서 생성할 객체를 지정한다.
+			- <bean id="식별자" class="클래스의 전체경로" />
+			- 스프링 컨테이너는 class 속성으로 지정된 클래스를 로딩해서 객체를 생성한다.
+			- 스프링 컨테이너는 id 속성으로 지정된 값으로 생성한 객체를 고유하게 식별하고 관리한다.
+			- id 속성을 생략하면 클래스이름의 첫글자만 소문자로 변경한 이름이 id가 된다. 
+		
+		+ Spring Container
+			- spring bean configuration 파일 정보를 분석해서 객체를 생성/조립/보관하는 객체다. 
+	 -->
+	
+	<!-- 
+		스프링 컨테이너는 아래의 설정을 참조해서 UserController 클래스를 로딩해서 객체를 생성/조립/보관한다. 
+		스프링 컨테이너는 생성한 UserController객체를 "userController" 식별자로 식별한다.
+	 -->
+	<bean id="userController" class="com.sample.controller.UserController">
+		<!-- 
+			<property />태그를 이용해서 객체가 사용할 다른 객체를 조립시킬 수 있다.
+				+ name 속성은 다른 객체가 조립될 멤버변수 이름이다.
+				+ ref 속성은 name에서 지정한 멤버변수에 조립시킬 다른 객체의 빈 아이디다.
+				+ 아래의 설정은 UserController객체의 userService 멤버변수에 빈 아이디가 userServiceImpl인 객체를 조립시킨다.
+		 -->
+		<property name="userService" ref="userServiceImpl"></property>
+	</bean>
+	
+	<!-- 
+		스프링 컨테이너는 아래의 설정을 참조해서 UserServiceImpl 클래스를 로딩해서 객체를 생성/보관한다. 
+		스프링 컨테이너는 생성한 UserServiceImpl객체를 "userServiceImpl" 식별자로 식별한다.
+	 -->
+	<bean id="userServiceImpl" class="com.sample.service.UserServiceImpl"></bean>
+</beans>

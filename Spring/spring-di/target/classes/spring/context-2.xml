@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- 
+		<context:annotation-config />
+			+ 클래스안에 포함된 다양한 어노테이션을 감지하고, 그 어노테이션을 분석하고, 적절한 처리를 수행하는 다양한 AnnonationProcessor 객체가
+			  스프링 컨테이너에 등록된다.
+			+ AnnonationProcessor객체는 스프링 컨테이너가 스프링 빈 설정파일을 읽어서 객체를 생성하면, 생성된 객체에 포함된 어노테이션을 분석해서 
+			  의존성주입(객체조립),                  객체에 대한 전처리/후처리,           트랜잭션처리 등 다양한 작업을 수행한다.
+			+ @Required, @Autowired, @Resource, @PostConstructor, @PreDestroy, @Transactional 등의 
+			  어노테이션이 처리대상 어노테이션이다.
+	 -->
+	<context:annotation-config></context:annotation-config>
+	
+	<!-- 
+		<context:component-scan />
+			+ 지정된 패키지 및 그 하위 패키지에서 클래스를 스캔해서 자동으로 스프링 컨테이너의 객체로 생성/조립/보관하게 한다.
+			+ @Component, @Repository, @Service, @Controller, @RestController, @ControllerAdvice, @Configuration 등의
+			  어노테이션이 부착된 클래스만 스캔한다.
+			+ @Component 어노테이션을 상속받아서 사용자정의 어노테이션을 정의하면 사용자정의 어노테이션이 부착된 클래스도 스캔 대상이 된다.
+			+ 다양한 어노테이션이 존재하는 이유는 특정 역할을 수행하는 클래스마다 각각 다른 어노테이션을 부착하고, 해당 어노테이션이 부착된 클래스만을
+			  대상으로 더 다양한 서비스를 제공하기 위해서다.
+	 -->
+	<context:component-scan base-package="com.sample"></context:component-scan>
+
+</beans>
