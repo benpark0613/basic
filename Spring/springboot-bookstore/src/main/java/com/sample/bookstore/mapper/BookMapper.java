@@ -1,0 +1,17 @@
+package com.sample.bookstore.mapper;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import com.sample.bookstore.vo.Book;
+
+@Mapper
+public interface BookMapper {
+
+	void insertBook(Book book);
+	void updateBook(Book book);
+	void deleteBook(int no);
+	List<Book> getAllBooks();
+	Book getBookByNo(int no);
+}
